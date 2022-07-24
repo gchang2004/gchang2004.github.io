@@ -1,0 +1,67 @@
+/*Universal display settings for the bulletpoint container*/
+.nextensio__bulletpoints-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*Customizations for the bulletpoint ICON*/
+.nextensio__bulletpoints-container svg {
+    color: rgb(209, 85, 213);
+}
+
+/*Customization for the bulletpoint TEXT*/
+.nextensio__bulletpoints-container h3 {
+    font-family: var(--font-family);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+
+    margin-left: 0.5rem;
+    color: var(--color-text);
+}
+
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1800px){
+    .nextensio__bulletpoints-container {
+        align-items: center;
+    }
+    
+    .nextensio__bulletpoints-container h3{
+        font-size: 26px;
+        line-height: 65px;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 950px) {
+    .nextensio__bulletpoints-container h3 {
+        line-height: 26px;
+    }
+
+    .nextensio__bulletpoints-container h3 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 0.25rem;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 490px) {
+    .nextensio__bulletpoints-container svg{
+        transform: scale(0.75);
+    }
+
+    .nextensio__bulletpoints-container h3 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+

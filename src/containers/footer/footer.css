@@ -1,0 +1,208 @@
+/*Universal display settings for the footer container*/
+.nextensio__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 2rem 4rem;
+
+    background-color: var(--color-footer);
+}
+
+/*Display setting for all footer links*/
+.nextensio__footer-links {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: left;
+}
+
+/*Display setting for each footer block*/
+.nextensio__footer-links div{
+    width: 170px;
+}
+
+/*Display setting for logo placement*/
+.nextensio__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 1rem 6rem 1rem 1rem;
+}
+
+/*Customizations for logo*/
+.nextensio__footer-links_logo img{
+    width: 120%;
+    margin-bottom: 1rem;
+
+    cursor: pointer;
+}
+
+/*Customizations for the ltext below the logo*/
+.nextensio__footer-links_logo p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    width: max-content;
+
+    color: black;
+}
+
+/*Customizations for the email hyperlink*/
+.nextensio__footer-links_logo h6{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: underline;
+    width: max-content;
+
+    color: black;
+    cursor: pointer;
+}
+
+/*Display settings for the social meida icons*/
+.nextensio__footer-links_social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Display customizations for the first icon spacing - to negate initial indent*/
+.nextensio__footer-links_social-media a:first-child{
+    margin-left: unset;
+}
+
+/*Customizations for the social media icons*/
+.nextensio__footer-links_social-media a{
+    margin: 0.8rem 0.3rem 0rem 0.3rem;
+}
+
+/*Display settings for EACH footer container*/
+.nextensio__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin: 1rem;
+}
+
+/*Customization for EACH footer title*/
+.nextensio__footer-links_div h4 {
+    margin-bottom: 0.5rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 20px;
+
+    color: var(--color-text);
+}
+
+/*Customizations for each footer text links*/
+.nextensio__footer-links_div p{
+    margin: 0.5rem 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 22px;
+    width: fit-content;
+
+    color: black;
+    cursor: pointer;
+}
+
+/*Hover animation for footer links*/
+.nextensio__footer-links_logo h6:hover,
+.nextensio__footer-links_social-media a:hover,
+.nextensio__footer-links_div p:hover{
+    text-decoration: underline;
+    color:var(--color-text);
+}
+
+/*Display settings for company social media links*/
+.nextensio__footer-links_hyperlinks a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Customizations for the social media text*/
+.nextensio__footer-links_hyperlinks p {
+    margin-left: 0.4rem;
+}
+
+/*Hover animation for the icons*/
+.nextensio__footer-links_hyperlinks svg:hover {
+    color: var(--color-text)
+}
+
+/*Display setting for copyright*/
+.nextensio__footer-copyright {
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+/*Customizations for the copyright texts*/
+.nextensio__footer-copyright p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+
+    color: black;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__footer{
+        padding: 4rem 20rem 2rem 20rem;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 1000px){
+    .nextensio__footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0rem 8rem;
+    }
+
+    .nextensio__footer-links div{
+        width: fit-content;
+    }
+    
+    .nextensio__footer-links_logo img{
+         width: 110%;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width:750px){
+    .nextensio__footer-links{
+        grid-gap: 0rem 10rem;
+    }
+    
+    .nextensio__footer-links_hyperlinks{
+        height: fit-content;
+    }
+
+    .nextensio__footer-links div{
+        margin: 1rem 0;
+    }
+
+}
+
+/*Mobile formatting*/
+@media screen and (max-width:550px){
+    .nextensio__footer {
+        padding: 2rem 2.5rem;
+    }
+    .nextensio__footer-links{
+        grid-gap: 0rem 6rem;
+    }
+
+    .nextensio__footer-links_logo img{
+        width: 105%
+    }
+}

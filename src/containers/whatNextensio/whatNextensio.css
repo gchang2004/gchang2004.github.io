@@ -1,0 +1,297 @@
+/*Universal display settings the entire features component*/
+.nextensio__whatNextensio {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Display setting for "What is Nextensio*/
+.nextensio__whatNextensio-feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem;
+    border-radius: 25px 25px 25px 25px;
+    background: #ffffff;
+
+    /*4-side shadow vs. 2-side shadow (box-shadow)*/
+    filter: drop-shadow(0px 7px 7px rgb(0,0,0, 0.25));
+}
+
+/*Display settings for Gradient Bar + "What is Nextensio"*/
+.nextensio__whatNextensio-features-title-block{
+    display: block;
+    flex-direction: row;
+}
+
+/*Customization for gradient bar*/
+.nextensio__whatNextensio-features-title-block div{
+    width: 50px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+}
+
+/*Customizations for "What is Nextensio" header*/
+.nextensio__whatNextensio-features-title-block h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    width: 200px;
+    
+    letter-spacing: -0.02rem;
+    color: #81AFDD;
+}
+
+/*Customizations for "What is Nextensio" subtext*/
+.nextensio__whatNextensio-feature p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: var(--font-text);
+}
+
+/*Display setting for header*/
+.nextensio__whatNextensio-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5rem 0 2rem;
+}
+
+/*Header => IMAGE customizations*/
+.nextensio__whatNextensio-heading img{
+    display: flex;
+    width: 50%;
+
+    justify-content: flex-start;
+}
+
+/*Header => Gradient TEXT customizations*/
+.nextensio__whatNextensio-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    max-width: 510px;
+    
+    margin-right: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Display settings for "Request Demo" button*/
+.nextensio__whatNextensio-heading__interact-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 2rem 0rem 0rem;
+}
+
+/*Customizations for "Request Demo" button*/
+.nextensio__whatNextensio-heading__interact-input button{
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 25px 25px 25px 25px;
+    padding: 0.5rem 1rem;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 510px;
+
+    cursor: pointer;
+}
+
+/*Hover color-change animation for button*/
+.nextensio__whatNextensio-heading__interact-input button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+/*Display seeting for the three feature boxes*/
+.nextensio__whatNextensio-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/*Display spacing for the three containers*/
+.nextensio__whatNextensio-container-spacer {
+    display: flex;
+}
+
+/*Icon customizations*/
+.nextensio__whatNextensio-container svg{
+    color: rgb(209, 85, 213);
+    margin-left: -0.1rem;
+    margin-bottom: 0.3rem;
+}
+
+/*Display seeting icon1 => Networking*/
+.nextensio__whatNextensio-container__icons {
+    display: unset;
+    margin: 0rem 2rem 0rem 2rem;
+
+}
+
+/*Display settings for the feature container*/
+.nextensio__whatNextensio-container
+.nextensio__features-container {
+    min-width: 210px;
+    display: unset;
+    flex-direction: row;
+}
+
+/*Display settings for the feature texts*/
+.nextensio__whatNextensio-container
+.nextensio__features-container__feature-text {
+    margin-top: 0.3rem;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1500px) {
+    .nextensio__whatNextensio-features-title-block h2{
+        font-size: 32px;
+        line-height: 40px;
+        width: 200px;
+        margin-right: 1rem;;
+    }
+
+    .nextensio__whatNextensio-feature p{
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .nextensio__whatNextensio-heading h1{
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .nextensio__whatNextensio-heading img{
+        margin-right: 3rem;
+        background-color: white;
+        padding: 1rem;;
+        border-radius: 30px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  
+    }
+
+    .nextensio__whatNextensio-heading__interact-input button{
+        font-size: 24px;
+        margin-top: 1.5rem;
+    }
+
+    .nextensio__whatNextensio-container svg{
+        transform:scale(1.2);
+        margin-bottom: 1rem;
+    }
+}
+
+/*Computer formatting*/
+@media screen and (max-width: 1050px) {
+    .nextensio__whatNextensio-heading {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .nextensio__whatNextensio-heading p {
+        margin-top: 1rem;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 850px) {
+    .nextensio__whatNextensio-features-title-block h2{
+        width: 170px;
+    }
+
+    .nextensio__whatNextensio-heading{
+        margin: 4rem 0 2rem;
+    }
+
+    .nextensio__whatNextensio-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .nextensio__whatNextensio-container__icons {
+        /*Top, Right, Bottom, Left*/
+        margin: 0rem 3rem 0rem 3rem;
+        display: block;
+    }
+
+    .nextensio__whatNextensio-container__icons:first-child,
+    .nextensio__whatNextensio-container__icons:last-child {
+        margin: unset;;
+    }
+}
+
+/*Tablet formatting #2*/
+@media screen and (max-width: 800px){
+    .nextensio__whatNextensio-feature {
+        display: block;
+        flex-direction: column;
+    }
+
+    .nextensio__whatNextensio-feature h2{
+        width: max-content;
+        margin-bottom: 0.5rem;
+    }
+    
+    .nextensio__whatNextensio-feature {
+        padding: 30px;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 560px) {
+    .nextensio__whatNextensio-container {
+        flex-direction: column;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .nextensio__whatNextensio-container-spacer{
+        display: block;
+        justify-content: center;
+    }
+
+    .nextensio__whatNextensio-container__icons {
+        margin: unset;
+    }
+    
+    .nextensio__whatNextensio-heading {
+        display: block;
+        justify-content: center;
+    }
+    
+    .nextensio__whatNextensio-heading img{
+        width: 100%;
+        justify-content: center;
+        margin: unset;
+    }
+
+    .nextensio__whatNextensio-heading h1{
+        margin: unset;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .nextensio__whatNextensio-heading__interact-input{
+        margin-right: unset;
+        justify-content: center;
+    }
+}

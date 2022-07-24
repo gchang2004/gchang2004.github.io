@@ -1,0 +1,190 @@
+/*Universal display settings for the brand container*/
+.nextensio__brand {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.5rem 6rem 1.5rem 6rem;
+    background-color: aliceblue;
+}
+
+/*Settings for the brand text "DEPLOYED IN" + Gradient bar*/
+.nextensio__brand-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Gradient bar customizations*/
+.nextensio__gradient-bar div{
+    width: 900px;
+    height: 2px;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+    background: var(--gradient-bar);
+}
+
+/*"Deployed in + companies" customizations*/
+.nextensio__brand h3{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    min-width: max-content;
+    margin: 0 0.30rem 0 0.30rem;
+
+    color: var(--color-text);
+}
+
+/*"Globally Recognized" customizations*/
+.nextensio__brand h2{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    min-width: max-content;
+
+}
+
+/*Universal settings for every DIV in brand*/
+.nextensio__brand-logos {
+    margin-top: 1.25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    cursor: pointer;
+}
+
+/*Spacing settings for the logos*/
+.nextensio__brand-logos img {
+    /* [ Top, Right, Bottom, Left ]*/
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+/*Hover transform animation for button*/
+.nextensio__brand-logos img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+/*Airbnb logo display customization*/
+.nextensio__brand-airbnb img{
+    max-height: 44px;
+}
+
+/*Cisco logo display customization*/
+.nextensio__brand-cisco img{
+    max-height: 47px;
+}
+
+/*Hewlett Packard logo display customization*/
+.nextensio__brand-hewlettpackard img{
+    max-height: 47px;
+}
+
+/*Nvidia logo display customization*/
+.nextensio__brand-nvidia img{
+    max-height: 33px;
+}
+
+/*Slack logo display customization*/
+.nextensio__brand-slack img{
+    max-height: 33px;
+}
+
+/*Spotify logo display customization*/
+.nextensio__brand-spotify img{
+    max-height: 40px;
+}
+
+/*T-Mobile logo display customization*/
+.nextensio__brand-tmobile img{
+    max-height: 35px;
+}
+
+/*Uber logo display customization*/
+.nextensio__brand-uber img{
+    max-height: 33px;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1700px) {
+    .nextensio__brand{
+        padding: 1.5rem 20rem 1.5rem 20rem;
+    }
+
+    .nextensio__gradient-bar div{
+        width: 1200px;
+    }
+
+    .nextensio__brand h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    .nextensio__brand h2{
+        font-size: 26px;
+        line-height: 32px;    
+    }
+}
+
+/*Computer formatting*/
+@media screen and (max-width: 1050px) {
+    .nextensio__gradient-bar div{
+        width: 700px;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 850px) {
+    .nextensio__gradient-bar div{
+        width: 600px;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 450px) {
+    .nextensio__brand{
+        padding: 1.5rem 2rem;
+    }
+    
+    .nextensio__brand-title {
+        flex-direction: column;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .nextensio__brand h3{
+        font-size: 26px;
+    }
+
+    .nextensio__brand h2{
+        min-width:200px;
+        text-align: center;
+        line-height: 32px;
+
+        font-size: 26px;
+        margin: 0.4rem 0 0.4rem 0;
+    }
+    
+    .nextensio__gradient-bar div{
+        width: 300px;
+    }
+}

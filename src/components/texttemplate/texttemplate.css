@@ -1,0 +1,79 @@
+/*Display settings for text content container*/
+.nextensio__TextTemplate-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*Customizations for h1 text*/
+.nextensio__TextTemplate-container__title h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
+
+    margin: 1.25rem 0;
+}
+
+/*Customizations for p text*/
+.nextensio__TextTemplate-container__text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    
+    color: black;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__TextTemplate-container__title h1{
+        font-size: 50px;
+        line-height: 58px;
+
+        width: fit-content;
+    }
+    
+    .nextensio__TextTemplate-container__text p {
+        font-size: 26px;
+        line-height: 40px;
+        
+        width: fit-content;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 950px) {
+    .nextensio__TextTemplate-container {
+        margin-top: 2rem;
+    }
+
+    .nextensio__TextTemplate-container__title h1{
+        font-size:32px;
+        line-height:36px ;
+        margin: unset;
+        margin-bottom: 0.6rem;
+    }
+
+    .nextensio__TextTemplate-container__text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 490px) {
+    .nextensio__TextTemplate-container__title h1{
+        font-size:25px;
+        line-height:32px;
+        margin-bottom: 0.25rem;
+    }
+
+    .nextensio__TextTemplate-container__text p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+}

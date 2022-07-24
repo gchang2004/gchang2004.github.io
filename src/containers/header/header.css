@@ -1,0 +1,195 @@
+/*This CSS file describes the formatting and positioning of theheader*/
+/*Universal display settings for ALL header features*/
+.nextensio__header {
+    display: flex;
+    padding-top: 2rem;
+}
+
+/*Universal display settings for the header texts*/
+.nextensio__header-content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+/*Header display settings*/
+.nextensio__header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.04rem;
+
+}
+
+/*Subtext display settings*/
+.nextensio__header-content p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color:var(--color-text);
+    margin-top: 1.75rem;
+}
+
+/*Email user-entry display settings*/
+.nextensio__header-content__input {
+    display: flex;
+    width: 100%;
+    margin: 1.5rem 0rem 1rem;
+}
+
+/*"Get Out White Paper" button display settings*/
+.nextensio__header-content__input button {
+    flex-direction: row;
+    padding: 0.60rem 1.5rem;
+    outline: none;
+    border: none;
+    
+    background: var(--gradient-text);
+    border-radius: 25px 25px 25px 25px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+/*Hover transform animation for button*/
+.nextensio__header-content__input button:hover {
+    transform: scale(0.99);
+    transition-duration: 0.1s;
+}
+
+/*"Learn More" button display settings*/
+.nextensio__header-content__input-explore button{
+    display: flex;
+    margin-left: 2rem;
+    border: 1px solid;
+    outline: none;
+    font-weight: 500;
+    background: transparent;
+    color: black;
+}
+
+/*Hover color-change animation for button*/
+.nextensio__header-content__input-explore button:hover{
+    transform: none;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/*Header Image display settings*/
+.nextensio__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header Image size settings*/
+.nextensio__header-image img{
+    width: 90%;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__header {
+        padding: 6rem 20rem 14rem 20rem;
+    }
+
+    .nextensio__header-content h1{
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 2rem;;
+    }
+
+    .nextensio__header-content p{
+        font-size: 22px;
+        line-height: 27px;
+        margin: unset;
+        margin-bottom: 1rem;
+    }
+
+    .nextensio__header-image img{
+        width: 100%;
+    }
+}
+
+/*Computer formatting*/
+@media screen and (max-width: 1050px){
+    .nextensio__header{
+        flex-direction: column;
+    }
+
+    .nextensio__header-content{
+        margin: 0 0 3rem;
+    }
+
+    .nextensio__header-content__input button,
+    .nextensio__header-content__input input{
+        font-size: 20px;
+        line-height: 27px;
+        flex-direction: row;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 850px){
+    .nextensio__header {
+        padding: 4rem 6rem 6rem;
+    }
+
+    .nextensio__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .nextensio__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .nextensio__header-content__input button,
+    .nextensio__header-content__input input{
+        font-size: 16px;
+        line-height: 24px;
+        flex-direction: row;
+    }
+
+    .nextensio__header-image img {
+        width: 70%;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 490px){
+    .nextensio__header{
+        padding: 1rem 2rem 2rem;
+    }
+
+    .nextensio__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .nextensio__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .nextensio__header-content__input button,
+    .nextensio__header-content__input input{
+        font-size: 12px;
+        line-height: 16px;
+        flex-direction: row;
+    }
+}

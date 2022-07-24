@@ -1,0 +1,70 @@
+/*Universal display settings for the feauters container*/
+.nextensio__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/*Display settings for the heading*/
+.nextensio__features-heading{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+/*Customizations for MAIN heading*/
+.nextensio__features-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+/*Customizations for SECONDARY subheading*/
+.nextensio__features-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-text);
+    margin-top: 0.6rem;
+}
+
+/*Display settings for the Re-Used feature containers*/
+.nextensio__features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 850px) {
+    .nextensio__features {
+        flex-direction: column;
+    }
+
+    .nextensio__features-container {
+        align-items: flex-start;
+    }
+
+    .nextensio__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 550px) {
+    .nextensio__features-heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

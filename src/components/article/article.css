@@ -1,0 +1,91 @@
+/*Universal display settings for the individual article container*/
+.nextensio__blog-container_article {
+   width: 100%;
+   height: 100%;
+   
+   display: flex;
+   flex-direction: column;
+   background: white;
+   border-radius: 20px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+   cursor: pointer;
+}
+
+/*Hover transform animation for all blog containers*/
+.nextensio__blog-container_article:hover {
+    transform: scale(1.015);
+    transition-duration: 0.5s;
+    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+}
+
+/*Display settings for the blog images*/
+.nextensio__blog-container_article-image {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   background: rgb(255, 220, 220);
+}
+
+/*Customizations for the blog images*/
+.nextensio__blog-container_article-image img{
+   width: 100%;
+   height: 100%;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+/*Display settings for the blog text*/
+.nextensio__blog-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+
+/*Customizations for the CATEGORY text*/
+.nextensio__blog-container_article-content h2{
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 35px;
+    width: max-content;
+}
+
+/*Customizations for the TITLE text*/
+.nextensio__blog-container_article-content h3{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: black;
+    margin-bottom: 1rem;
+}
+
+/*Customizations for the DATE text*/
+.nextensio__blog-container_article-content p{
+    font-family: var(--font-family);
+    text-transform: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+
+    color: var(--color-text);
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 550px) {
+    .nextensio__blog-container_article-content h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+*   {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    }
+
+/*DEFAULT BODY color ==> Change Later*/
+body {
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+    
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: unset;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*DEFAULT GRADIENT option ==> Change Later*/
+.gradient__bg {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+    
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+    
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+
+      /* global 92%+ browsers support */
+      background:radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
+}
+
+.gradient__text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Universal sizing for computer devices*/
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+/*Universal sizing for computer devices*/
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+/*slide-in-right animation*/
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*Gradient bar customizations*/
+.app__gradient-bar div{
+  width: 100%;
+  height: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  background: var(--gradient-bar);
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*fade-in animation*/
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Media Queries => website adaptability to different device's px sizes*/
+/*Universal widescreen fomratting*/
+@media screen and (min-width: 1520px){
+  .section__padding{
+    padding: 4rem 20rem;
+  }
+}
+
+/*Universal tablet fomratting*/
+@media screen and (max-width: 700px){
+  .section__padding{
+    padding: 4rem;
+  }
+
+  .section__margin{
+    margin: 4rem;
+  }
+}
+
+/*Universal mobile fomratting*/
+@media screen and (max-width: 550px){
+  .section__padding{
+    padding: 2rem 2rem;
+  }
+
+  .section__margin{
+    margin: 2rem 2rem;
   }
 }

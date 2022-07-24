@@ -1,0 +1,204 @@
+/*Universal display settings for CTA component*/
+.nextensio__cta{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    /*Top, Right, Bottom, Left*/
+    padding: 4rem 20rem 4rem 3rem;
+    margin: 3rem 4rem 6rem 4rem;
+
+    border: none;
+    outline: none;
+    background: rgb(255, 220, 220);
+    border-radius: 2.25rem;
+    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+}
+
+/*Display settings for CTA text*/
+.nextensio__cta-content {
+    display: block;
+}
+
+.nextensio__cta-content-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*Customization for Heading text*/
+.nextensio__cta-content h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+/*Customization for Heading text => Nextensio Gradient*/
+.nextensio__cta-content h2:last-child {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+/*Customization for Subheading text*/
+.nextensio__cta-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: black;
+    width:fit-content;
+    margin-top: 0.75rem;
+    margin-bottom: 1.75rem;
+}
+
+/*Display settings for button*/
+.nextensio__cta-interact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+/*Customization for Email Input*/
+.nextensio__cta-interact input{
+    /*FLEX is used to determine the length of the input bar!*/
+    width: 40rem;
+    min-height: 54px;
+    
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.75rem 1rem;
+    border: none;
+    outline: none;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+}
+
+/*Customization for button*/
+.nextensio__cta-interact button{
+    background: black;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-width: 150px;
+    padding: 0.75rem 1rem;
+    
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    cursor: pointer
+}
+
+/*Hover color-change animation for button*/
+.nextensio__cta-interact button:hover{
+    background-color: #2f2f2f;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__cta{
+        margin: 3rem 20rem 6rem 20rem;
+    }
+}
+
+/*Large Tablet formatting*/
+@media screen and (max-width: 1000px) {
+    .nextensio__cta-content-title h2 {
+        width: max-content;
+    }
+
+    .nextensio__cta-interact input{
+        width: 30rem;
+    }
+}
+/*Tablet formatting*/
+@media screen and (max-width: 850px) {
+    .nextensio__cta {
+        flex-direction: column;
+    }
+
+    .nextensio__cta-interact {
+        margin: 0.5rem 0 0;
+    }
+
+    .nextensio__cta-interact input{
+        width: 20rem;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 700px) {
+    .nextensio__cta {
+        margin: 2rem 2rem;
+        padding: 2rem;
+        display: block;
+    }
+
+    .nextensio__cta-content-title {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nextensio__cta-content h2 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 0.25rem;
+    }
+
+    .nextensio__cta-content h2:last-child {
+        margin-left: 0;
+    }
+
+    .nextensio__cta-content p {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .nextensio__cta-interact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nextensio__cta-interact input{
+        justify-content: space-between;
+        width: fit-content;
+        border-radius: 10px;
+        text-align: center;
+        padding: 0rem 5rem;
+        min-height: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .nextensio__cta-interact button {
+        font-size: 16px;
+        min-width: 0;
+        padding: 0.25rem 1.5rem;
+        line-height: 28px;
+        border-radius: 20px;
+    }
+}
+
+/*Mobile formatting #2*/
+@media screen and (max-width: 490px) {
+    .nextensio__cta-interact input{
+        padding: 0rem 1rem;
+    }
+}
