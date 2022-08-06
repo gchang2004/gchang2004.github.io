@@ -18,7 +18,11 @@ const Header = () => {
           
           {/*Header buttons*/}
           <div className="nextensio__header-content__input">
-            <button type="button">Get Our White Paper</button>
+            <a href='mailto:support@nextensio.io
+                  ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20Request%20Demo
+                  &body=Type%20Your%20Message%20Here'>
+              <button type="button">Get Our White Paper</button>
+            </a>
             <div className='nextensio__header-content__input-explore'>
               <a href='#blog'><button type="button">Learn More</button></a>
             </div>

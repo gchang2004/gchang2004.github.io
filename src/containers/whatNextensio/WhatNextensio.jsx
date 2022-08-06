@@ -24,7 +24,7 @@ const WhatNextensio = () => {
           <h1 className="gradient__text">Reimagine the Future of Cloud Computing</h1>
           <div className="nextensio__whatNextensio-heading__interact-input">
             <a href='mailto:support@nextensio.io
-                  ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                  ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20Request%20Demo
                   &body=Type%20Your%20Message%20Here'>
               <button type="button">Request Demo</button>
             </a>
