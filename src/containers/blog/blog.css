@@ -2,6 +2,7 @@
 .nextensio__blog {
     display: flex;
     flex-direction: column;
+    padding: 4rem 4rem;
 }
 
 /*Display settings for the blog title*/
@@ -9,14 +10,14 @@
     width: 100%;
     text-align: left;
 
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
 }
 
 /*Customizations for the blog title*/
 .nextensio__blog-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 50px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
@@ -61,8 +62,19 @@
     grid-gap: 1.75rem;
 }
 
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__blog {
+        padding: 4rem 20rem 4rem 20rem;
+    }
+}
+
 /*Computer formatting*/
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 900px) {
+    .nextensio__blog {
+        padding: 4rem 2rem;
+    }
+    
     .nextensio__blog-container {
         flex-direction: column-reverse;
     }
@@ -94,11 +106,6 @@
     .nextensio__blog-container_article {
         width: fit-content;
     }
-
-    .nextensio__blog-container_groupB,
-    .nextensio__blog-container_article-image {
-        height: fit-content;
-    }
 }
 
 /*Tablet formatting*/
@@ -107,15 +114,10 @@
         font-size: 46px;
         line-height: 52px;
     }
-    
-    .nextensio__blog-container_groupA,
-    .nextensio__blog-container_groupB {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .nextensio__blog-container_groupA,
-    .nextensio__blog-container_article {
-        width: 108%;
+    .nextensio__blog-container_groupA {
+        width: 100%;
+        justify-content: flex-start;
     }
 }
 
@@ -126,10 +128,14 @@
     }
 
     .nextensio__blog-heading h1{
-        font-size: 32px;
+        font-size: 34px;
         line-height: 42px;
     }
 
+    .nextensio__blog-container_groupA {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
     .nextensio__blog-gradient-bar div {
         width: 300px;
         height: 2.5px;
@@ -148,10 +154,5 @@
     .nextensio__blog-container_groupA
     .nextensio__blog-container_article-image img {
         width: 100%;
-    }
-
-    .nextensio__blog-container_groupA,
-    .nextensio__blog-container_article {
-        width: fit-content;
     }
 }

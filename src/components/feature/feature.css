@@ -23,7 +23,7 @@
     width: 50px;
     height: 3px;
     background: var(--gradient-bar);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3.5px 3.5px rgba(0, 0, 0, 0.10);
     margin-bottom: 0.8rem;
 }
 
@@ -62,13 +62,13 @@
     }
 
     .nextensio__features-container__feature-title h1 {
-        font-size: 40px;
-        line-height: 55px;
+        font-size: 36px;
+        line-height: 50px;
     }
 
     .nextensio__features-container__feature-text p {
-        font-size: 26px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 32px;
     }
 }
 
@@ -99,21 +99,9 @@
 
 /*Mobile formatting*/
 @media screen and (max-width: 560px) {
-    .nextensio__features-container__feature-title {
-        justify-content: center;
-        text-align: center;
-        max-width: 100%;
-        margin-right: unset;
-    }
-
-    .nextensio__features-container__feature-title div{
-        justify-content:space-around;
-        display: flex;
-    }
-
     .nextensio__features-container__feature-title h1{
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 22px;
+        line-height: 24px;
         width: 100%;
     }
 

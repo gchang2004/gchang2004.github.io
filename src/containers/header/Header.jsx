@@ -11,8 +11,10 @@ const Header = () => {
         {/*Header content*/}
         <div className="nextensio__header-content">
           {/*Heading + Subheading text*/}
-          <h1 className="gradient__text">Daddy Infrastructure for Borderless Enterprise</h1>
-          <p>We make your multi-cloud applications portable.</p>
+          <h1 className="gradient__text">Cloud Infrastructure for Borderless Enterprise</h1>
+          <div className="nextensio__header-content-animation">
+            <p>We make your multi-cloud applications portable.</p>
+          </div>
           
           {/*Header buttons*/}
           <div className="nextensio__header-content__input">

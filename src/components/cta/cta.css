@@ -1,11 +1,11 @@
 /*Universal display settings for CTA component*/
-.nextensio__cta{
+.nextensio__cta {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 
     /*Top, Right, Bottom, Left*/
-    padding: 4rem 20rem 4rem 3rem;
+    padding: 4rem 15rem 4rem 3rem;
     margin: 3rem 4rem 6rem 4rem;
 
     border: none;
@@ -114,6 +114,22 @@
     .nextensio__cta{
         margin: 3rem 20rem 6rem 20rem;
     }
+
+    .nextensio__cta-content h2 {
+        font-size: 45px;
+        line-height: 45px;
+        width: max-content;
+    }
+    
+    .nextensio__cta-content h2:last-child {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .nextensio__cta-content p {
+        font-size: 22px;
+        line-height: 36px;
+    }
 }
 
 /*Large Tablet formatting*/
@@ -126,6 +142,7 @@
         width: 30rem;
     }
 }
+
 /*Tablet formatting*/
 @media screen and (max-width: 850px) {
     .nextensio__cta {

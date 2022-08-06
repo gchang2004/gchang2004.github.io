@@ -17,7 +17,7 @@ const Article = ({ imgUrl, category, date, title }) => {
             <h3>{title}</h3>
           </div>
             <p>{date}</p>
-            {/*If we wantevery container to output the same text, we can specify it here*/}
+            {/*If we want every container to output the same text, we can specify it here*/}
             {/*<p>Read Full Article</p>*/}
         </div>
 

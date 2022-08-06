@@ -1,70 +1,131 @@
 /*Universal display settings for the feauters container*/
 .nextensio__features {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 2rem 6rem;
+
+    background: aliceblue;
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    border: none;
+    outline: none;
+    padding: 2rem 2rem;
+    border-radius: 2.25rem;
+    filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
 }
 
 /*Display settings for the heading*/
 .nextensio__features-heading{
-    flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
 
-    text-align: left;
-    margin-right: 5rem;
+    margin-bottom: 0.25rem;
+}
+
+/*ROCKET Emoji*/
+.nextensio__features h2{
+    font-size: 26px;
 }
 
 /*Customizations for MAIN heading*/
-.nextensio__features-heading h1 {
+.nextensio__features h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
+
+    margin-left: 0.3rem;
 }
 
 /*Customizations for SECONDARY subheading*/
-.nextensio__features-heading p {
+.nextensio__features h3 {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-text);
-    margin-top: 0.6rem;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: black;
 }
 
-/*Display settings for the Re-Used feature containers*/
-.nextensio__features-container {
-    flex: 1.5;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-bottom: 2rem;
+/*Customizations for the subtext hyperlink*/
+.nextensio__features p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+
+    color: var(--color-text);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/*Hover animation for the hyperlink*/
+.nextensio__features p:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/*Widescreen formatting*/
+@media screen and (min-width: 1500px) {
+    .nextensio__features{
+        margin: 2rem 20rem;
+    }
+
+    .nextensio__features h2{
+        font-size: 34px;
+        margin-bottom: 0.75rem;
+    }
+
+    .nextensio__features h1{
+        font-size: 42px;
+        margin-bottom: 0.75rem;
+    }
+
+    .nextensio__features h3{
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    .nextensio__features p{
+        font-size: 22px;
+    }
 }
 
 /*Tablet formatting*/
 @media screen and (max-width: 850px) {
-    .nextensio__features {
-        flex-direction: column;
-    }
-
-    .nextensio__features-container {
-        align-items: flex-start;
-    }
-
-    .nextensio__features-heading {
-        margin: 0 0 2rem 0;
+    .nextensio__features{
+        margin: 2rem 2rem;
     }
 }
 
 /*Mobile formatting*/
-@media screen and (max-width: 550px) {
-    .nextensio__features-heading h1{
+@media screen and (max-width: 490px) {
+    .nextensio__features{
+        margin: 2rem 2rem;
+        padding: 1.25rem;
+        background-size: 210%;
+        background-position: center;
+    }
+
+    .nextensio__features h2{
+        font-size: 20px;
+    }
+
+    .nextensio__features h1{
         font-size: 28px;
-        line-height: 38px;
+    }
+
+    .nextensio__features h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .nextensio__features p{
+        font-size: 14px;
+        margin-top: 0.5rem;
     }
 }

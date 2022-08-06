@@ -64,7 +64,7 @@
 .nextensio__blog-container_article-content h3{
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 30px;
 
     color: black;
@@ -85,7 +85,7 @@
 /*Tablet formatting*/
 @media screen and (max-width: 550px) {
     .nextensio__blog-container_article-content h3{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 25px;
     }
 }

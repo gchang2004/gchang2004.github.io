@@ -12,7 +12,7 @@
 
 /*Customizations for the bulletpoint ICON*/
 .nextensio__bulletpoints-container svg {
-    color: rgb(209, 85, 213);
+    color: var(--color-subtext);
 }
 
 /*Customization for the bulletpoint TEXT*/

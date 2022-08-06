@@ -62,7 +62,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: 5rem 0 2rem;
+    margin: 5rem 0 3rem;
 }
 
 /*Header => IMAGE customizations*/
@@ -90,11 +90,12 @@
 /*Display settings for "Request Demo" button*/
 .nextensio__whatNextensio-heading__interact-input {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    margin: 1rem 2rem 0rem 0rem;
+    margin: 1rem 0rem 0rem 0rem;
 }
 
 /*Customizations for "Request Demo" button*/
@@ -114,7 +115,7 @@
 
 /*Hover color-change animation for button*/
 .nextensio__whatNextensio-heading__interact-input button:hover{
-    background-color: black;
+    background-color: var(--color-text);
     color: #ffffff;
 }
 
@@ -134,7 +135,7 @@
 
 /*Icon customizations*/
 .nextensio__whatNextensio-container svg{
-    color: rgb(209, 85, 213);
+    color: var(--color-subtext);
     margin-left: -0.1rem;
     margin-bottom: 0.3rem;
 }
@@ -182,9 +183,23 @@
     .nextensio__whatNextensio-heading img{
         margin-right: 3rem;
         background-color: white;
-        padding: 1rem;;
-        border-radius: 30px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  
+        padding: 3rem;
+        border-radius: 50px;
+        box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25);
+        
+        animation: grow 2s;
+        animation-direction:alternate;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes grow {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.05);
+        }
     }
 
     .nextensio__whatNextensio-heading__interact-input button{
@@ -193,7 +208,7 @@
     }
 
     .nextensio__whatNextensio-container svg{
-        transform:scale(1.2);
+        transform: scale(1.2);
         margin-bottom: 1rem;
     }
 }
@@ -203,7 +218,7 @@
     .nextensio__whatNextensio-heading {
         flex-direction: row;
         align-items: flex-start;
-        margin-bottom: 0rem;
+        margin-bottom: 3rem;
     }
 
     .nextensio__whatNextensio-heading p {
@@ -213,6 +228,10 @@
 
 /*Tablet formatting*/
 @media screen and (max-width: 850px) {
+    .nextensio__whatNextensio{
+        padding: 4rem 3rem;
+    }
+
     .nextensio__whatNextensio-features-title-block h2{
         width: 170px;
     }
@@ -226,12 +245,6 @@
         line-height: 40px;
     }
 
-    .nextensio__whatNextensio-container__icons {
-        /*Top, Right, Bottom, Left*/
-        margin: 0rem 3rem 0rem 3rem;
-        display: block;
-    }
-
     .nextensio__whatNextensio-container__icons:first-child,
     .nextensio__whatNextensio-container__icons:last-child {
         margin: unset;;
@@ -240,6 +253,10 @@
 
 /*Tablet formatting #2*/
 @media screen and (max-width: 800px){
+    .nextensio__whatNextensio{
+        padding: 2rem 2rem;
+    }
+
     .nextensio__whatNextensio-feature {
         display: block;
         flex-direction: column;
@@ -257,13 +274,6 @@
 
 /*Mobile formatting*/
 @media screen and (max-width: 560px) {
-    .nextensio__whatNextensio-container {
-        flex-direction: column;
-        justify-content: center;
-
-        text-align: center;
-    }
-
     .nextensio__whatNextensio-container-spacer{
         display: block;
         justify-content: center;

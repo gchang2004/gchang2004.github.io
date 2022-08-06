@@ -1,44 +1,19 @@
 import React from 'react';
-import { Feature } from '../../components';
 import './features.css';
-
-//dynamic constants => structured as arrays
-const featuresData = [
-  {
-    title: 'testing1',
-    text: 'Text #1',
-  },
-
-  {
-    title: 'testing2',
-    text: 'Text #2',
-  },
-
-  {
-    title: 'testing',
-    text: 'Text #3',
-  },  
-  
-]
+import space from '../../assets/space.png';
 
 const Features = () => {
   return (
-    <div className="nextensio__features section__padding" id="features">
-        {/*Maing Features Heading + Subheading */}
-        <div className="nextensio__features-heading">
-          <h1 className="gradient__text"> High ROI</h1>
-          <p>Request Early Access to Get Started</p>
-        </div>
-
-        {/*Using Pre-made Features Component as array format*/}
-        <div className="nextensio__features-container">
-          {featuresData.map((item, index) => (
-            <Feature
-              title={item.title}
-              text={item.text}
-              key={item.title + index}/>
-          ))}
-        </div>
+    <div className="nextensio__features section__padding"
+        id="features"
+        style={{ backgroundImage: `url(${space})` }}>
+      {/*Maing Features Heading + Subheading */}
+      <div className="nextensio__features-heading">
+        <h2>🚀</h2>
+        <h1 className="gradient__text">Our Mission</h1>
+      </div>
+      <h3>The world of technology can be fast-paced and exciting. Our goal is to provide an immersive multi-cloud application experience anytime, anywhere. We like to empower SMB enterprises in their digital transformation with one cloud spend.</h3>
+      <p>Read more about Nextensio's Sustainability & Impact report</p>
     </div>
   )
 }

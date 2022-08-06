@@ -1,6 +1,6 @@
 /*Universal display settings for the possibility container*/
 .nextensio__possibility {
-    padding: 4rem 6rem;
+    padding: 4rem 4rem;
 }
 
 /*Display setings for container w/text on the rightside*/
@@ -53,6 +53,7 @@
 
     color: var(--color-text);
     cursor: pointer;
+    margin-bottom: 3rem;
 }
 
 /*Display settings for bulletpoints*/
@@ -129,10 +130,6 @@
 
 /*Mobile formatting*/
 @media screen and (max-width: 490px) {
-    .nextensio__possibility {
-        padding: 1rem 2rem;
-    }
-
     .nextensio__possibility-image {
         display: flex;
         flex-direction: row;

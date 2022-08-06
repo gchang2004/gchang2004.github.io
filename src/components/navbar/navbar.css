@@ -51,28 +51,31 @@
     flex-direction: row;
 }
 
-.nextensio__navbar-contact svg {
-    color: black;
-}
-
 /*Display settings/customizations for the Login ICON*/
-.nextensio__navbar-contact a {
+.nextensio__navbar-contact svg {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: 0.75rem;
+
+    color:#999999;
 }
 
 /*Hover color-change animation for button*/
-.nextensio__navbar-links_container p:hover {
-    color:black;
+.nextensio__navbar-links_container a:hover, /*Full-screen Menu buttons*/
+.nextensio__navbar-contact svg:hover, /*Login Icon*/
+.nextensio__navbar-menu svg:hover, /*3-Dash Icon*/
+.nextensio__navbar-menu_container button:hover, /*Side Menu-bar buttons*/
+.nextensio__navbar-menu_container svg:hover /*Side Menu-bar icons*/
+{
+    color: var(--color-text);
 }
 
 /*Menu bar TEXT customizations*/
 .nextensio__navbar-links_container p,
 .nextensio__navbar-contact p,
 .nextensio__navbar-menu_container p {
-    color: rgb(209, 85, 213);
+    color: var(--color-subtext);
     font-family: var(--font-family);
     font-size: 18px;
     line-height: 25px;
@@ -100,15 +103,23 @@
     cursor: pointer;
 }
 
-/*Hover bold animation for button*/
-.nextensio__navbar-menu_container button:hover {
-    font-weight: 700;
-}
-
 /*Hover transform animation for button*/
 .nextensio__navbar-contact button:hover {
     transform: scale(0.99);
     transition-duration: 0.1s;
+}
+
+/*Display settings for the menu-bar to have a dimmed background*/
+.nextensio__navbar-menu_container-dimmed {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background: rgba(0,0,0,0.80);
+    backdrop-filter: blur(5px);
+    z-index: 20;
 }
 
 /*MENU icon display settings*/
@@ -121,6 +132,7 @@
 /*MENU icon display settings*/
 .nextensio__navbar-menu svg {
     cursor: pointer;
+    color: #999999;
 }
 
 /*Popup MENU => skeleton layout*/
@@ -130,17 +142,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    z-index: 10000;
 
     /*customizations*/
     background: rgb(255, 255, 255);
     /* [Top, Right, Bottom, Left] */
-    padding: 28px 24px 54px 24px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
-    position: absolute;
+    padding: 28px 24px 0px 24px;
+    position: fixed;
     top: 0px;
     right: 0px;
-    height: 1314px;
+    height: 100%;
 }
 
 /*Display settings for Exit ICON*/
@@ -153,12 +164,24 @@
     margin-bottom: 1rem;
 }
 
+/*Display settings for the menu container CLOSE icon*/
+.nextensio__navbar-menu_container-icons svg {
+    cursor: pointer;
+    margin-left: 16.5rem;
+    color: gray;
+}
+
 /*Display settings for container-links (TEXT + ARROW)*/
 .nextensio__navbar-menu_container-links a{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+}
+
+/*Display customizations for the menu-bar ARROW icon*/
+.nextensio__navbar-menu_container-links svg {
+    color:rgb(209, 85, 213);
 }
 
 /*Popup MENU display settings*/
@@ -174,13 +197,13 @@
     border: 1px solid #ffffff;
     outline: none;
     background:transparent;
-    color: rgb(209, 85, 213);
+    color: var(--color-subtext);
 }
 
 /*Gradient bar customizations*/
-.nextensio__navbar-menu_container-gradient-bar {
+.nextensio__navbar-menu_gradient-bar {
     justify-content: center;
-    width: auto;
+    width: 100%;
     height: 2px;
     margin: 1rem 0rem 1rem 0rem;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
@@ -196,13 +219,14 @@
 
 /*Customizations for Sign-In ICON*/
 .nextensio__navbar-menu_container-links-contact svg {
-    color: rgb(209, 85, 213);
+    color: var(--color-subtext);
 }
 
 /*Customizations for Sign-In TEXT*/
 .nextensio__navbar-menu_container-links-contact button {
     margin-left: 5px;
     width: 242px;
+    font-size: 20px;
 }
 
 /*Popup MENU display settings*/
@@ -225,6 +249,10 @@
 
     .nextensio__navbar-menu {
         display: flex;
+    }
+
+    .nextensio__navbar-menu_container-dimmed {
+        display: block;
     }
 }
 
@@ -249,6 +277,7 @@
         top: 20px;
 
     }
+    
     .nextensio__navbar-menu_container-links-contact {
         display: block;
     }

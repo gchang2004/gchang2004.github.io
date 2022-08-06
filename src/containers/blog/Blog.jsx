@@ -15,8 +15,10 @@ const Blog = () => {
         <div className="nextensio__blog-container">
            {/*Main spotlight container*/}
           <div className="nextensio__blog-container_groupA">
-            <a href="https://www.youtube.com/watch?v=p7MqvJAKLoM"><Article imgUrl={WSJ} category="Education" date="December 2, 2019" title="How Cloud Computing Became a Big Tech Battleground | WSJ"/></a>
-            <a href="https://www.youtube.com/watch?v=mxT233EdY5c"><Article imgUrl={AWS} category="Education" date="July 14, 2021" title="What is Cloud Computing? | Amazon Web Services"/></a>
+            <a href="https://www.youtube.com/watch?v=p7MqvJAKLoM">
+              <Article imgUrl={WSJ} category="Education" date="December 2, 2019" title="How Cloud Computing Became a Big Tech Battleground | WSJ"/></a>
+            <a href="https://www.youtube.com/watch?v=mxT233EdY5c">
+              <Article imgUrl={AWS} category="Education" date="July 14, 2021" title="What is Cloud Computing? | Amazon Web Services"/></a>
           </div>
 
           {/*Gradient Bar*/}

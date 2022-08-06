@@ -11,7 +11,7 @@ const CTA = () => {
             <h2>Get started with</h2>
             <h2 className="gradient__text">Nextensio</h2>
           </div>
-          <p>Join 100+ customers already using Nextensio cloud technology to maximize performance. Start your free trial today.</p>
+          <p>Many companies find that constantly maintaining their current system consumes their IT budget for new technology. By subscribing to our service, you can focus on what you do best -- running your business.</p>
         </div>
 
         {/*Email + Button*/}

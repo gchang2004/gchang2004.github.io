@@ -13,7 +13,9 @@ const Footer = () => {
             <a href="#home"><img src={logo} alt="logo" /></a>
             <p>Established in 2022</p> 
             <p>Based in Dover, DE</p>
-            <a href='mailto:support@nextensio.io?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[INSERT%20Questions/Inquiries%20Here]%20'>
+            <a href='mailto:support@nextensio.io
+                      ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                      &body=Type%20Your%20Message%20Here'>
               <h6>support@nextensio.io</h6>
             </a>
             <div className="nextensio__footer-links_social-media">
@@ -39,8 +41,8 @@ const Footer = () => {
           <div className="nextensio__footer-links_div">
             <h4>Links</h4>
             <a href='#whatNextensio'><p>About Us</p></a>
-            <a href='#features'><p>Solution</p></a>
-            <a href='#possibility'><p>Pricing</p></a>
+            <a href='#features'><p>Our Mission</p></a>
+            <a href='#possibility'><p>Solutions</p></a>
             <a href='#blog'><p>Explore</p></a>
           </div>
 
@@ -77,7 +79,11 @@ const Footer = () => {
                 <p>Google Play</p>
               </a>
             </div>
-            <p>Request Demo</p>
+            <a href='mailto:support@nextensio.io
+                    ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                    &body=Type%20Your%20Message%20Here'>
+              <p>Request Demo</p>
+            </a>
           </div>
 
         </div>
