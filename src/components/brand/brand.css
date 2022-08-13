@@ -10,11 +10,9 @@
     background-color: aliceblue;
 }
 
-/*Settings for the brand text "DEPLOYED IN" + Gradient bar*/
-.nextensio__brand-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*DARK mode background modifications*/
+#dark .nextensio__brand {
+    background-color: rgba(160, 210, 255, 0.15);
 }
 
 /*Gradient bar customizations*/
@@ -24,6 +22,13 @@
     margin-bottom: 1.25rem;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
     background: var(--gradient-bar);
+}
+
+/*Settings for the brand text "DEPLOYED IN" + Gradient bar*/
+.nextensio__brand-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*"Deployed in + companies" customizations*/
@@ -41,7 +46,7 @@
     min-width: max-content;
     margin: 0 0.30rem 0 0.30rem;
 
-    color: var(--color-text);
+    color: var(--color-secondary);
 }
 
 /*"Globally Recognized" customizations*/
@@ -58,6 +63,11 @@
     line-height: 27px;
     min-width: max-content;
 
+}
+
+/*Display settings for the sliding marquee*/
+.nextensio__brand-marquee{
+    width: 100%;
 }
 
 /*Universal settings for every DIV in brand*/
@@ -125,6 +135,31 @@
     max-height: 33px;
 }
 
+/*When DARK mode is toggled, LIGHT images are hidden */
+#dark .nextensio__brand-hewlettpackard img,
+#dark .nextensio__brand-nvidia img,
+#dark .nextensio__brand-slack img,
+#dark .nextensio__brand-uber img,
+/*When LIGHT mode is toggled, DARK images are hidden*/
+#light .nextensio__brand-hewlettpackard_DARK img,
+#light .nextensio__brand-nvidia_DARK img,
+#light .nextensio__brand-slack_DARK img,
+#light .nextensio__brand-uber_DARK img{
+    display: none;
+}
+
+/*Display settings for the DARK images*/
+#dark .nextensio__brand-hewlettpackard_DARK img{
+    max-height: 47px;
+}
+
+/*Display settings for the DARK images*/
+#dark .nextensio__brand-nvidia_DARK img,
+#dark .nextensio__brand-slack_DARK img,
+#dark .nextensio__brand-uber_DARK img{
+    max-height: 33px;
+}
+
 /*Widescreen formatting*/
 @media screen and (min-width: 1700px) {
     .nextensio__brand{
@@ -143,6 +178,16 @@
     .nextensio__brand h2{
         font-size: 26px;
         line-height: 32px;    
+    }
+
+    .nextensio__brand-logos img{
+        transform: scale(1.2);
+        margin: 1.5rem 3rem 1.5rem 3rem;
+    }
+
+    .nextensio__brand-logos img:hover {
+        transform: scale(1.15);
+        transition-duration: 0.5s;
     }
 }
 

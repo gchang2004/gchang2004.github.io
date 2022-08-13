@@ -132,7 +132,9 @@
         line-height: 42px;
     }
 
-    .nextensio__blog-container_groupA {
+    
+    .nextensio__blog-container_groupA,
+    .nextensio__blog-container_groupB {
         grid-template-columns: repeat(1, 1fr);
     }
     

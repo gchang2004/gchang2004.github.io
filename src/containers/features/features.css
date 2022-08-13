@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 2rem 6rem;
+    margin: 2rem 4rem;
 
     background: aliceblue;
     background-size: 100%;
@@ -15,6 +15,11 @@
     padding: 2rem 2rem;
     border-radius: 2.25rem;
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
+}
+
+/*DARK mode background modifications*/
+#dark .nextensio__features {
+    background-color: rgba(160, 210, 255, 0.15);
 }
 
 /*Display settings for the heading*/
@@ -49,7 +54,7 @@
     font-size: 20px;
     line-height: 40px;
 
-    color: black;
+    color: var(--color-primary);
 }
 
 /*Customizations for the subtext hyperlink*/
@@ -58,7 +63,7 @@
     font-weight: 500;
     font-size: 18px;
 
-    color: var(--color-text);
+    color: var(--color-secondary);
     cursor: pointer;
     margin-top: 1rem;
 }
@@ -70,7 +75,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1520px) {
     .nextensio__features{
         margin: 2rem 20rem;
     }
@@ -86,7 +91,7 @@
     }
 
     .nextensio__features h3{
-        font-size: 26px;
+        font-size: 24px;
         line-height: 50px;
     }
 

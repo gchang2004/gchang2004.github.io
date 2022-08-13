@@ -16,8 +16,10 @@ const CTA = () => {
 
         {/*Email + Button*/}
         <div className="nextensio__cta-interact">
-          <input type="email" id="email" placeholder='Your company email'/>
-          <button type="button">Get Started</button>
+          <input type="email" id="email" placeholder='Your company email' autoComplete='email'/>
+          <a href='https://controller.nextensio.net/signup'>
+            <button type="button">Get Started</button>
+          </a>
         </div>
 
     </div>

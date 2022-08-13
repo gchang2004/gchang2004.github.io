@@ -15,6 +15,11 @@
     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.25));
 }
 
+/*DARK mode background modifications*/
+#dark .nextensio__cta {
+    background: rgba(255, 160, 160, 0.4);
+}
+
 /*Display settings for CTA text*/
 .nextensio__cta-content {
     display: block;
@@ -30,6 +35,7 @@
 /*Customization for Heading text*/
 .nextensio__cta-content h2 {
     font-family: var(--font-family);
+    color: var(--color-primary);
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
@@ -51,7 +57,7 @@
     font-size: 18px;
     line-height: 30px;
 
-    color: black;
+    color: var(--color-primary);
     width:fit-content;
     margin-top: 0.75rem;
     margin-bottom: 1.75rem;
@@ -147,6 +153,8 @@
 @media screen and (max-width: 850px) {
     .nextensio__cta {
         flex-direction: column;
+        margin: 3rem 2rem 6rem 2rem;
+        padding: 4rem 8rem 4rem 3rem;
     }
 
     .nextensio__cta-interact {
@@ -154,7 +162,7 @@
     }
 
     .nextensio__cta-interact input{
-        width: 20rem;
+        width: 25rem;
     }
 }
 

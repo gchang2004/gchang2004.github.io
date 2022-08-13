@@ -30,8 +30,27 @@
     align-items: center;
 }
 
+/*Template display settings for the images*/
+.nextensio__possibility-leftImage,
+.nextensio__possibility-rightImage {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+/*Display positioning for leftImage*/
+.nextensio__possibility-leftImage {
+    justify-content: left;
+}
+
+/*Display positioning for rightImage*/
+.nextensio__possibility-rightImage {
+    justify-content: right;
+}
+
 /*Customizations for image size*/
-.nextensio__possibility-image img{
+.nextensio__possibility-leftImage img,
+.nextensio__possibility-rightImage img{
     width: 90%;
 }
 
@@ -44,18 +63,6 @@
     align-items: flex-start;
 }
 
-/*Customizations for h4 text*/
-.nextensio__possibility-content h4 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-
-    color: var(--color-text);
-    cursor: pointer;
-    margin-bottom: 3rem;
-}
-
 /*Display settings for bulletpoints*/
 .nextensio__possibility-list {
     width:100%;
@@ -63,24 +70,18 @@
     margin-bottom: 3rem;
 }
 
-/*Hover animation for linked text*/
-.nextensio__possibility-content h4:hover {
-    font-weight: 600;
-    text-decoration: underline;
+/*Widescreen formatting*/
+@media screen and (min-width: 1520px){
+    .nextensio__possibility {
+        padding: 4rem 20rem 4rem 20rem;
+    }
 }
 
 /*Tablet*/
 @media screen and (max-width: 950px) {
     .nextensio__possibility {
         flex-direction: row;
-        padding: 4rem 2rem;
-    }
-
-    .nextensio__possibility-content h4{
-        margin-top: 1rem;
-
-        font-size: 18px;
-        line-height: 30px;
+        padding: 2rem 2rem;
     }
 
     .nextensio__possibility_leftText,
@@ -101,20 +102,6 @@
     }
 }
 
-/*Widescreen formatting*/
-@media screen and (min-width: 1520px){
-    .nextensio__possibility {
-        padding: 4rem 20rem 4rem 20rem;
-    }
-
-    .nextensio__possibility-content h4{
-        font-size: 26px;
-        line-height: 40px;
-        
-        width: fit-content;
-    }
-}
-
 /*Tablet formatting #2*/
 @media screen and (max-width: 700px) {
     .nextensio__possibility_leftText,
@@ -130,21 +117,16 @@
 
 /*Mobile formatting*/
 @media screen and (max-width: 490px) {
-    .nextensio__possibility-image {
+    .nextensio__possibility-leftImage,
+    .nextensio__possibility-rightImage {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     
-    .nextensio__possibility-image img {
+    .nextensio__possibility-leftImage img,
+    .nextensio__possibility-rightImage img {
         width:75%;
-    }
-
-    .nextensio__possibility-content h4{
-        font-size: 14px;
-        line-height: 26px;
-
-        margin-top: 0.75rem;
     }
 
     .nextensio__possibility-list {

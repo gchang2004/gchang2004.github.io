@@ -6,7 +6,7 @@
     align-items: center;
     padding: 4rem 4rem 2rem 4rem;
 
-    background-color: var(--color-footer);
+    background-color: var(--color-ribbon);
 }
 
 /*Display setting for all footer links*/
@@ -48,7 +48,7 @@
     line-height: 30px;
     width: max-content;
 
-    color: black;
+    color: var(--color-footer-text);
 }
 
 /*Customizations for the email hyperlink*/
@@ -60,14 +60,20 @@
     text-decoration: underline;
     width: max-content;
 
-    color: black;
+    color: var(--color-footer-text);
     cursor: pointer;
 }
 
-/*Display settings for the social meida icons*/
+/*Display settings for the social media icons*/
 .nextensio__footer-links_social-media {
     display: flex;
     flex-direction: row;
+}
+
+/*Customization for the social media icons*/
+.nextensio__footer-links_hyperlinks svg,
+.nextensio__footer-links_social-media svg{
+    color: var(--color-footer-text);
 }
 
 /*Display customizations for the first icon spacing - to negate initial indent*/
@@ -96,7 +102,7 @@
     font-size: 18px;
     line-height: 20px;
 
-    color: var(--color-text);
+    color: var(--color-secondary);
 }
 
 /*Customizations for each footer text links*/
@@ -107,16 +113,17 @@
     line-height: 22px;
     width: fit-content;
 
-    color: black;
+    color: var(--color-footer-text);
     cursor: pointer;
 }
 
 /*Hover animation for footer links*/
 .nextensio__footer-links_logo h6:hover,
-.nextensio__footer-links_social-media a:hover,
-.nextensio__footer-links_div p:hover{
+.nextensio__footer-links_social-media svg:hover,
+.nextensio__footer-links_div p:hover,
+.nextensio__footer-links_hyperlinks svg:hover {
     text-decoration: underline;
-    color:var(--color-text);
+    color:var(--color-secondary);
 }
 
 /*Display settings for company social media links*/
@@ -132,11 +139,6 @@
     margin-left: 0.4rem;
 }
 
-/*Hover animation for the icons*/
-.nextensio__footer-links_hyperlinks svg:hover {
-    color: var(--color-text)
-}
-
 /*Display setting for copyright*/
 .nextensio__footer-copyright {
     margin-top: 3rem;
@@ -150,7 +152,7 @@
     font-size: 12px;
     line-height: 14px;
 
-    color: black;
+    color: var(--color-primary);
 }
 
 /*Widescreen formatting*/
@@ -204,5 +206,12 @@
 
     .nextensio__footer-links_logo img{
         width: 105%
+    }
+}
+
+/*Mobile formatting #2*/
+@media screen and (max-width:490px){
+    .nextensio__footer-links{
+        grid-gap: 0rem 4rem;
     }
 }

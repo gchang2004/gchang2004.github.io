@@ -5,3 +5,4 @@ export { default as Feature } from './feature/Feature';
 export { default as NavBar } from './navbar/NavBar';
 export { default as TextTemplate } from './texttemplate/TextTemplate';
 export { default as Bulletpoints } from './bulletpoints/Bulletpoints';
+export { default as Toggle } from './toggle/Toggle';

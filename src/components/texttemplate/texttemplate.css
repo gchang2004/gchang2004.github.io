@@ -24,7 +24,25 @@
     font-size: 22px;
     line-height: 35px;
     
-    color: black;
+    color: var(--color-primary);
+}
+
+/*Customizations for h4 text*/
+.nextensio__TextTemplate-container__text h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-top: 1rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+/*Hover animation for linked text*/
+.nextensio__TextTemplate-container__text h4:hover {
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 /*Widescreen formatting*/
@@ -41,6 +59,11 @@
         line-height: 40px;
         
         width: fit-content;
+    }
+
+    .nextensio__TextTemplate-container__text h4{
+        font-size: 26px;
+        line-height: 40px;
     }
 }
 
@@ -62,18 +85,31 @@
         line-height: 30px;
     }
     
+    .nextensio__TextTemplate-container__text h4{
+        font-size: 18px;
+        line-height: 30px;
+
+        margin-top: 0.8rem;
+    }
 }
 
 /*Mobile formatting*/
 @media screen and (max-width: 490px) {
     .nextensio__TextTemplate-container__title h1{
-        font-size:25px;
-        line-height:32px;
-        margin-bottom: 0.25rem;
+        font-size:28px;
+        line-height:36px;
+        margin-bottom: 0.5rem;
     }
 
     .nextensio__TextTemplate-container__text p{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 26px;
+    }
+
+    .nextensio__TextTemplate-container__text h4{
+        font-size: 16px;
+        line-height: 26px;
+
+        margin-top: 0.5rem;
     }
 }

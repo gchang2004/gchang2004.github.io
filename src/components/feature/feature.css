@@ -35,7 +35,7 @@
     line-height: 32px;
     
     letter-spacing: -0.02rem;
-    color: #81AFDD;
+    color: var(--color-secondary);
 }
 
 /*Paragraph display settings for each features box*/
@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 26px;
 
-    color: var(--font-text);
+    color: var(--color-primary);
 }
 
 /*Computer formatting*/
@@ -73,7 +73,7 @@
 }
 
 /*Tablet formatting*/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .nextensio__features-container {
         align-items: flex-start;
     }
@@ -87,12 +87,8 @@
         line-height: 22px;
     }
 
-    .nextensio__features-container__feature-text {
-        max-width: 525px;
-    }
-
     .nextensio__features-container__feature-text p{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 26px;
     }
 }

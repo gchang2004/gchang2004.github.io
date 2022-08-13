@@ -5,8 +5,14 @@
     scroll-behavior: smooth;
   }
 
-/*DEFAULT BODY color ==> Change Later*/
-body {
+/*DARK mode master settings*/
+#dark {
+  background-color: #181818;
+  color-scheme: dark;
+}
+
+/*DEFAULT BODY color*/
+#light {
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
     
@@ -79,7 +85,7 @@ a {
 
 /*Scrollbar track customizations*/
 ::-webkit-scrollbar-track {
-  background-color: #eee;
+  background-color: rgba(238, 238, 238, 0.8);
 }
 
 /*Scrollbar draggable track*/

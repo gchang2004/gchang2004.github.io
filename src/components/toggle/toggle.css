@@ -1,0 +1,20 @@
+/*LIGHT/DARK mode theme toggler settings*/
+.nextensio__theme-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextensio__theme-toggle {
+    color: unset;
+}
+
+/*Theme Indicator*/
+.nextensio__theme-toggle label {
+    font-family: var(--font-family);
+    font-size: 14px;
+    margin-left: 0.5rem;
+    width: max-content;
+    color: var(--color-primary);
+}

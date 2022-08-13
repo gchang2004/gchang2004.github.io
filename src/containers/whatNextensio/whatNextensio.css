@@ -18,6 +18,11 @@
     filter: drop-shadow(0px 7px 7px rgb(0,0,0, 0.25));
 }
 
+/*DARK mode settings*/
+#dark .nextensio__whatNextensio-feature {
+    background: #3A3B3C;
+}
+
 /*Display settings for Gradient Bar + "What is Nextensio"*/
 .nextensio__whatNextensio-features-title-block{
     display: block;
@@ -42,7 +47,7 @@
     width: 200px;
     
     letter-spacing: -0.02rem;
-    color: #81AFDD;
+    color: var(--color-secondary);
 }
 
 /*Customizations for "What is Nextensio" subtext*/
@@ -52,7 +57,7 @@
     font-size: 20px;
     line-height: 28px;
 
-    color: var(--font-text);
+    color: var(--color-primary);
 }
 
 /*Display setting for header*/
@@ -111,12 +116,18 @@
     max-width: 510px;
 
     cursor: pointer;
+    color: var(--color-primary);
 }
 
 /*Hover color-change animation for button*/
 .nextensio__whatNextensio-heading__interact-input button:hover{
-    background-color: var(--color-text);
-    color: #ffffff;
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+/*DARK mode modifications for the button animation*/
+#dark .nextensio__whatNextensio-heading__interact-input button:hover{
+    border: 1px solid #161616;
 }
 
 /*Display seeting for the three feature boxes*/
@@ -135,15 +146,15 @@
 
 /*Icon customizations*/
 .nextensio__whatNextensio-container svg{
-    color: var(--color-subtext);
+    color: var(--color-tertiary);
     margin-left: -0.1rem;
     margin-bottom: 0.3rem;
 }
 
-/*Display seeting icon1 => Networking*/
+/*Display setting for "Security"*/
 .nextensio__whatNextensio-container__icons {
     display: unset;
-    margin: 0rem 2rem 0rem 2rem;
+    margin: 0rem 1rem 0rem 1rem;
 
 }
 
@@ -162,7 +173,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1520px) {
     .nextensio__whatNextensio-features-title-block h2{
         font-size: 32px;
         line-height: 40px;
@@ -171,7 +182,7 @@
     }
 
     .nextensio__whatNextensio-feature p{
-        font-size: 26px;
+        font-size: 24px;
         line-height: 34px;
     }
 
@@ -182,24 +193,6 @@
 
     .nextensio__whatNextensio-heading img{
         margin-right: 3rem;
-        background-color: white;
-        padding: 3rem;
-        border-radius: 50px;
-        box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25);
-        
-        animation: grow 2s;
-        animation-direction:alternate;
-        animation-delay: 5s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes grow {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.05);
-        }
     }
 
     .nextensio__whatNextensio-heading__interact-input button{
@@ -215,6 +208,10 @@
 
 /*Computer formatting*/
 @media screen and (max-width: 1050px) {
+    .nextensio__whatNextensio {
+        padding: 4rem 4rem;
+    }
+    
     .nextensio__whatNextensio-heading {
         flex-direction: row;
         align-items: flex-start;
@@ -229,7 +226,7 @@
 /*Tablet formatting*/
 @media screen and (max-width: 850px) {
     .nextensio__whatNextensio{
-        padding: 4rem 3rem;
+        padding: 4rem 2rem;
     }
 
     .nextensio__whatNextensio-features-title-block h2{
@@ -243,11 +240,6 @@
     .nextensio__whatNextensio-heading h1 {
         font-size: 28px;
         line-height: 40px;
-    }
-
-    .nextensio__whatNextensio-container__icons:first-child,
-    .nextensio__whatNextensio-container__icons:last-child {
-        margin: unset;;
     }
 }
 

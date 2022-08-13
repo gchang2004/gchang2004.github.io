@@ -2,7 +2,7 @@
 /*Universal display settings for ALL header features*/
 .nextensio__header {
     display: flex;
-    padding-top: 2rem;
+    padding: 2rem 6rem 6rem 6rem; 
 }
 
 /*Universal display settings for the header texts*/
@@ -34,29 +34,30 @@
     font-size: 20px;
     line-height: 27px;
 
-    color:var(--color-text);
+    color: var(--color-secondary);
     margin-top: 1.75rem;
 
     /*TYPEWRITER EFFECT*/
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid var(--color-text); /* The typwriter cursor */
+    border-right: .15em solid var(--color-secondary); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    animation: 
-      typing 7s steps(40),
+    animation-duration: 10s;
+    animation:
+      typing 12s steps(40),
       blink-caret 0.75s step-end infinite;
     animation-iteration-count: infinite;
   }
 
   /* The typing effect */
   @keyframes typing {
-    from { width: 0 }
-    to { width: 104% }
+    0% { width: 0% }
+    40% { width: 100% }
   }
 
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: var(--color-text); }
+    50% { border-color: var(--color-secondary); }
   }
 
 /*Email user-entry display settings*/
@@ -99,14 +100,18 @@
     outline: none;
     font-weight: 500;
     background: transparent;
-    color: black;
+    color: var(--color-primary);
 }
 
 /*Hover color-change animation for button*/
 .nextensio__header-content__input-explore button:hover{
-    transform: none;
-    background-color: var(--color-text);
-    color: #FFFFFF;
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+/*DARK mode modifications for the button animation*/
+#dark .nextensio__header-content__input-explore button:hover{
+    border: 1px solid #161616;
 }
 
 /*Header Image display settings*/
@@ -189,6 +194,13 @@
 
     .nextensio__header-image img {
         width: 70%;
+    }
+}
+
+/*Tablet formatting #2*/
+@media screen and (max-width: 700px){
+    .nextensio__header{
+        padding: 2rem 3rem 3rem;
     }
 }
 

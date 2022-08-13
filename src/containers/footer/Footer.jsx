@@ -90,7 +90,7 @@ const Footer = () => {
 
         {/*Copyright body*/}
         <div className="nextensio__footer-copyright">
-            <p>© 2022 Nextensio Inc. All rights reserved.</p>  
+            <p>Copyright © 2022 Nextensio Inc. All rights reserved.</p>  
         </div>
     </div>
   )
