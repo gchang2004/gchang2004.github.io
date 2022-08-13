@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.640c42e4.css",
+    "main.js": "/static/js/main.08b2c172.js",
+    "static/media/infinite.png": "/static/media/infinite.5b2c903c461b5bce4fab.png",
+    "static/media/geartriangle.png": "/static/media/geartriangle.3f0851c686d31a5a33d5.png",
+    "static/media/thinker_v2.png": "/static/media/thinker_v2.4cb586d4362ef1af09a1.png",
+    "static/media/ladder_v2.png": "/static/media/ladder_v2.f49ea0c7468a70dbe2a1.png",
+    "static/media/lock.png": "/static/media/lock.d78582c5fb036af735c4.png",
+    "static/media/vectorjuice_collab.png": "/static/media/vectorjuice_collab.e05843f77d457e00bc61.png",
+    "static/media/vectorjuice_privacy.png": "/static/media/vectorjuice_privacy.a971f473b88fd587ade9.png",
+    "static/media/mobile_v2.png": "/static/media/mobile_v2.e5d7def06115413cdf58.png",
+    "static/media/space.png": "/static/media/space.ba8a7ab9d08daf15c4cb.png",
+    "static/media/puzzle_v2.png": "/static/media/puzzle_v2.e41ce4acf691b6c53758.png",
+    "static/media/nvidia.png": "/static/media/nvidia.3c0d3fbaaba71c7e46b0.png",
+    "static/media/logo.PNG": "/static/media/logo.bee98d589ea3a5e8f8f5.PNG",
+    "static/media/nvidia_white.png": "/static/media/nvidia_white.1ea2c6a93cd6c2fcd527.png",
+    "static/media/airbnb.png": "/static/media/airbnb.e8c61a2b7a3964ee2779.png",
+    "static/media/cisco.png": "/static/media/cisco.3626987dddfdd6e0d179.png",
+    "static/media/hewlettpackard.png": "/static/media/hewlettpackard.1ea6d9ee789bfb4a1d8b.png",
+    "static/media/AWS.jpg": "/static/media/AWS.d29d59a4cc595ee1b734.jpg",
+    "static/media/slack.png": "/static/media/slack.4a47068f3e003d111eaa.png",
+    "static/media/uber.png": "/static/media/uber.c6c853d713d11a3c1c3d.png",
+    "static/media/WSJ.jpg": "/static/media/WSJ.3618f1b083772a27b2a6.jpg",
+    "static/media/spotify.png": "/static/media/spotify.8eef091b1fba251ca310.png",
+    "static/media/slack_white.png": "/static/media/slack_white.2ac9f5fe764308aed0fd.png",
+    "static/media/hewlettpackard_white.png": "/static/media/hewlettpackard_white.7f43caec5f3c26f20c13.png",
+    "static/media/uber_white.png": "/static/media/uber_white.d046ecc986b57472b94c.png",
+    "static/media/t-mobile.png": "/static/media/t-mobile.8af6a91678594654f580.png",
+    "index.html": "/index.html",
+    "main.640c42e4.css.map": "/static/css/main.640c42e4.css.map",
+    "main.08b2c172.js.map": "/static/js/main.08b2c172.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.640c42e4.css",
+    "static/js/main.08b2c172.js"
+  ]
+}
