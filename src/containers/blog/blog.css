@@ -69,6 +69,13 @@
     }
 }
 
+/*Computer formatting #2*/
+@media screen and (min-width: 1100px){
+    .nextensio__blog-heading br{
+        display: none;
+    }
+}
+
 /*Computer formatting*/
 @media screen and (max-width: 900px) {
     .nextensio__blog {
@@ -156,5 +163,12 @@
     .nextensio__blog-container_groupA
     .nextensio__blog-container_article-image img {
         width: 100%;
+    }
+}
+
+/*Mobile formatting #2*/
+@media screen and (max-width: 450px) {
+    .nextensio__blog-heading br{
+        display: none;
     }
 }

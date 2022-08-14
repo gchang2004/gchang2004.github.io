@@ -8,7 +8,7 @@ const Blog = () => {
     <div className="nextensio__blog section__padding" id="blog" >
         {/*Blog title*/}
         <div className="nextensio__blog-heading">
-          <h1 className="gradient__text">Take a look at what's new. A lot is happening.</h1>
+          <h1 className="gradient__text">Take a look at what's new. <br />A lot is happening.</h1>
         </div>
 
         {/* <Article /> is a component template imported here for use*/}

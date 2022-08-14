@@ -96,19 +96,19 @@
 /*Mobile formatting*/
 @media screen and (max-width: 490px) {
     .nextensio__TextTemplate-container__title h1{
-        font-size:28px;
+        font-size: 30px;
         line-height:36px;
         margin-bottom: 0.5rem;
     }
 
     .nextensio__TextTemplate-container__text p{
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .nextensio__TextTemplate-container__text h4{
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 32px;
 
         margin-top: 0.5rem;
     }

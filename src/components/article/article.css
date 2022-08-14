@@ -93,3 +93,17 @@
 
     color: var(--color-secondary);
 }
+
+/*Mobile formatting*/
+@media screen and (max-width: 490px) {
+    .nextensio__blog-container_article-content h2{
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .nextensio__blog-container_article-content p{
+        font-size: 16px;
+        line-height: 37px;
+    }
+
+}
