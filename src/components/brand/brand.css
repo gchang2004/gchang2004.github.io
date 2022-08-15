@@ -161,7 +161,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1920px) {
     .nextensio__brand{
         padding: 1.5rem 20rem 1.5rem 20rem;
     }

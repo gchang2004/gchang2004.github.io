@@ -46,7 +46,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1520px){
+@media screen and (min-width: 1920px){
     .nextensio__TextTemplate-container__title h1{
         font-size: 50px;
         line-height: 58px;

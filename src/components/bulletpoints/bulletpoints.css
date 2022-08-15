@@ -28,7 +28,7 @@
 
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 1920px){
     .nextensio__bulletpoints-container {
         align-items: center;
     }

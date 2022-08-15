@@ -173,7 +173,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1520px) {
+@media screen and (min-width: 1920px) {
     .nextensio__whatNextensio-features-title-block h2{
         font-size: 32px;
         line-height: 40px;

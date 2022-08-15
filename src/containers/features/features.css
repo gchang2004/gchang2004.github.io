@@ -75,7 +75,7 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1520px) {
+@media screen and (min-width: 1920px) {
     .nextensio__features{
         margin: 2rem 20rem;
     }

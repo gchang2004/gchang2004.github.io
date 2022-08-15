@@ -71,13 +71,13 @@
 }
 
 /*Widescreen formatting*/
-@media screen and (min-width: 1520px){
+@media screen and (min-width: 1920px){
     .nextensio__possibility {
         padding: 4rem 20rem 4rem 20rem;
     }
 }
 
-/*Tablet*/
+/*Tablet formatting*/
 @media screen and (max-width: 950px) {
     .nextensio__possibility {
         flex-direction: row;
