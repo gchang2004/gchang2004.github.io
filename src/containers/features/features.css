@@ -112,25 +112,27 @@
     .nextensio__features{
         margin: 2rem 2rem;
         padding: 1.25rem;
+        border-radius: 1rem;
+
         background-size: 210%;
         background-position: center;
     }
 
     .nextensio__features h2{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .nextensio__features h1{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .nextensio__features h3{
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .nextensio__features p{
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0.5rem;
     }
 }

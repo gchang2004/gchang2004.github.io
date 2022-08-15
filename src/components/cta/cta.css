@@ -38,7 +38,7 @@
     color: var(--color-primary);
     font-weight: 500;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 46px;
 }
 
 /*Customization for Heading text => Nextensio Gradient*/
@@ -46,7 +46,7 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 46px;
     margin-left: 10px;
 }
 
@@ -54,7 +54,7 @@
 .nextensio__cta-content p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 
     color: var(--color-primary);
@@ -183,15 +183,17 @@
         font-size: 30px;
         line-height: 33px;
         margin-bottom: 0.25rem;
+        text-align: center;
     }
 
     .nextensio__cta-content h2:last-child {
         margin-left: 0;
+        text-align: center;
     }
 
     .nextensio__cta-content p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 18px;
+        line-height: 26px;
         text-align: center;
     }
 
@@ -209,13 +211,13 @@
         text-align: center;
         padding: 0rem 5rem;
         min-height: 40px;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .nextensio__cta-interact button {
-        font-size: 16px;
+        font-size: 18px;
         min-width: 0;
-        padding: 0.25rem 1.5rem;
+        padding: 0.4rem 1.5rem;
         line-height: 28px;
         border-radius: 20px;
     }
@@ -223,6 +225,10 @@
 
 /*Mobile formatting #2*/
 @media screen and (max-width: 490px) {
+    .nextensio__cta {
+        border-radius: 20px;
+    }
+
     .nextensio__cta-interact input{
         padding: 0rem 1rem;
     }

@@ -35,7 +35,7 @@
     height: 3px;
     background: var(--gradient-bar);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 /*Customizations for "What is Nextensio" header*/
@@ -245,10 +245,6 @@
 
 /*Tablet formatting #2*/
 @media screen and (max-width: 800px){
-    .nextensio__whatNextensio{
-        padding: 2rem 2rem;
-    }
-
     .nextensio__whatNextensio-feature {
         display: block;
         flex-direction: column;
@@ -266,7 +262,15 @@
 
 /*Mobile formatting*/
 @media screen and (max-width: 560px) {
-    .nextensio__whatNextensio-container-spacer{
+    .nextensio__whatNextensio {
+        padding: 4rem 2rem 0rem 2rem;
+    }
+
+    .nextensio__whatNextensio-feature {
+        border-radius: 20px;
+    }
+    
+    .nextensio__whatNextensio-container-spacer {
         display: block;
         justify-content: center;
     }
@@ -288,8 +292,12 @@
 
     .nextensio__whatNextensio-heading h1{
         margin: unset;
-        margin-top: 0.5rem;
+        margin-top: 0.75rem;
+        margin-bottom: 1.5rem;
         text-align: center;
+
+        font-size: 32px;
+        line-height: 42px;
     }
 
     .nextensio__whatNextensio-heading__interact-input{

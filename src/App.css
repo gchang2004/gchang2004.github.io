@@ -34,24 +34,6 @@ a {
     text-decoration: none;
 }
 
-/*DEFAULT GRADIENT option ==> Change Later*/
-.gradient__bg {
-      /* ff 3.6+ */
-      background:-moz-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
-    
-      /* safari 5.1+,chrome 10+ */
-      background:-webkit-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
-    
-      /* opera 11.10+ */
-      background:-o-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
-
-      /* ie 10+ */
-      background:-ms-radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
-
-      /* global 92%+ browsers support */
-      background:radial-gradient(circle at 17% 10%, rgba(255, 255, 255, 1) 0%, rgba(230, 219, 230, 1) 100%);
-}
-
 /*Universal gradient text customization variable*/
 .gradient__text{
     background: var(--gradient-text);

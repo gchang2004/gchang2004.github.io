@@ -26,7 +26,7 @@ const NavBar = ({toggler, themeOutput, status}) => {
     <div className="nextensio__navbar" id="home">
       {/* logo features */}
       <div className="nextensio__navbar-links_logo">
-          <a href="https://nextensio.io/"><img src={logo} alt="logo"/></a>
+          <a href="https://gchang2004.github.io/"><img src={logo} alt="logo"/></a>
       </div>
 
       <div className="nextensio__navbar-links_spacing">
