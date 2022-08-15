@@ -100,6 +100,27 @@
     }
 }
 
+/*Computer formatting*/
+@media screen and (min-width: 1480px) {
+    .nextensio__features h2 {
+        font-size: 28px;
+    }
+    
+    .nextensio__features h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    .nextensio__features h3{
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .nextensio__features p{
+        font-size: 20px;
+    }
+}
+
 /*Tablet formatting*/
 @media screen and (max-width: 850px) {
     .nextensio__features{

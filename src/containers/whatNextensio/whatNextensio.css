@@ -181,11 +181,6 @@
         margin-right: 1rem;;
     }
 
-    .nextensio__whatNextensio-feature p{
-        font-size: 24px;
-        line-height: 34px;
-    }
-
     .nextensio__whatNextensio-heading h1{
         font-size: 50px;
         line-height: 62px;
@@ -203,6 +198,23 @@
     .nextensio__whatNextensio-container svg{
         transform: scale(1.2);
         margin-bottom: 1rem;
+    }
+}
+
+/*Computer formatting*/
+@media screen and (min-width: 1480px) {
+    .nextensio__whatNextensio-features-title-block h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .nextensio__whatNextensio-feature p{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    
+    .nextensio__whatNextensio-heading__interact-input button {
+        font-size: 22px;
     }
 }
 

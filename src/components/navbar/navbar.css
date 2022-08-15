@@ -249,7 +249,14 @@
     .nextensio__navbar {
         padding: 1.25rem 18rem;
     }
+}
 
+/*Computer formatting*/
+@media screen and (min-width: 1480px) {
+    .nextensio__navbar-links_logo img{
+        transform: scale(1.05);
+    }
+    
     .nextensio__navbar-links_container p {
         font-size: 20px;
     }

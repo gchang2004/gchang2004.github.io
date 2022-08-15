@@ -67,6 +67,24 @@
     }
 }
 
+/*Computer formatting*/
+@media screen and (min-width: 1480px) {
+    .nextensio__TextTemplate-container__title h1{
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .nextensio__TextTemplate-container__text p{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .nextensio__TextTemplate-container__text h4{
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
 /*Tablet formatting*/
 @media screen and (max-width: 950px) {
     .nextensio__TextTemplate-container {

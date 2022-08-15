@@ -136,12 +136,10 @@
     .nextensio__header-content h1{
         font-size: 70px;
         line-height: 80px;
-        margin-bottom: 2rem;;
+        margin-bottom: 2rem;
     }
 
     .nextensio__header-content p{
-        font-size: 22px;
-        line-height: 27px;
         margin: unset;
         margin-bottom: 1rem;
     }
@@ -152,8 +150,25 @@
 }
 
 /*Computer formatting*/
+@media screen and (min-width: 1480px) {
+    .nextensio__header-content h1{
+        font-size: 64px;
+        line-height: 78px;
+    }
+
+    .nextensio__header-content p{
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .nextensio__header-content__input button{
+        font-size: 22px;
+    }
+}
+
+/*Computer formatting*/
 @media screen and (max-width: 1050px){
-    .nextensio__header{
+    .nextensio__header {
         flex-direction: column;
     }
 

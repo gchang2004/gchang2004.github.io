@@ -32,10 +32,13 @@
     .nextensio__bulletpoints-container {
         align-items: center;
     }
-    
+}
+
+/*Computer formatting*/
+@media screen and (min-width: 1480px) {
     .nextensio__bulletpoints-container h3{
         font-size: 26px;
-        line-height: 65px;
+        line-height: 36px;
     }
 }
 

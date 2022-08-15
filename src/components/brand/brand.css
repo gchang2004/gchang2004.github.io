@@ -191,6 +191,19 @@
     }
 }
 
+/*Computer formatting #2*/
+@media screen and (min-width: 1480px) {
+    .nextensio__brand h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .nextensio__brand h2{
+        font-size: 22px;
+        line-height: 30px;    
+    }
+}
+
 /*Computer formatting*/
 @media screen and (max-width: 1050px) {
     .nextensio__gradient-bar div{

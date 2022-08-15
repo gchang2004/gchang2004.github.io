@@ -170,7 +170,7 @@ a {
 
 /*Media Queries => website adaptability to different device's px sizes*/
 /*Universal widescreen fomratting*/
-@media screen and (min-width: 1520px){
+@media screen and (min-width: 1920px){
   .section__padding{
     padding: 4rem 20rem;
   }

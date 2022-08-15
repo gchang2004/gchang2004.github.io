@@ -56,7 +56,7 @@
 }
 
 /*Computer formatting*/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1480px) {
     .nextensio__features-container__feature-title div{
         width: 75px;
     }
