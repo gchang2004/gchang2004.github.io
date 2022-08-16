@@ -150,11 +150,14 @@
     margin-bottom: 0.3rem;
 }
 
-/*Display setting for "Security"*/
-.nextensio__whatNextensio-container__icons {
-    display: unset;
-    margin: 0rem 1rem 0rem 1rem;
+/*Display setting for the THREE containers ==> SPACING*/
+.nextensio__whatNextensio-container__icons:first-child{
+    margin: 0 1rem 0 0;
+}
 
+/*Display setting for the THREE containers ==> SPACING*/
+.nextensio__whatNextensio-container__icons:last-child{
+    margin: 0 0 0 1rem;
 }
 
 /*Display settings for the feature container*/
@@ -292,8 +295,13 @@
 
     .nextensio__whatNextensio-container__icons {
         margin: unset;
+        text-align: center;
     }
-    
+
+    .nextensio__whatNextensio-container__icons svg {
+        width: 100%;
+    }
+
     .nextensio__whatNextensio-heading {
         display: block;
         justify-content: center;
