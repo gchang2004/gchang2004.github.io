@@ -43,7 +43,7 @@
 .nextensio__features-container__feature-text p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
 
     color: var(--color-primary);
@@ -63,6 +63,7 @@
     .nextensio__features-container__feature-text p {
         font-size: 22px;
         line-height: 32px;
+        min-width: 400px;
     }
 }
 

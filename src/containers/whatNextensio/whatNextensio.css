@@ -132,7 +132,7 @@
 /*Display seeting for the three feature boxes*/
 .nextensio__whatNextensio-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
 
     margin-top: 2rem;
@@ -152,12 +152,12 @@
 
 /*Display setting for the THREE containers ==> SPACING*/
 .nextensio__whatNextensio-container__icons:first-child{
-    margin: 0 2.5rem 0 0;
+    margin: 0 3rem 0 0;
 }
 
 /*Display setting for the THREE containers ==> SPACING*/
 .nextensio__whatNextensio-container__icons:last-child{
-    margin: 0 0 0 2.5rem;
+    margin: 0 0 0 3rem;
 }
 
 /*Display settings for the feature container*/
