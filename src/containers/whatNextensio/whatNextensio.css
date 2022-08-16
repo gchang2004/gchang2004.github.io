@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 25px 25px 25px 25px;
     background: #ffffff;
 
@@ -198,7 +198,7 @@
 /*Computer formatting*/
 @media screen and (min-width: 1480px) {
     .nextensio__whatNextensio-feature {
-        padding: 2.5rem 3rem;
+        padding: 2rem 3rem;
     }
 
     .nextensio__whatNextensio-features-title-block h2{

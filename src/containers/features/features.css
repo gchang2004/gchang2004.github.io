@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 2rem 4rem;
+    margin: 2rem 6rem;
 
     background: aliceblue;
     background-size: 100%;
@@ -126,6 +126,13 @@
 
     .nextensio__features-heading{
         margin-bottom: 0.75rem;
+    }
+}
+
+/*Computer formatting #2*/
+@media screen and (max-width: 1050px) {
+    .nextensio__features{
+        margin: 2rem 4rem;
     }
 }
 
