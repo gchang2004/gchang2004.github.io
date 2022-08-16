@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.640c42e4.css",
-    "main.js": "/static/js/main.08b2c172.js",
+    "main.css": "/static/css/main.2e1917f7.css",
+    "main.js": "/static/js/main.58fbbf8c.js",
     "static/media/infinite.png": "/static/media/infinite.5b2c903c461b5bce4fab.png",
     "static/media/geartriangle.png": "/static/media/geartriangle.3f0851c686d31a5a33d5.png",
     "static/media/thinker_v2.png": "/static/media/thinker_v2.4cb586d4362ef1af09a1.png",
@@ -13,7 +13,7 @@
     "static/media/space.png": "/static/media/space.ba8a7ab9d08daf15c4cb.png",
     "static/media/puzzle_v2.png": "/static/media/puzzle_v2.e41ce4acf691b6c53758.png",
     "static/media/nvidia.png": "/static/media/nvidia.3c0d3fbaaba71c7e46b0.png",
-    "static/media/logo.PNG": "/static/media/logo.bee98d589ea3a5e8f8f5.PNG",
+    "static/media/logo.PNG": "/static/media/logo.0a5cf9e352aafe2981d2.PNG",
     "static/media/nvidia_white.png": "/static/media/nvidia_white.1ea2c6a93cd6c2fcd527.png",
     "static/media/airbnb.png": "/static/media/airbnb.e8c61a2b7a3964ee2779.png",
     "static/media/cisco.png": "/static/media/cisco.3626987dddfdd6e0d179.png",
@@ -28,11 +28,11 @@
     "static/media/uber_white.png": "/static/media/uber_white.d046ecc986b57472b94c.png",
     "static/media/t-mobile.png": "/static/media/t-mobile.8af6a91678594654f580.png",
     "index.html": "/index.html",
-    "main.640c42e4.css.map": "/static/css/main.640c42e4.css.map",
-    "main.08b2c172.js.map": "/static/js/main.08b2c172.js.map"
+    "main.2e1917f7.css.map": "/static/css/main.2e1917f7.css.map",
+    "main.58fbbf8c.js.map": "/static/js/main.58fbbf8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.640c42e4.css",
-    "static/js/main.08b2c172.js"
+    "static/css/main.2e1917f7.css",
+    "static/js/main.58fbbf8c.js"
   ]
 }
