@@ -47,10 +47,10 @@
     .nextensio__bulletpoints-container h3 {
         line-height: 26px;
     }
-
+    
     .nextensio__bulletpoints-container h3 {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 32px;
         margin-left: 0.25rem;
     }
 }
@@ -59,11 +59,6 @@
 @media screen and (max-width: 490px) {
     .nextensio__bulletpoints-container svg{
         transform: scale(0.75);
-    }
-
-    .nextensio__bulletpoints-container h3 {
-        font-size: 20px;
-        line-height: 32px;
     }
 }
 

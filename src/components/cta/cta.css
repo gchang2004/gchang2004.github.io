@@ -140,6 +140,12 @@
 
 /*Computer formatting*/
 @media screen and (min-width: 1480px) {
+    .nextensio__cta-content h2,
+    .nextensio__cta-content h2:last-child{
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+    
     .nextensio__cta-content p{
         font-size: 24px;
         line-height: 38px;
@@ -192,26 +198,25 @@
         display: block;
     }
 
-    .nextensio__cta-content-title {
-        flex-direction: column;
+    .nextensio__cta-content-title{
         justify-content: center;
     }
 
     .nextensio__cta-content h2 {
-        font-size: 30px;
+        font-size: 34px;
         line-height: 33px;
         margin-bottom: 0.25rem;
         text-align: center;
     }
 
     .nextensio__cta-content h2:last-child {
-        margin-left: 0;
+        font-size: 34px;
         text-align: center;
     }
 
     .nextensio__cta-content p {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 30px;
         text-align: center;
     }
 
@@ -242,9 +247,19 @@
 }
 
 /*Mobile formatting #2*/
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 550px) {
     .nextensio__cta {
         border-radius: 20px;
+    }
+
+    .nextensio__cta-content-title {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nextensio__cta-content h2 {
+        font-size: 30px;
+        line-height: 33px;
     }
 
     .nextensio__cta-interact input{

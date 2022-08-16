@@ -86,7 +86,6 @@
     line-height: 55px;
     max-width: 510px;
     
-    margin-right: 1rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -203,6 +202,10 @@
 
 /*Computer formatting*/
 @media screen and (min-width: 1480px) {
+    .nextensio__whatNextensio-feature {
+        padding: 2.5rem 3rem;
+    }
+
     .nextensio__whatNextensio-features-title-block h2{
         font-size: 28px;
         line-height: 40px;
@@ -213,6 +216,12 @@
         line-height: 38px;
     }
     
+    .nextensio__whatNextensio-heading h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-right: unset;
+    }
+
     .nextensio__whatNextensio-heading__interact-input button {
         font-size: 22px;
     }
@@ -308,8 +317,8 @@
         margin-bottom: 1.5rem;
         text-align: center;
 
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 36px;
+        line-height: 44px;
     }
 
     .nextensio__whatNextensio-heading__interact-input{
