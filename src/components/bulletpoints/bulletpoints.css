@@ -55,11 +55,4 @@
     }
 }
 
-/*Mobile formatting*/
-@media screen and (max-width: 490px) {
-    .nextensio__bulletpoints-container svg{
-        transform: scale(0.75);
-    }
-}
-
 
