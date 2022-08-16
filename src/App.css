@@ -67,7 +67,7 @@ a {
 
 /*Scrollbar track customizations*/
 ::-webkit-scrollbar-track {
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: whitesmoke;
 }
 
 /*Scrollbar draggable track*/
