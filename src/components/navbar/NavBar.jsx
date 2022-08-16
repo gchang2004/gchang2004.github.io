@@ -20,7 +20,7 @@ const Menu = () => (
 const NavBar = ({toggler, themeOutput, status}) => {
   //Introducing toggle action to menu bar
   const [toggleMenu, setToggleMenu] = useState(false);
-  
+
   return (
     /*Navbar main skeleton*/
     <div className="nextensio__navbar" id="home">
