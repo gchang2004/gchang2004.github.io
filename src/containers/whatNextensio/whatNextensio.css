@@ -152,12 +152,12 @@
 
 /*Display setting for the THREE containers ==> SPACING*/
 .nextensio__whatNextensio-container__icons:first-child{
-    margin: 0 1rem 0 0;
+    margin: 0 2.5rem 0 0;
 }
 
 /*Display setting for the THREE containers ==> SPACING*/
 .nextensio__whatNextensio-container__icons:last-child{
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 2.5rem;
 }
 
 /*Display settings for the feature container*/
@@ -293,8 +293,12 @@
         justify-content: center;
     }
 
-    .nextensio__whatNextensio-container__icons {
+    .nextensio__whatNextensio-container__icons:first-child,
+    .nextensio__whatNextensio-container__icons:last-child{
         margin: unset;
+    }
+
+    .nextensio__whatNextensio-container__icons {
         text-align: center;
     }
 
