@@ -129,7 +129,7 @@
 /*Mobile formatting*/
 @media screen and (max-width: 490px) {
     .nextensio__possibility {
-        padding: 4rem 2rem 2rem 2rem;
+        padding: 4rem 2rem 0rem 2rem;
     }
     
     .nextensio__possibility-leftImage,
@@ -142,6 +142,14 @@
     .nextensio__possibility-leftImage img,
     .nextensio__possibility-rightImage img {
         width: 75%;
+    }
+
+    .nextensio__possibility-content{
+        margin-bottom: 2rem;
+    }
+
+    .nextensio__possibility-content:last-child{
+        margin: none;
     }
 
     .nextensio__possibility-list {

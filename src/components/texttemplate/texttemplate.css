@@ -92,8 +92,8 @@
     }
 
     .nextensio__TextTemplate-container__title h1{
-        font-size:32px;
-        line-height:36px ;
+        font-size: 32px;
+        line-height: 40px;
         margin: unset;
         margin-bottom: 0.6rem;
     }
@@ -106,7 +106,5 @@
     .nextensio__TextTemplate-container__text h4{
         font-size: 20px;
         line-height: 32px;
-
-        margin-top: 0.5rem;
     }
 }
