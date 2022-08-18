@@ -88,13 +88,18 @@ const Footer = () => {
 
         </div>
 
-        {/*Copyright body*/}
+        {/*Gradient bar divider*/}
+        <div className="nextensio__footer_gradient-bar">
+            <div />
+        </div>
+
+        {/*Copyright + Website language body*/}
         <div className="nextensio__footer-copyright">
             <p>Copyright © 2022 Nextensio Inc. All rights reserved.</p>
             <select name="languages" id="lang">
               <option value="United States">🇺🇸 United States</option>
-              <option value="United States">🇨🇳 中国</option>
-              <option value="United States">🇰🇷 대한민국</option>
+              <option value="China">🇨🇳 中国</option>
+              <option value="Korea">🇰🇷 대한민국</option>
             </select>  
         </div>
     </div>

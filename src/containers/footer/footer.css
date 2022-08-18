@@ -139,11 +139,28 @@
     margin-left: 0.4rem;
 }
 
+/*Display settings + customizations for the gradient bar*/
+.nextensio__footer_gradient-bar{
+    justify-content: center;
+    width: 100%;
+    height: 2px;
+    margin: 1rem 0rem 1rem 0rem;
+    background: rgb(230, 230, 230);
+    margin: 3rem 0 1rem 0rem;
+}
+
+/*DARK mode for the gradient bar*/
+#dark .nextensio__footer_gradient-bar{
+    background: #BFBFBF;
+}
+
 /*Display setting for copyright*/
 .nextensio__footer-copyright {
-    margin-top: 3rem;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 /*Customizations for the copyright texts*/
@@ -151,8 +168,31 @@
     font-family: var(--font-family);
     font-size: 12px;
     line-height: 14px;
+    margin-left: 1.1rem;
 
     color: var(--color-primary);
+}
+
+/*Customizations for the dropdown menu*/
+.nextensio__footer-copyright select{
+    display: inline-block;
+    margin-right: 1.1rem;
+    border-radius: 7px;
+    padding: 5px;
+    text-align: right;
+    border: none;
+    outline: none;
+
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    background-color: var(--color-ribbon);
+    color: var(--color-primary);
+    cursor: pointer;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 /*Widescreen formatting*/
