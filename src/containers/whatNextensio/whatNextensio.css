@@ -174,13 +174,28 @@
     margin-top: 0.3rem;
 }
 
+/*ULTRA-Widescreen formatting*/
+@media screen and (min-width: 2250px) {
+    .nextensio__whatNextensio-feature{
+        justify-content: space-between;
+    }
+    
+    .nextensio__whatNextensio-container__icons:first-child{
+        margin: 0 10rem 0 0;
+    }
+
+    .nextensio__whatNextensio-container__icons:last-child{
+        margin: 0 0 0 10rem;
+    }
+}
+
 /*Widescreen formatting*/
 @media screen and (min-width: 1920px) {
     .nextensio__whatNextensio-features-title-block h2{
         font-size: 32px;
         line-height: 40px;
         width: 200px;
-        margin-right: 1rem;;
+        margin-right: 1rem;
     }
     
     .nextensio__whatNextensio-heading img{
