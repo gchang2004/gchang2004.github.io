@@ -2,7 +2,6 @@ import React from 'react';
 import './footer.css';
 import logo from '../../assets/logos/logo.PNG';
 import { RiAppStoreLine, RiGooglePlayLine, RiLinkedinBoxLine, RiYoutubeLine, RiFacebookCircleLine, RiTwitterLine, RiInstagramLine } from 'react-icons/ri';
-import 'flag-icons/css/flag-icons.min.css';
 
 const Footer = () => {
   return (
@@ -94,8 +93,8 @@ const Footer = () => {
             <p>Copyright © 2022 Nextensio Inc. All rights reserved.</p>
             <select name="languages" id="lang">
               <option value="United States">🇺🇸 United States</option>
-              <option value="United States">中国</option>
-              <option value="United States">대한민국</option>
+              <option value="United States">🇨🇳 中国</option>
+              <option value="United States">🇰🇷 대한민국</option>
             </select>  
         </div>
     </div>
