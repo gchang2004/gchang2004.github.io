@@ -2,8 +2,19 @@ import React from 'react';
 import './footer.css';
 import logo from '../../assets/logos/logo.PNG';
 import { RiAppStoreLine, RiGooglePlayLine, RiLinkedinBoxLine, RiYoutubeLine, RiFacebookCircleLine, RiTwitterLine, RiInstagramLine } from 'react-icons/ri';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  //introducting variables from i18n
+  const { t, i18n } = useTranslation();
+
+  //purpose is to respond to the dropdown menu when clicked
+  function changeLocale() {
+    var selectBox = document.getElementById("lang"); //finds the dropdown box first
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value; //represents the options "index" order as the value passed (ex. value = "blah")
+    i18n.changeLanguage(selectedValue); //using the string value to change the language
+  }
+  
   return (
     <div className="nextensio__footer section__padding">
         {/*Skeleton container for the footer links*/}
@@ -11,8 +22,8 @@ const Footer = () => {
           {/*Logo body*/}
           <div className="nextensio__footer-links_logo">
             <a href="#home"><img src={logo} alt="logo" /></a>
-            <p>Established in 2022</p> 
-            <p>Based in Dover, DE</p>
+            <p>{t('date')}</p> 
+            <p>{t('location')}</p>
             <a href='mailto:support@nextensio.io
                       ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                       &body=Type%20Your%20Message%20Here'>
@@ -96,11 +107,11 @@ const Footer = () => {
         {/*Copyright + Website language body*/}
         <div className="nextensio__footer-copyright">
             <p>Copyright © 2022 Nextensio Inc. All rights reserved.</p>
-            <select name="languages" id="lang">
-              <option value="United States">🇺🇸 United States</option>
-              <option value="China">🇨🇳 中国</option>
-              <option value="Korea">🇰🇷 대한민국</option>
-            </select>  
+            <select id="lang" onChange={() => changeLocale()}>
+              <option value="en">🇺🇸 United States</option>
+              <option value="cn">🇨🇳 中国大陆</option>
+              <option value="ko">🇰🇷 대한민국</option>
+            </select> 
         </div>
     </div>
   )

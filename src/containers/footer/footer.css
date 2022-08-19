@@ -176,10 +176,10 @@
 /*Customizations for the dropdown menu*/
 .nextensio__footer-copyright select{
     display: inline-block;
-    margin-right: 1.1rem;
+    margin-right: 0.5rem;
     border-radius: 7px;
     padding: 5px;
-    text-align: right;
+    text-align: left;
     border: none;
     outline: none;
 
@@ -193,6 +193,17 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+/*Hover animation for the dropdown menu*/
+.nextensio__footer-copyright select:hover{
+    text-decoration: underline;
+    color: var(--color-secondary);
+}
+
+/*Customization for the dropdown menu options*/
+.nextensio__footer-copyright option{
+    color: var(--color-primary);
 }
 
 /*Widescreen formatting*/
