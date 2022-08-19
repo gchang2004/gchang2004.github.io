@@ -244,6 +244,19 @@
         margin: 1rem 0;
     }
 
+    .nextensio__footer-copyright{
+        display: block;
+        text-align: center;
+    }
+
+    .nextensio__footer-copyright p{
+        margin-left: unset;
+        margin-bottom: 0.5rem;
+    }
+    .nextensio__footer-copyright select{
+        margin-right: unset;
+    }
+
 }
 
 /*Mobile formatting*/
