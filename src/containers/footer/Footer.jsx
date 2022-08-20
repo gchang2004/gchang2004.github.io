@@ -25,11 +25,11 @@ const Footer = () => {
           <div className="nextensio__footer-links_logo">
             <a href="#home"><img src={logo} alt="logo" /></a>
             <p>{t('date')}</p> 
-            <p>{t('location')}</p>
+            <p>Based in Dover, DE</p>
             <a href='mailto:support@nextensio.io
                       ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                       &body=Type%20Your%20Message%20Here'>
-              <h6>{t('email')}</h6>
+              <h6>support@nextensio.io</h6>
             </a>
             <div className="nextensio__footer-links_social-media">
               <a href='https://www.linkedin.com/'>
@@ -82,14 +82,14 @@ const Footer = () => {
             <div className="nextensio__footer-links_hyperlinks">
               <a href="https://www.apple.com/app-store/">
                 <RiAppStoreLine size={26}/>
-                <p>{t('App Store')}</p>
+                <p>App Store</p>
               </a>
             </div>
 
             <div className="nextensio__footer-links_hyperlinks">
               <a href="https://play.google.com/store/games?hl=en&gl=US">
                 <RiGooglePlayLine size={26}/>
-                <p>{t('Google Play')}</p>
+                <p>Google Play</p>
               </a>
             </div>
             <a href='mailto:support@nextensio.io
