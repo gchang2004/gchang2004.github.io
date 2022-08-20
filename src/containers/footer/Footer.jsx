@@ -112,7 +112,7 @@ const Footer = () => {
             <select id="lang" onChange={() => changeLocale()}>
               <option value="en">🇺🇸 United States</option>
               <option value="cn">🇨🇳 中国大陆</option>
-              <option value="ko">🇰🇷 대한민국</option>
+              <option value="es">🇪🇸 España</option>
             </select> 
         </div>
     </div>

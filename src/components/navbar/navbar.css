@@ -51,13 +51,16 @@
     align-items: center;
 }
 
-/*Display settings/customizations for the Login ICON*/
-.nextensio__navbar-contact svg {
+/*Dispaly settings for the Login-IN ICON*/
+.nextensio__navbar-contact a{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-right: 0.75rem;
+}
 
+/*Customizations for the Login-IN ICON*/
+.nextensio__navbar-contact svg {
+    margin-right: 0.75rem;
     color: var(--color-icon);
 }
 
@@ -198,6 +201,7 @@
 .nextensio__navbar-menu_container button {
     display: flex;
     flex-direction: row;
+    text-align: left;
 
     font-size: 22px;
     font-weight: 500;
@@ -282,19 +286,19 @@
     .nextensio__navbar {
         padding: 2rem 3rem;
     }
+    
+    .nextensio__navbar-contact {
+        display: none;
+    }
+
+    .nextensio__navbar-menu_container-links-contact {
+        display: block;
+    }
 }
 
 /*Mobile formatting*/
 @media screen and (max-width: 550px){
     .nextensio__navbar {
         padding: 2rem;
-    }
-
-    .nextensio__navbar-contact {
-        display: none;
-    }
-    
-    .nextensio__navbar-menu_container-links-contact {
-        display: block;
     }
 }
