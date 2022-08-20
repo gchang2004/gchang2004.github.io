@@ -4,7 +4,13 @@ import { airbnb, cisco, hewlettpackard, nvidia, slack, spotify, tmobile, uber } 
 import { hewlettpackard_white, nvidia_white, slack_white, uber_white } from './imports'; //DARK Mode Images
 import Marquee from "react-fast-marquee"; //sliding marquee for tablet/mobile formats
 
+//internationalizing using i18next
+import { useTranslation } from 'react-i18next';
+
 const Brand = () => {
+  //introducting variables from i18n
+  const { t } = useTranslation();
+
   return (
     <div className="nextensio__brand section__padding" id="brand">
       {/*Gradient Bar*/}
@@ -14,9 +20,9 @@ const Brand = () => {
 
       {/*Brand introduction title*/}
       <div className="nextensio__brand-title">
-        <h3 class="label">Deployed in</h3>
-        <h2 class="gradient__text">established brand companies</h2>
-        <h3 class="label">worldwide</h3>
+        <h3 class="label">{t('brand-1')}</h3>
+        <h2 class="gradient__text">{t('brand-2')}</h2>
+        <h3 class="label">{t('brand-3')}</h3>
       </div>
 
       <div className="nextensio__brand-marquee">

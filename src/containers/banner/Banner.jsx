@@ -3,7 +3,13 @@ import './banner.css';
 import { RiCloseLine } from 'react-icons/ri';
 import Toggle from '../../components/toggle/Toggle';
 
+//internationalizing using i18next
+import { useTranslation } from 'react-i18next';
+
 function Banner (props) {
+  //introducting variables from i18n
+  const { t } = useTranslation();
+
   /*Setting the App.js variables for dark/light mode to props*/
   const toggler = props.toggler;
   const themeOutput = props.themeOutput;
@@ -21,13 +27,13 @@ function Banner (props) {
       {/*Main banner text*/}
       <div className="nextensio__banner-text">
         <h5>👋</h5>
-        <p>Nextensio is an early startup.</p>
+        <p>{t('banner-1')}</p>
         <a href='mailto:support@nextensio.io
                     ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                     &body=Type%20Your%20Message%20Here'>
-          <h4>Contact Us</h4>
+          <h4>{t('banner-contact')}</h4>
         </a>
-        <p>for more information.</p>
+        <p>{t('banner-2')}</p>
         <h5>🎯</h5>
       </div>
       

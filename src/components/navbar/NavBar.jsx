@@ -4,20 +4,14 @@ import { RiMenuLine, RiCloseLine, RiAccountCircleLine, RiArrowRightSLine } from 
 import logo from '../../assets/logos/logo.PNG';
 import Toggle from '../toggle/Toggle'; //DARK/LIGHT mode toggler
 
-const Menu = () => (
-  <>
-  {/*Menu Options for TOP NavBar*/}
-  <p>
-    <a href='#whatNextensio'>About</a>
-  </p>
-  <p><a href='#features'>Our Mission</a></p>
-  <p><a href='#possibility'>Solutions</a></p>
-  <p><a href='#blog'>Explore</a></p>
-  </>
-)
+//internationalizing using i18next
+import { useTranslation } from 'react-i18next';
 
 //Naming Convention ==> Block Element Modifier (BEM)
 const NavBar = ({toggler, themeOutput, status}) => {
+  //introducting variables from i18n
+  const { t } = useTranslation();
+  
   //Introducing toggle action to menu bar
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -32,7 +26,11 @@ const NavBar = ({toggler, themeOutput, status}) => {
       <div className="nextensio__navbar-links_spacing">
         {/* TOP Menu-bar features */}
         <div className="nextensio__navbar-links_container">
-            <Menu />
+          {/*Menu Options for TOP NavBar*/}
+          <p><a href='#whatNextensio'>{t('About Us')}</a></p>
+          <p><a href='#features'>{t('Our Mission')}</a></p>
+          <p><a href='#possibility'>{t('Solutions')}</a></p>
+          <p><a href='#blog'>{t('Explore')}</a></p>
         </div>
       </div>
         
@@ -45,7 +43,7 @@ const NavBar = ({toggler, themeOutput, status}) => {
         <a href='mailto:support@nextensio.io
                     ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                     &body=Type%20Your%20Message%20Here'>
-          <button type="button">Contact Us</button>
+          <button type="button">{t('navbar-contact')}</button>
         </a>
       </div>
 
@@ -80,19 +78,19 @@ const NavBar = ({toggler, themeOutput, status}) => {
           {/*SIDE Menu-bar features*/}
           <div className='nextensio__navbar-menu_container-links'>
             <a href='#whatNextensio' onClick={() => setToggleMenu(false)}>
-              <button type="button">About</button>
+              <button type="button">{t('About Us')}</button>
               <RiArrowRightSLine size={27}/>
             </a>
             <a href='#features' onClick={() => setToggleMenu(false)}>
-              <button type="button">Our Mission</button>
+              <button type="button">{t('Our Mission')}</button>
               <RiArrowRightSLine size={27}/>
             </a>
             <a href='#possibility' onClick={() => setToggleMenu(false)}>
-              <button>Solutions</button>
+              <button>{t('Solutions')}</button>
               <RiArrowRightSLine size={27}/>
             </a>
             <a href='#blog' onClick={() => setToggleMenu(false)}>
-              <button>Explore</button>
+              <button>{t('Explore')}</button>
               <RiArrowRightSLine size={27}/>
             </a>
           </div>
@@ -106,15 +104,15 @@ const NavBar = ({toggler, themeOutput, status}) => {
           <div className='nextensio__navbar-menu_container-links-contact'>
             <a href="https://login.nextensio.net/">
               <RiAccountCircleLine size={30}/>
-              <button type="button">Sign In/Create Account</button>
+              <button type="button">{t('navbar-account')}</button>
             </a>
           </div>
           <a href='mailto:support@nextensio.io
                   ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                   &body=Type%20Your%20Message%20Here'>
-            <button type="button">Contact Us</button>
+            <button type="button">{t('Contact Us')}</button>
           </a>
-          <button type="button">For Business</button>
+          <button type="button">{t('navbar-business')}</button>
         </div>
       </div>)}
 

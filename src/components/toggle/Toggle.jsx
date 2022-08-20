@@ -3,7 +3,13 @@ import './toggle.css';
 import ReactSwitch from 'react-switch';
 import { RiSunLine, RiMoonLine } from 'react-icons/ri';
 
+//internationalizing using i18next
+import { useTranslation } from 'react-i18next';
+
 const Toggle = ({toggler, themeOutput, status}) => {
+  //introducting variables from i18n
+  const { t } = useTranslation();
+
   return (
     <div className="nextensio__theme-toggle">
         {/*Light/Dark Mode Toggler 😄 */}
@@ -29,7 +35,7 @@ const Toggle = ({toggler, themeOutput, status}) => {
                 viewBox="3.5 -3 10 20"> {/*icon display positioning*/}
                 <RiSunLine /></svg>}
             />
-        <label>{status === "light" ? "Light Mode" : "Dark Mode"}</label>
+        <label>{status === "light" ? t('toggle-light') : t('toggle-dark')}</label>
     </div>
   )
 }
