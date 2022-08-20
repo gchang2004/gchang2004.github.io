@@ -1,3 +1,4 @@
+//I18next is the core of the i18n functionality while react-i18next extends and glues it to react.
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';

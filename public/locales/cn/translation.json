@@ -1,4 +1,30 @@
 {
-    "date":"adfasdfasfdasdf",
-    "location": "fdfadfasdfIN"
-}
+    "_comment": "FOOTER.JSX",
+        "date":"Established in 202",
+        "location": "Based in Dover, D",
+        "email": "support@nextensio.i",
+        "footer-category": {
+            "header-1": "Link",
+            "weblink-1": "About U",
+            "weblink-2": "Our Missio",
+            "weblink-3": "Solution",
+            "weblink-4": "Explor",
+    
+            "header-2": "Compan",
+            "weblink-5": "Terms & Condition",
+            "weblink-6": "Privacy Polic",
+            "weblink-7": "Sustainability & Impac",
+            "weblink-8": "Career",
+    
+            "header-3": "Busines",
+            "weblink-9": "Partner",
+            "weblink-10": "Investor",
+            "weblink-11": "Developer Porta",
+    
+            "header-4": "Get Started Toda",
+            "weblink-12": "App Stor",
+            "weblink-13": "Google Pla",
+            "weblink-14": "Request Dem"
+        },
+        "legal": "Copyright © 2022 Nextensio Inc. All rights reserved"
+    }

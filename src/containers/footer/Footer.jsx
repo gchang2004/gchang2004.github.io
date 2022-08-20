@@ -2,6 +2,8 @@ import React from 'react';
 import './footer.css';
 import logo from '../../assets/logos/logo.PNG';
 import { RiAppStoreLine, RiGooglePlayLine, RiLinkedinBoxLine, RiYoutubeLine, RiFacebookCircleLine, RiTwitterLine, RiInstagramLine } from 'react-icons/ri';
+
+//internationalizing using i18next
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -27,7 +29,7 @@ const Footer = () => {
             <a href='mailto:support@nextensio.io
                       ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                       &body=Type%20Your%20Message%20Here'>
-              <h6>support@nextensio.io</h6>
+              <h6>{t('email')}</h6>
             </a>
             <div className="nextensio__footer-links_social-media">
               <a href='https://www.linkedin.com/'>
@@ -50,50 +52,50 @@ const Footer = () => {
 
           {/*Webpage Quicklinks body*/}
           <div className="nextensio__footer-links_div">
-            <h4>Links</h4>
-            <a href='#whatNextensio'><p>About Us</p></a>
-            <a href='#features'><p>Our Mission</p></a>
-            <a href='#possibility'><p>Solutions</p></a>
-            <a href='#blog'><p>Explore</p></a>
+            <h4>{t('Links')}</h4>
+            <a href='#whatNextensio'><p>{t('About Us')}</p></a>
+            <a href='#features'><p>{t('Our Mission')}</p></a>
+            <a href='#possibility'><p>{t('Solutions')}</p></a>
+            <a href='#blog'><p>{t('Explore')}</p></a>
           </div>
 
           {/*Company resources body*/}
           <div className="nextensio__footer-links_div">
-            <h4>Company</h4>
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy</p>
-            <p>Sustainability & Impact</p>
-            <p>Careers</p>
+            <h4>{t('Company')}</h4>
+            <p>{t('Terms & Conditions')}</p>
+            <p>{t('Privacy Policy')}</p>
+            <p>{t('Sustainability & Impact')}</p>
+            <p>{t('Careers')}</p>
           </div>
 
           {/*Business info body*/}
           <div className="nextensio__footer-links_div">
-            <h4>Business</h4>
-            <a href='#brand'><p>Partners</p></a>
-            <p>Investors</p>
-            <a href='https://nextensio.status.io/'><p>Developer Portal</p></a>
+            <h4>{t('Business')}</h4>
+            <a href='#brand'><p>{t('Partners')}</p></a>
+            <p>{t('Investors')}</p>
+            <a href='https://nextensio.status.io/'><p>{t('Developer Portal')}</p></a>
           </div>
 
           {/*Contact info body*/}
           <div className="nextensio__footer-links_div">
-            <h4>Get Started Today</h4>
+            <h4>{t('Get Started Today')}</h4>
             <div className="nextensio__footer-links_hyperlinks">
               <a href="https://www.apple.com/app-store/">
                 <RiAppStoreLine size={26}/>
-                <p>App Store</p>
+                <p>{t('App Store')}</p>
               </a>
             </div>
 
             <div className="nextensio__footer-links_hyperlinks">
               <a href="https://play.google.com/store/games?hl=en&gl=US">
                 <RiGooglePlayLine size={26}/>
-                <p>Google Play</p>
+                <p>{t('Google Play')}</p>
               </a>
             </div>
             <a href='mailto:support@nextensio.io
                     ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                     &body=Type%20Your%20Message%20Here'>
-              <p>Request Demo</p>
+              <p>{t('Request Demo')}</p>
             </a>
           </div>
 
@@ -106,7 +108,7 @@ const Footer = () => {
 
         {/*Copyright + Website language body*/}
         <div className="nextensio__footer-copyright">
-            <p>Copyright © 2022 Nextensio Inc. All rights reserved.</p>
+            <p>{t('legal')}</p>
             <select id="lang" onChange={() => changeLocale()}>
               <option value="en">🇺🇸 United States</option>
               <option value="cn">🇨🇳 中国大陆</option>

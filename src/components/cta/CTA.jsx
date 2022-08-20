@@ -1,24 +1,30 @@
 import React from 'react';
 import './cta.css';
 
+//internationalizing using i18next
+import { useTranslation } from 'react-i18next';
+
 const CTA = () => {
+  //introducting variables from i18n
+  const { t } = useTranslation();
+
   return (
     <div className="nextensio__cta">
         {/*Text content*/}
         <div className="nextensio__cta-content">
           {/*Title + Gradient Logo*/}
           <div className="nextensio__cta-content-title">
-            <h2>Get started with</h2>
-            <h2 className="gradient__text">Nextensio</h2>
+            <h2>{t('cta-title-1')}</h2>
+            <h2 className="gradient__text">{t('cta-title-2')}</h2>
           </div>
-          <p>Many companies find that constantly maintaining their current system consumes their IT budget for new technology. By subscribing to our service, you can focus on what you do best -- running your business.</p>
+          <p>{t('cta-text')}</p>
         </div>
 
         {/*Email + Button*/}
         <div className="nextensio__cta-interact">
           <input type="email" id="email" placeholder='Your company email' autoComplete='email'/>
           <a href='https://controller.nextensio.net/signup'>
-            <button type="button">Get Started</button>
+            <button type="button">{t('cta-button')}</button>
           </a>
         </div>
 
