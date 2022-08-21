@@ -123,6 +123,8 @@
     background: rgba(0,0,0,0.85);
     backdrop-filter: blur(7px);
     z-index: 20;
+
+    cursor: pointer;
 }
 
 /*MENU icon display settings*/
@@ -155,6 +157,8 @@
     top: 0px;
     right: 0px;
     height: 100%;
+
+    cursor: auto;
 }
 
 /*DARK/LIGHT Mode toggler settings*/
@@ -268,23 +272,18 @@
 
 /*Computer formatting*/
 @media screen and (max-width: 1205px){
+    /*Horizontal weblinks*/
     .nextensio__navbar-links_container {
         display: none;
     }
 
+    /*Side menu + ICON*/
     .nextensio__navbar-menu {
         display: flex;
     }
 
+    /*Screen-dimmer*/
     .nextensio__navbar-menu_container-dimmed {
-        display: block;
-    }
-
-    .nextensio__navbar-contact {
-        display: none;
-    }
-
-    .nextensio__navbar-menu_container-links-contact {
         display: block;
     }
 }
@@ -300,5 +299,13 @@
 @media screen and (max-width: 550px){
     .nextensio__navbar {
         padding: 2rem;
+    }
+
+    .nextensio__navbar-contact {
+        display: none;
+    }
+
+    .nextensio__navbar-menu_container-links-contact {
+        display: block;
     }
 }

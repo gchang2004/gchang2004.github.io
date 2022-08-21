@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './navbar.css';
 import { RiMenuLine, RiCloseLine, RiAccountCircleLine, RiArrowRightSLine } from 'react-icons/ri';
 import logo from '../../assets/logos/logo.PNG';
@@ -7,6 +7,30 @@ import Toggle from '../toggle/Toggle'; //DARK/LIGHT mode toggler
 //internationalizing using i18next
 import { useTranslation } from 'react-i18next';
 
+const useClickOutside = (handler) => {
+  //Introducing reference variable to the side-menu div
+  const menuRef = useRef();
+
+  //useEffect to close the side-menu
+  useEffect(() => {
+    //checks if the mouse position is outside of the assigned div ==> side-menu
+    const executeHandler = (event) => {
+      if(!menuRef.current.contains(event.target)){
+        handler(); //then sets setToggleMenu(false)
+      }
+  }
+  //executes the command when the user clicks
+  document.addEventListener('mousedown', executeHandler)
+
+  //post-cleanup to remove the listener event
+  return () =>{
+    document.removeEventListener("mousedown", executeHandler)
+  }
+  })
+  
+  return menuRef;
+}
+
 //Naming Convention ==> Block Element Modifier (BEM)
 const NavBar = ({toggler, themeOutput, status}) => {
   //introducting variables from i18n
@@ -14,6 +38,11 @@ const NavBar = ({toggler, themeOutput, status}) => {
   
   //Introducing toggle action to menu bar
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  //Side-menu bar closes when clicked outside of the div
+  const menuRef = useClickOutside(() => {
+    setToggleMenu(false);
+  })
 
   return (
     /*Navbar main skeleton*/
@@ -64,7 +93,7 @@ const NavBar = ({toggler, themeOutput, status}) => {
       {/* What the menu looks like when clicked! */}
       {toggleMenu && (
       <div className="nextensio__navbar-menu_container-dimmed fade-in">
-        <div className='nextensio__navbar-menu_container slide-in-right' id="menubar">
+        <div className='nextensio__navbar-menu_container slide-in-right' ref={menuRef} id="menubar">
           {/*Menu buttons*/}
           <div className='nextensio__navbar-menu_toggler'>
           <Toggle toggler={toggler} themeOutput={themeOutput} status={status}/>
@@ -107,12 +136,12 @@ const NavBar = ({toggler, themeOutput, status}) => {
               <button type="button">{t('navbar-account')}</button>
             </a>
           </div>
-          <a href='mailto:support@nextensio.io
-                  ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
-                  &body=Type%20Your%20Message%20Here'>
-            <button type="button">{t('Contact Us')}</button>
-          </a>
-          <button type="button">{t('navbar-business')}</button>
+            <a href='mailto:support@nextensio.io
+                    ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                    &body=Type%20Your%20Message%20Here'>
+              <button type="button">{t('Contact Us')}</button>
+            </a>
+            <button type="button">{t('navbar-business')}</button>
         </div>
       </div>)}
 
