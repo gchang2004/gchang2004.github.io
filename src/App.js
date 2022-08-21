@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <LocaleContext.Provider value={{locale, setLocale}}>
-      <Suspense fallback={(<div>Loading ~~~</div>)}>
+      <Suspense fallback={(<div></div>)}>
         <ThemeContext.Provider value={{theme, toggleTheme}}>
           <div className="App" id={theme} >
             {/*Website TAB Description*/}

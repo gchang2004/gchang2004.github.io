@@ -267,7 +267,7 @@
 }
 
 /*Computer formatting*/
-@media screen and (max-width: 1055px){
+@media screen and (max-width: 1205px){
     .nextensio__navbar-links_container {
         display: none;
     }
@@ -279,20 +279,20 @@
     .nextensio__navbar-menu_container-dimmed {
         display: block;
     }
-}
 
-/*Tablet formatting*/
-@media screen and (max-width: 800px){
-    .nextensio__navbar {
-        padding: 2rem 3rem;
-    }
-    
     .nextensio__navbar-contact {
         display: none;
     }
 
     .nextensio__navbar-menu_container-links-contact {
         display: block;
+    }
+}
+
+/*Tablet formatting*/
+@media screen and (max-width: 800px){
+    .nextensio__navbar {
+        padding: 2rem 3rem;
     }
 }
 

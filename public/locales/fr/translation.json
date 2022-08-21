@@ -7,10 +7,10 @@
     "toggle-dark": "Mode Sombre",
 
 "__comment-2": "NAVBAR.JSX",
-    "About Us": "À propos de nous",
-    "Our Mission": "Notre mission",
+    "About Us": "À Propo",
+    "Our Mission": "Notre Mission",
     "Solutions": "Solutions",
-    "Explore": "À découvrir",
+    "Explore": "Découvrir",
 
     "navbar-contact": "Contactez-nous",
     "navbar-account": "Se connecter/Créer un compte",
@@ -44,7 +44,7 @@
     "main-container-text-3": "Accélérez et optimisez les opérations cloud pour les clients et les partenaires du secteur.",
 
 "__comment-6": "FEATURES.JSX",
-    "features-heading": "Notre mission",
+    "features-heading": "Notre Mission",
     "features-content": "Le monde de la technologie peut être rapide et passionnant. Notre objectif est de fournir une expérience applicative multicloud immersive à tout moment et en tout lieu. Nous aimons responsabiliser les PME dans leur transformation numérique avec une seule dépense dans le cloud.",
     "features-link": "Lire la suite de Rapport Sustainability & Impact de Nextensio",
 

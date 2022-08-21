@@ -3,12 +3,12 @@
     "banner-1": "Nextensio es una de las primeras empresas.",
     "banner-contact": "Contáctenos",
     "banner-2": "para más información.",
-    "toggle-light": "Modo de luz",
-    "toggle-dark": "Modo oscuro",
+    "toggle-light": "Modo de Luz",
+    "toggle-dark": "Modo Oscuro",
 
 "__comment-2": "NAVBAR.JSX",
-    "About Us": "Sobre nosotros",
-    "Our Mission": "Nuestra misión",
+    "About Us": "Sobre Nosotros",
+    "Our Mission": "Nuestra Misión",
     "Solutions": "Soluciones",
     "Explore": "Explorar",
 
@@ -44,7 +44,7 @@
     "main-container-text-3": "Acelerar y optimizar las operaciones en la nube para los clientes y socios de la industria.",
 
 "__comment-6": "FEATURES.JSX",
-    "features-heading": "Nuestra misión",
+    "features-heading": "Nuestra Misión",
     "features-content": "El mundo de la tecnología puede ser rápido y emocionante. Nuestro objetivo es proporcionar una experiencia de aplicación multinube inmersiva en cualquier momento y lugar. Nos gusta empoderar a las empresas de pymes en su transformación digital con un solo gasto en la nube.",
     "features-link": "Leer más sobre el informe de sostenibilidad e impacto de Nextensio",
 
