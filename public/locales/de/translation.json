@@ -1,10 +1,10 @@
 {
 "__comment-1": "BANNER.JSX + TOGGLE.JSX",
-    "banner-1": "Nextensio is an early startup.",
-    "banner-contact": "Contact Us",
-    "banner-2": "for more information.",
-    "toggle-light": "Light Mode",
-    "toggle-dark": "Dark Mode",
+    "banner-1": "Nextensio ist ein frühes Startup.",
+    "banner-contact": "Kontaktieren Sie uns",
+    "banner-2": "für weitere Informationen.",
+    "toggle-light": "Lichtmodus",
+    "toggle-dark": "Nachtmodus",
 
 "__comment-2": "NAVBAR.JSX",
     "About Us": "Über uns",
@@ -12,9 +12,9 @@
     "Solutions": "Lösungen",
     "Explore": "Erkunden",
 
-    "navbar-contact": "Contact Us",
-    "navbar-account": "Sign In/Create Account",
-    "navbar-business": "For Business",
+    "navbar-contact": "Kontaktiere Sieuns",
+    "navbar-account": "Anmelden/Konto erstellen",
+    "navbar-business": "Für Unternehmen",
 
 "__comment-3": "HEADER.JSX",
     "title":"Cloud-Infrastruktur für Grenzenlose Unternehmen",

@@ -2,7 +2,7 @@
 "__comment-1": "BANNER.JSX + TOGGLE.JSX",
     "banner-1": "Nextensio是一家早期的初创公司。",
     "banner-contact": "联系我们",
-    "banner-2": "了解更多信息。",
+    "banner-2": "获取更多信息。",
     "toggle-light": "光模式",
     "toggle-dark": "深色模式",
 
@@ -23,9 +23,9 @@
     "header-button-2":"了解更多",
 
 "__comment-4": "BRAND.JSX",
-    "brand-1": "部署在",
-    "brand-2": "成熟的品牌公司",
-    "brand-3": "世界范围内",
+    "brand-1": "部署于",
+    "brand-2": "全球知名品牌",
+    "brand-3": "公司",
 
 "__comment-5": "WHATNEXTENSIO.JSX",
     "main-heading": "什么是Nextensio",
