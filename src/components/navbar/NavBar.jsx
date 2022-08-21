@@ -7,24 +7,34 @@ import Toggle from '../toggle/Toggle'; //DARK/LIGHT mode toggler
 //internationalizing using i18next
 import { useTranslation } from 'react-i18next';
 
-const useClickOutside = (handler) => {
+const useCloseMenu = (handler) => {
   //Introducing reference variable to the side-menu div
   const menuRef = useRef();
 
   //useEffect to close the side-menu
   useEffect(() => {
     //checks if the mouse position is outside of the assigned div ==> side-menu
-    const executeHandler = (event) => {
-      if(!menuRef.current.contains(event.target)){
+    const useClickOutside = (event) => {
+      if(!menuRef.current.contains(event.target) || event.keyCode === 27){
         handler(); //then sets setToggleMenu(false)
       }
-  }
-  //executes the command when the user clicks
-  document.addEventListener('mousedown', executeHandler)
+    }
+
+    //checks if the escape key is pressed
+    const useEscapeKey = (event) => {
+      if(event.keyCode === 27){
+          handler(); //then sets setToggleMenu(false)
+        }
+    }
+
+  //executes the command when the user clicks or presses the escape key
+  document.addEventListener("mousedown", useClickOutside);
+  document.addEventListener("keydown", useEscapeKey);
 
   //post-cleanup to remove the listener event
-  return () =>{
-    document.removeEventListener("mousedown", executeHandler)
+  return () => {
+    document.removeEventListener("mousedown", useClickOutside);
+    document.removeEventListener("keydown", useEscapeKey);
   }
   })
   
@@ -39,8 +49,8 @@ const NavBar = ({toggler, themeOutput, status}) => {
   //Introducing toggle action to menu bar
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  //Side-menu bar closes when clicked outside of the div
-  const menuRef = useClickOutside(() => {
+  //Side-menu bar closes when clicked outside of the div or when the escape key is pressed 
+  const menuRef = useCloseMenu(() => {
     setToggleMenu(false);
   })
 
