@@ -1,0 +1,120 @@
+{
+"__comment-1": "BANNER.JSX + TOGGLE.JSX",
+    "banner-1": "Nextensio est une start-up précoce.",
+    "banner-contact": "Contactez-nous",
+    "banner-2": "pour plus d'informations",
+    "toggle-light": "Mode Lumière",
+    "toggle-dark": "Mode Sombre",
+
+"__comment-2": "NAVBAR.JSX",
+    "About Us": "À propos de nous",
+    "Our Mission": "Notre mission",
+    "Solutions": "Solutions",
+    "Explore": "À découvrir",
+
+    "navbar-contact": "Contactez-nous",
+    "navbar-account": "Se connecter/Créer un compte",
+    "navbar-business": "Pour les entreprises",
+
+"__comment-3": "HEADER.JSX",
+    "title":"Infrastructure Cloud pour une entreprise sans frontières",
+    "subtitle":"Nous rendons vos applications multicloud portables.",
+    "header-button-1":"Obtenez notre livre blanc",
+    "header-button-2":"En savoir plus",
+
+"__comment-4": "BRAND.JSX",
+    "brand-1": "Déployé dans des" ,
+    "brand-2": "entreprises de marque établies",
+    "brand-3": "dans le monde entier",
+
+"__comment-5": "WHATNEXTENSIO.JSX",
+    "main-heading": "Qu'est-ce que Nextensio",
+    "main-text": "Nextensio est une infrastructure cloud native moderne permettant la livraison d'applications multicloud à la périphérie en quelques minutes.",
+    
+    "whatNextensio-heading": "Réinventer l'avenir du Cloud Computing",
+    "whatNextensio-button": "Demande de démo",
+
+    "main-container-title-1": "Mise en réseau",
+    "main-container-text-1": "Soutenez la connectivité multicloud pour tous les clouds et offrez l'avenir du travail.",
+
+    "main-container-title-2": "Sécurité",
+    "main-container-text-2": "Simplifiez la sécurité de bout en bout tout en optimisant l'expérience applicative.",
+
+    "main-container-title-3": "Évolutivité",
+    "main-container-text-3": "Accélérez et optimisez les opérations cloud pour les clients et les partenaires du secteur.",
+
+"__comment-6": "FEATURES.JSX",
+    "features-heading": "Notre mission",
+    "features-content": "Le monde de la technologie peut être rapide et passionnant. Notre objectif est de fournir une expérience applicative multicloud immersive à tout moment et en tout lieu. Nous aimons responsabiliser les PME dans leur transformation numérique avec une seule dépense dans le cloud.",
+    "features-link": "Lire la suite de Rapport Sustainability & Impact de Nextensio",
+
+"__comment-7": "POSSIBILITY.JSX",
+    "text-title-1": "Émergence des adoptions dans le Cloud",
+    "text-content-1": "Nextensio envisage que le centre d'un réseau d'entreprise s'inverse progressivement du LAN au WAN. Les applications cloud du futur exigent une expérience utilisateur immersive avec un accès sécurisé partout, transformant les entreprises en réseau d'entreprise sans frontières.",
+    "text-link": "Découvrez comment Nextensio résout ce défi",
+    
+    "text-title-2": "La sécurité de l'entreprise est en constante évolution",
+    "text-content-2": "Les postures d'accès et de sécurité aux applications d'entreprise passent d'un contrôle statique, basé sur le réseau à un contrôle portable, à grain fin et basé sur l'identité. Nextensio combine des stratégies d'application et de mise en réseau pour fournir, contrôler et surveiller en toute sécurité les applications distribuées.",
+    
+    "text-title-3": "Simple. Abordable. Magie.",
+    "text-content-3": "Nextensio utilise la construction zéro réseau pour plus de simplicité et utilise les attributs d'identité utilisateur de la source pour contrôler l'accès aux applications.",
+    "bulletpoint-1": "Coût de possession sûr et inférieur",
+    "bulletpoint-2": "Portabilité des applications avec des personnalisations sans perte",
+    "bulletpoint-3": "Facilité de gestion à grande échelle pour toutes les opérations",
+
+"__comment-8": "BLOG.JSX",
+    "blog-heading-1": "Jetez un coup d'œil aux nouveautés. ",
+    "blog-heading-2": "Il se passe beaucoup de choses.",
+
+    "video-1": "ÉDUCATION",
+    "video-date-1": "2 décembre 2019",
+    "video-title-1": "Comment le Cloud Computing est devenu un champ de bataille Big Tech | WSJ",
+
+    "video-2": "ÉDUCATION",
+    "video-date-2": "14 juillet 2021",
+    "video-title-2": "Qu'est-ce que le Cloud Computing ? | Services Web Amazon",
+
+    "blog-1": "APPLICATIONS CLOUD",
+    "blog-date-1": "29 janvier 2022",
+    "blog-title-1": "Déploiement transparent de différentes versions de l'application cloud",
+
+    "blog-2": "STRATÉGIE CLOUD",
+    "blog-date-2": "22 janvier 2022",
+    "blog-title-2": "La migration vers le cloud prend de l'ampleur dans tous les secteurs",
+
+    "blog-3": "CARACTÉRISTIQUE",
+    "blog-date-3": "5 mars 2004",
+    "blog-title-3": "Nextensio étend son engagement à protéger les utilisateurs contre les logiciels espions mercenaires",
+
+    "blog-4": "MISE À JOUR",
+    "blog-date-4": "5 mars 2004",
+    "blog-title-4": "Nextensio va de l'avant avec de nouvelles solutions de migration vers le cloud avec plus de 100 clients",
+
+"__comment-9": "CTA.JSX",
+    "cta-title": "Premiers pas avec",
+    "cta-text": "De nombreuses entreprises trouvent que le maintien constant de leur système actuel consomme leur budget informatique pour les nouvelles technologies. En vous abonnant à notre service, vous pouvez vous concentrer sur ce que vous faites de mieux - gérer votre entreprise.",
+    "cta-input": "E-mail de votre entreprise",
+    "cta-button": "Commencer",
+
+"__comment-10": "FOOTER.JSX",
+    "date":"Créé en 2022",
+    "location": "Basé à Dovers, DE",
+    "Links": "Liens",
+    "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
+
+    "Company": "Société",
+    "Terms & Conditions": "Conditions générales de vente",
+    "Privacy Policy": "Politique de confidentialité",
+    "Sustainability & Impact": "Durabilité et impact",
+    "Careers": "Carrières",
+
+    "Business": "Affaires",
+    "Partners": "Partenaires",
+    "Investors": "Investisseurs",
+    "Developer Portal": "Portail des développeurs",
+
+    "Get Started Today": "Commencez dès aujourd'hui",
+    "Request Demo": "Demande de démo",
+
+    "legal": "Droits d'auteur © 2022 Nextensio Inc. Tous droits réservés."
+}

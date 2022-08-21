@@ -113,6 +113,7 @@ const Footer = () => {
               <option value="en">🇺🇸 United States</option>
               <option value="de">🇩🇪 Deutschland</option>
               <option value="es">🇪🇸 España</option>
+              <option value="fr">🇫🇷 France</option>
               <option value="cn">🇨🇳 中国 (简体)</option>
               <option value="tw">🇹🇼 台灣 (繁體)</option>
             </select> 
