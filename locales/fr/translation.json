@@ -13,14 +13,14 @@
     "Explore": "Découvrir",
 
     "navbar-contact": "Contactez-nous",
-    "navbar-account": "Se connecter/Créer un compte",
-    "navbar-business": "Pour les entreprises",
+    "navbar-account": "Se Connecter/Créer un Compte",
+    "navbar-business": "Pour les Entreprises",
 
 "__comment-3": "HEADER.JSX",
-    "title":"Infrastructure Cloud pour une entreprise sans frontières",
+    "title":"Infrastructure Cloud pour  Entreprises sans Frontières",
     "subtitle":"Nous rendons vos applications multicloud portables.",
-    "header-button-1":"Obtenez notre livre blanc",
-    "header-button-2":"En savoir plus",
+    "header-button-1":"Demander une Démo",
+    "header-button-2":"Découvrir",
 
 "__comment-4": "BRAND.JSX",
     "brand-1": "Déployé dans des" ,
@@ -49,11 +49,11 @@
     "features-link": "Lire la suite de Rapport Sustainability & Impact de Nextensio",
 
 "__comment-7": "POSSIBILITY.JSX",
-    "text-title-1": "Émergence des adoptions dans le Cloud",
+    "text-title-1": "Émergence des Adoptions dans le Cloud",
     "text-content-1": "Nextensio envisage que le centre d'un réseau d'entreprise s'inverse progressivement du LAN au WAN. Les applications cloud du futur exigent une expérience utilisateur immersive avec un accès sécurisé partout, transformant les entreprises en réseau d'entreprise sans frontières.",
     "text-link": "Découvrez comment Nextensio résout ce défi",
     
-    "text-title-2": "La sécurité de l'entreprise est en constante évolution",
+    "text-title-2": "La Sécurité de l'entreprise est en Constante Évolution",
     "text-content-2": "Les postures d'accès et de sécurité aux applications d'entreprise passent d'un contrôle statique, basé sur le réseau à un contrôle portable, à grain fin et basé sur l'identité. Nextensio combine des stratégies d'application et de mise en réseau pour fournir, contrôler et surveiller en toute sécurité les applications distribuées.",
     
     "text-title-3": "Simple. Abordable. Magie.",
@@ -103,18 +103,18 @@
     "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
 
     "Company": "Société",
-    "Terms & Conditions": "Conditions générales de vente",
-    "Privacy Policy": "Politique de confidentialité",
-    "Sustainability & Impact": "Durabilité et impact",
+    "Terms & Conditions": "Termes et Conditions",
+    "Privacy Policy": "Politique de Confidentialité",
+    "Sustainability & Impact": "Durabilité et Impact",
     "Careers": "Carrières",
 
     "Business": "Affaires",
     "Partners": "Partenaires",
     "Investors": "Investisseurs",
-    "Developer Portal": "Portail des développeurs",
+    "Developer Portal": "Portail des Développeurs",
 
-    "Get Started Today": "Commencez dès aujourd'hui",
-    "Request Demo": "Demande de démo",
+    "Get Started Today": "Commencez dès Aujourd'hui",
+    "Request Demo": "Demande de Démo",
 
     "legal": "Droits d'auteur © 2022 Nextensio Inc. Tous droits réservés."
 }
