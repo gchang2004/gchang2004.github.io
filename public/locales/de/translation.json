@@ -1,0 +1,120 @@
+{
+"__comment-1": "BANNER.JSX + TOGGLE.JSX",
+    "banner-1": "Nextensio is an early startup.",
+    "banner-contact": "Contact Us",
+    "banner-2": "for more information.",
+    "toggle-light": "Light Mode",
+    "toggle-dark": "Dark Mode",
+
+"__comment-2": "NAVBAR.JSX",
+    "About Us": "Über uns",
+    "Our Mission": "Unsere Mission",
+    "Solutions": "Lösungen",
+    "Explore": "Erkunden",
+
+    "navbar-contact": "Contact Us",
+    "navbar-account": "Sign In/Create Account",
+    "navbar-business": "For Business",
+
+"__comment-3": "HEADER.JSX",
+    "title":"Cloud-Infrastruktur für Grenzenlose Unternehmen",
+    "subtitle":"Wir machen Ihre Multi-Cloud-Anwendungen portabel.",
+    "header-button-1":"Holen Sie sich unser Whitepaper",
+    "header-button-2":"Erfahren Sie Mehr",
+
+"__comment-4": "BRAND.JSX",
+    "brand-1": "Bereitgestellt in" ,
+    "brand-2": "etablierte Markenunternehmen",
+    "brand-3": "Weltweit",
+
+"__comment-5": "WHATNEXTENSIO.JSX",
+    "main-heading": "Was ist Nextensio",
+    "main-text": "Nextensio ist eine moderne Cloud-native Infrastruktur, die die Bereitstellung von Multi-Cloud-Anwendungen an den Edge in wenigen Minuten ermöglicht.",
+    
+    "whatNextensio-heading": "Stellen Sie sich die Zukunft des Cloud Computing neu vor",
+    "whatNextensio-button": "Demo anfordern",
+
+    "main-container-title-1": "Vernetzung",
+    "main-container-text-1": "Unterstützen Sie Multicloud-Konnektivität für alle Clouds und sorgen Sie für die Zukunft der Arbeit.",
+
+    "main-container-title-2": "Sicherheit",
+    "main-container-text-2": "Vereinfachen Sie die End-to-End-Sicherheit und optimieren Sie gleichzeitig die Anwendungserfahrung.",
+
+    "main-container-title-3": "Skalierbarkeit",
+    "main-container-text-3": "Beschleunigen und optimieren Sie den Cloud-Betrieb für Kunden und Industriepartner.",
+
+"__comment-6": "FEATURES.JSX",
+    "features-heading": "Unsere Mission",
+    "features-content": "Die Welt der Technologie kann schnelllebig und aufregend sein. Unser Ziel ist es, jederzeit und überall ein immersives Multi-Cloud-Anwendungserlebnis zu bieten. Wir möchten KMU-Unternehmen bei ihrer digitalen Transformation mit einer Cloud-Ausgabe unterstützen.",
+    "features-link": "Lesen Sie mehr über den Nachhaltigkeits- und Wirkungsbericht von Nextensio",
+
+"__comment-7": "POSSIBILITY.JSX",
+    "text-title-1": "Entstehung von Cloud-Einführungen",
+    "text-content-1": "Nextensio stellt sich vor, dass das Zentrum eines Unternehmensnetzwerks schrittweise von LAN zu WAN invertiert. Cloud-Anwendungen der Zukunft erfordern eine immersive Benutzererfahrung mit sicherem Zugriff überall und verwandeln Unternehmen in ein grenzenloses Unternehmensnetzwerk.",
+    "text-link": "Erfahren Sie, wie Nextensio diese Herausforderung löst",
+    
+    "text-title-2": "Unternehmenssicherheit entwickelt sich ständig weiter",
+    "text-content-2": "Der Zugriff auf Unternehmensanwendungen und die Sicherheitslage verlagern sich von statischer, netzwerkbasierter zu tragbarer, feinkörniger und identitätsbasierter Steuerung. Nextensio kombiniert Anwendungs- und Netzwerkrichtlinien, um verteilte Anwendungen sicher bereitzustellen, zu steuern und zu überwachen.",
+    
+    "text-title-3": "Einfach. Erschwinglich. Magie.",
+    "text-content-3": "Nextensio verwendet aus Gründen der Einfachheit kein Netzwerkkonstrukt und verwendet Benutzeridentitätsattribute aus der Quelle, um den Anwendungszugriff zu steuern.",
+    "bulletpoint-1": "Sichere und niedrigere Betriebskosten",
+    "bulletpoint-2": "Anwendungsportabilität mit unbeschmten Anpassungen",
+    "bulletpoint-3": "Verwaltbarkeit in großem Maßstab für alle Operationen",
+
+"__comment-8": "BLOG.JSX",
+    "blog-heading-1": "Schauen Sie sich an, was es Neues gibt. ",
+    "blog-heading-2": "Es passiert viel.",
+
+    "video-1": "bildung",
+    "video-date-1": "2. Dezember 2019",
+    "video-title-1": "Wie Cloud Computing zu einem großen Tech-Schlachtfeld wurde | WSJ",
+
+    "video-2": "bildung",
+    "video-date-2": "14. Juli 2021",
+    "video-title-2": "Was ist Cloud Computing? | Amazon Web Services",
+
+    "blog-1": "Cloud-Apps",
+    "blog-date-1": "29. Januar 2022",
+    "blog-title-1": "Nahtlose Bereitstellung verschiedener Versionen von Cloud-Anwendungen",
+
+    "blog-2": "Cloud-Strategie",
+    "blog-date-2": "22. Januar 2022",
+    "blog-title-2": "Cloud-Migration gewinnt in allen Branchen gleichermaßen an Dynamik",
+
+    "blog-3": "Merkmal",
+    "blog-date-3": "5. März 2004",
+    "blog-title-3": "Nextensio erweitert sein Engagement, um Benutzer vor Söldner-Spyware zu schützen",
+
+    "blog-4": "Aktualisieren",
+    "blog-date-4": "5. März 2004",
+    "blog-title-4": "Nextensio bietet neue Cloud-Migrationslösungen mit über 100 Kunden",
+
+"__comment-9": "CTA.JSX",
+    "cta-title": "Beginnen Sie mit",
+    "cta-text": "Viele Unternehmen stellen fest, dass die ständige Wartung ihres aktuellen Systems ihr IT-Budget für neue Technologien verbraucht. Indem Sie unseren Service abonnieren, können Sie sich auf das konzentrieren, was Sie am besten können - Ihr Geschäft zu führen.",
+    "cta-input": "Ihre Firmen-E-Mail",
+    "cta-button": "Anfang",
+
+"__comment-10": "FOOTER.JSX",
+    "date":"Gegründet im Jahr 2022",
+    "location": "Mit Sitz in Dover, DE",
+    "Links": "Weiterführende Links",
+    "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
+
+    "Company": "Unternehmen",
+    "Terms & Conditions": "Allgemeine Geschäftsbedingungen",
+    "Privacy Policy": "Datenschutzerklärung",
+    "Sustainability & Impact": "Nachhaltigkeit & Wirkung",
+    "Careers": "Karriere",
+
+    "Business": "Geschäftlich",
+    "Partners": "Partner",
+    "Investors": "Investoren",
+    "Developer Portal": "Entwicklerportal",
+
+    "Get Started Today": "Fangen Sie noch heute an",
+    "Request Demo": "Demo anfordern",
+
+    "legal": "Urheberrecht © 2022 Nextensio Inc. Alle Rechte vorbehalten."
+}

@@ -1,18 +1,18 @@
 {
 "__comment-1": "BANNER.JSX + TOGGLE.JSX",
     "banner-1": "Nextensio es una de las primeras empresas.",
-    "banner-contact": "Póngase en contacto con nosotros",
-    "banner-2": "para obtener más información.",
-    "toggle-light": "Modo oscuro",
-    "toggle-dark": "Modo de luz",
+    "banner-contact": "Contáctenos",
+    "banner-2": "para más información.",
+    "toggle-light": "Modo de luz",
+    "toggle-dark": "Modo oscuro",
 
 "__comment-2": "NAVBAR.JSX",
-    "About Us": "Acerca de nosotros",
+    "About Us": "Sobre nosotros",
     "Our Mission": "Nuestra misión",
     "Solutions": "Soluciones",
     "Explore": "Explorar",
 
-    "navbar-contact": "Póngase en contacto con nosotros",
+    "navbar-contact": "Contáctenos",
     "navbar-account": "Iniciar sesión/Crear cuenta",
     "navbar-business": "Para empresas",
 
@@ -98,6 +98,7 @@
 
 "__comment-10": "FOOTER.JSX",
     "date":"Establecido en 2022",
+    "location": "Con sede en Dover, DE",
     "Links": "Enlaces",
     "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
 

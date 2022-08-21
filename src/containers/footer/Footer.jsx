@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="nextensio__footer-links_logo">
             <a href="#home"><img src={logo} alt="logo" /></a>
             <p>{t('date')}</p> 
-            <p>Based in Dover, DE</p>
+            <p>{t('location')}</p>
             <a href='mailto:support@nextensio.io
                       ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
                       &body=Type%20Your%20Message%20Here'>
@@ -111,8 +111,9 @@ const Footer = () => {
             <p>{t('legal')}</p>
             <select id="lang" onChange={() => changeLocale()}>
               <option value="en">🇺🇸 United States</option>
-              <option value="cn">🇨🇳 中国大陆</option>
+              <option value="de">🇩🇪 Deutschland</option>
               <option value="es">🇪🇸 España</option>
+              <option value="cn">🇨🇳 中国大陆</option>
             </select> 
         </div>
     </div>
