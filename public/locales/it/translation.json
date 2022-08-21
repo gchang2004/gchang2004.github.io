@@ -8,19 +8,19 @@
 
 "__comment-2": "NAVBAR.JSX",
     "About Us": "Chi Siamo",
-    "Our Mission": "La nostra Missione",
+    "Our Mission": "La Nostra Missione",
     "Solutions": "Soluzioni",
-    "Explore": "Esplora",
+    "Explore": "Esplorare",
 
     "navbar-contact": "Contattaci",
     "navbar-account": "Accedi/Crea un Account",
     "navbar-business": "Per Affari",
 
 "__comment-3": "HEADER.JSX",
-    "title":"Infrastruttura cloud per imprese senza frontiere",
+    "title":"Infrastruttura Cloud per Imprese Senza Frontiere",
     "subtitle":"Rendiamo portatili le tue applicazioni multi-cloud.",
-    "header-button-1":"Ottieni il nostro white paper",
-    "header-button-2":"Scopri di più",
+    "header-button-1":"Richiedi Demo",
+    "header-button-2":"Esplorare",
 
 "__comment-4": "BRAND.JSX",
     "brand-1": "Distribuito in" ,
@@ -31,7 +31,7 @@
     "main-heading": "Cos'è Nextensio",
     "main-text": "Nextensio è una moderna infrastruttura cloud-native che consente la distribuzione di applicazioni multi-cloud all'edge in pochi minuti.",
     
-    "whatNextensio-heading": "Reimmagina il futuro del cloud computing",
+    "whatNextensio-heading": "Immagina il Futuro del Cloud Computing",
     "whatNextensio-button": "Richiedi demo",
 
     "main-container-title-1": "Rete",
@@ -44,16 +44,16 @@
     "main-container-text-3": "Accelera e ottimizza le operazioni cloud per clienti e partner del settore.",
 
 "__comment-6": "FEATURES.JSX",
-    "features-heading": "La nostra Missione",
+    "features-heading": "La Nostra Missione",
     "features-content": "Il mondo della tecnologia può essere frenetico ed eccitante. Il nostro obiettivo è fornire un'esperienza immersiva di applicazione multi-cloud sempre e ovunque. Ci piace potenziare le PMI nella loro trasformazione digitale con una spesa cloud.",
     "features-link": "Leggi tutto su Il rapporto Sostenibilità e Impatto di Nextensio",
 
 "__comment-7": "POSSIBILITY.JSX",
-    "text-title-1": "Emergenza delle adozioni del cloud",
+    "text-title-1": "Emersione delle Adozioni Cloud",
     "text-content-1": "Nextensio prevede che il centro di una rete aziendale si stia progressivamente invertendo da LAN a WAN. Le applicazioni cloud del futuro richiedono un'esperienza utente coinvolgente con accesso sicuro ovunque, trasformando le imprese in una rete aziendale senza confini.",
     "text-link": "Scopri come Nextensio risolve questa sfida",
     
-    "text-title-2": "La sicurezza aziendale è in continua evoluzione",
+    "text-title-2": "La Sicurezza aziendale è in Continua Evoluzione",
     "text-content-2": "Le posizioni di accesso e sicurezza delle applicazioni aziendali si stanno spostando dal controllo statico, basato sulla rete a quello portatile, a grana fine e basato sull'identità. Nextensio combina politiche applicative e di rete per fornire, controllare e monitorare in modo sicuro le applicazioni distribuite.",
     
     "text-title-3": "Semplice. Conveniente. Magia.",
@@ -104,7 +104,7 @@
 
     "Company": "Azienda",
     "Terms & Conditions": "Termini e Condizioni",
-    "Privacy Policy": "Politica sulla privacy",
+    "Privacy Policy": "Politica sulla Riservatezza",
     "Sustainability & Impact": "Sostenibilità e Impatto",
     "Careers": "Carriere",
 
@@ -113,7 +113,7 @@
     "Investors": "Investitori",
     "Developer Portal": "Portale per Sviluppatori",
 
-    "Get Started Today": "Inizia oggi",
+    "Get Started Today": "Inizia Oggi",
     "Request Demo": "Richiedi Demo",
 
     "legal": "Copyright © 2022 Nextensio Inc. Tutti i diritti riservati."

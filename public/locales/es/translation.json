@@ -17,10 +17,10 @@
     "navbar-business": "Para empresas",
 
 "__comment-3": "HEADER.JSX",
-    "title":"Infraestructura en la nube para empresas sin fronteras",
+    "title":"Infraestructura en la Nube para Empresas sin Fronteras",
     "subtitle":"Hacemos que sus aplicaciones multinube sean portátiles.",
-    "header-button-1":"Obtén Nuestro Libro Blanco",
-    "header-button-2":"Más información",
+    "header-button-1":"Solicitar Demostración",
+    "header-button-2":"Más Información",
 
 "__comment-4": "BRAND.JSX",
     "brand-1": "Desplegado en" ,
@@ -31,8 +31,8 @@
     "main-heading": "Qué es Nextensio",
     "main-text": "Nextensio es una moderna infraestructura nativa de la nube que permite la entrega de aplicaciones multinube al perímetro en cuestión de minutos.",
     
-    "whatNextensio-heading": "Reimaginar el futuro de la computación en la nube",
-    "whatNextensio-button": "Solicitar demostración",
+    "whatNextensio-heading": "Reimaginar el Futuro de la Computación en la nube",
+    "whatNextensio-button": "Solicitar Demostración",
 
     "main-container-title-1": "Redes",
     "main-container-text-1": "Admite la conectividad multinube para todas las nubes y ofrece el futuro del trabajo.",
@@ -46,14 +46,14 @@
 "__comment-6": "FEATURES.JSX",
     "features-heading": "Nuestra Misión",
     "features-content": "El mundo de la tecnología puede ser rápido y emocionante. Nuestro objetivo es proporcionar una experiencia de aplicación multinube inmersiva en cualquier momento y lugar. Nos gusta empoderar a las empresas de pymes en su transformación digital con un solo gasto en la nube.",
-    "features-link": "Leer más sobre el informe de sostenibilidad e impacto de Nextensio",
+    "features-link": "Leer más sobre el informe de Sostenibilidad e Impacto de Nextensio",
 
 "__comment-7": "POSSIBILITY.JSX",
-    "text-title-1": "Aparición de las adopciones en la nube",
+    "text-title-1": "Aparición de las Adopciones en la nube",
     "text-content-1": "Nextensio prevé que el centro de una red empresarial esté invirtiendo progresivamente de LAN a WAN. Las aplicaciones en la nube del futuro exigen una experiencia de usuario inmersiva con acceso seguro en todas partes, transformando las empresas en una red empresarial sin fronteras.",
     "text-link": "Descubre cómo Nextensio resuelve este desafío",
     
-    "text-title-2": "La seguridad empresarial está en constante evolución",
+    "text-title-2": "La Seguridad Empresarial está en Constante Evolución",
     "text-content-2": "El acceso a las aplicaciones empresariales y las posturas de seguridad están pasando de un control estático, basado en la red al control portátil, detallado y basado en la identidad. Nextensio combina políticas de aplicaciones y redes para entregar, controlar y supervisar de forma segura las aplicaciones distribuidas.",
     
     "text-title-3": "Sencillo. Asequible. Magia.",
@@ -103,18 +103,18 @@
     "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
 
     "Company": "Empresa",
-    "Terms & Conditions": "Términos y condiciones",
-    "Privacy Policy": "Política de privacidad",
-    "Sustainability & Impact": "Sostenibilidad e impacto",
+    "Terms & Conditions": "Términos y Condiciones",
+    "Privacy Policy": "Política de Privacidad",
+    "Sustainability & Impact": "Sostenibilidad e Impacto",
     "Careers": "Carreras",
 
     "Business": "Negocios",
     "Partners": "Socios",
     "Investors": "Inversores",
-    "Developer Portal": "Portal de desarrolladores",
+    "Developer Portal": "Portal de Desarrolladores",
 
-    "Get Started Today": "Empieza hoy mismo",
-    "Request Demo": "Solicitar demostración",
+    "Get Started Today": "Empieza Hoy Misma",
+    "Request Demo": "Solicitar Demostración",
 
     "legal": "Derechos de autor © 2022 Nextensio Inc. Todos los derechos reservados."
 }
