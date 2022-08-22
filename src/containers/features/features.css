@@ -71,7 +71,6 @@
 /*Hover animation for the hyperlink*/
 .nextensio__features p:hover {
     text-decoration: underline;
-    font-weight: 600;
 }
 
 /*Widescreen formatting*/

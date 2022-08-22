@@ -41,7 +41,6 @@
 
 /*Hover animation for linked text*/
 .nextensio__TextTemplate-container__text h4:hover {
-    font-weight: 600;
     text-decoration: underline;
 }
 
