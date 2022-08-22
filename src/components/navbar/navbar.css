@@ -8,7 +8,7 @@
     background-color: var(--color-ribbon);
 
     position: sticky;/*navbar maintain positions when the user scrolls down*/
-    top: 0px;
+    top: -0.01px;
 }
 
 /*Universal display settings for the logo placment*/
