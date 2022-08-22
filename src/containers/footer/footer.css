@@ -70,9 +70,8 @@
     flex-direction: row;
 }
 
-/*Customization for the social media icons*/
-.nextensio__footer-links_hyperlinks svg,
-.nextensio__footer-links_social-media svg{
+/*Customization for the company support email*/
+.nextensio__footer-links_hyperlinks svg{
     color: var(--color-footer-text);
 }
 
@@ -123,7 +122,7 @@
 .nextensio__footer-links_div p:hover,
 .nextensio__footer-links_hyperlinks svg:hover {
     text-decoration: underline;
-    color:var(--color-secondary);
+    color: var(--color-secondary);
 }
 
 /*Display settings for company social media links*/
