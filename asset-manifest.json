@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.68f6d000.css",
+    "main.css": "/static/css/main.15d57f51.css",
     "main.js": "/static/js/main.a72c7363.js",
     "static/media/infinite.png": "/static/media/infinite.5b2c903c461b5bce4fab.png",
     "static/media/geartriangle.png": "/static/media/geartriangle.3f0851c686d31a5a33d5.png",
@@ -29,11 +29,11 @@
     "static/media/t-mobile.png": "/static/media/t-mobile.8af6a91678594654f580.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.68f6d000.css.map": "/static/css/main.68f6d000.css.map",
+    "main.15d57f51.css.map": "/static/css/main.15d57f51.css.map",
     "main.a72c7363.js.map": "/static/js/main.a72c7363.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f6d000.css",
+    "static/css/main.15d57f51.css",
     "static/js/main.a72c7363.js"
   ]
 }
