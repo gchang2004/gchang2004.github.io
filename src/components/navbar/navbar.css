@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     z-index: 5;
-    padding: 1.1rem 4rem;
+    padding: 1rem 4rem;
     background-color: var(--color-ribbon);
 
     position: sticky;/*navbar maintain positions when the user scrolls down*/
@@ -258,7 +258,7 @@
 /*Widescreen formatting*/
 @media screen and (min-width: 1920px){
     .nextensio__navbar {
-        padding: 1.1rem 18rem;
+        padding: 1rem 18rem;
     }
 }
 
@@ -294,14 +294,14 @@
 /*Tablet formatting*/
 @media screen and (max-width: 800px){
     .nextensio__navbar {
-        padding: 1.1rem 3rem;
+        padding: 1rem 3rem;
     }
 }
 
 /*Mobile formatting*/
 @media screen and (max-width: 550px){
     .nextensio__navbar {
-        padding: 1.1rem 2rem;
+        padding: 1rem 2rem;
     }
 
     .nextensio__navbar-contact {
