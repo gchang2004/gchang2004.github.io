@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="nextensio__footer-links">
           {/*Logo body*/}
           <div className="nextensio__footer-links_logo">
-            <a href="#home"><img src={logo} alt="logo" /></a>
+          <a href="https://gchang2004.github.io/"><img src={logo} alt="logo"/></a>
             <p>{t('date')}</p> 
             <p>{t('location')}</p>
             <a href='mailto:support@nextensio.io

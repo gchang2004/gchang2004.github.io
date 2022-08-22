@@ -56,7 +56,7 @@ const NavBar = ({toggler, themeOutput, status}) => {
 
   return (
     /*Navbar main skeleton*/
-    <div className="nextensio__navbar" id="home">
+    <div className="nextensio__navbar">
       {/* logo features */}
       <div className="nextensio__navbar-links_logo">
           <a href="https://gchang2004.github.io/"><img src={logo} alt="logo"/></a>
