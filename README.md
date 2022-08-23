@@ -49,18 +49,48 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://gchang2004.github.io/)
+
+UI/UX web-development concept for a startup company.
+
+Features:
+
+- Responsive media queries for adaptive appearances:
+  - mobile
+  - tablet
+  - computer
+  - widescreen mointers
+- Custom hyperlink redirecting users to pre-formatted email template
+- Interactive buttons and hyperlinks to enhance user experience
+- Rotating marquee displaying the partner logos
+- Light/Dark Mode toggle features to change the overall theme of the website
+- Multi-language support for the following:
+  - English
+  - German
+  - Spanish
+  - French
+  - Italian
+  - Chinese (Simplified)
+  - Chinese (Traditional)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- SOFTWARE PROGRAMS USED -->
 
-## Languagaes Used
+## Languages Employed
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-## Technology Used
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
+## Technology Utilized
 
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
@@ -77,6 +107,18 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 Here are the resources that help make this website possible!
@@ -85,6 +127,7 @@ Here are the resources that help make this website possible!
 - [GPT-3 Figma Design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
 - [Animista — CSS Animations on Demand](https://animista.net/)
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/)
+- [Freepik — Vectorjuice](https://www.freepik.com/author/vectorjuice)
 - [Google Fonts](https://fonts.google.com/)
 - [GitHub Pages](https://pages.github.com)
 - [GitHub ReadME.md - othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
