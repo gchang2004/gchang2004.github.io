@@ -3,7 +3,6 @@
 # ☁️ Nextensio | Your Cloud Extension
 
 <!-- PROJECT BADGES -->
-<br />
 <div align="center">
 
 <a href="https://gchang2004.github.io"><img src="https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>
@@ -13,6 +12,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
+<br />
 <details>
   <summary>📚 Table of Contents</summary>
   <ol>
@@ -220,7 +220,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- WEBSITE SCREENSHOT -->
 
-[screenshot]: (https://github.com/gchang2004/gchang2004.github.io/blob/assets/mainPage.PNG?raw=true)
+[screenshot]: (https://github.com/gchang2004/gchang2004.github.io/src/assets/mainPage.PNG?raw=true)
 
 <!-- MARKDOWN HEADER -->
 
