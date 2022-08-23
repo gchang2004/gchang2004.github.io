@@ -3,15 +3,6 @@
 # ☁️ Nextensio | Your Cloud Extension
 
 <!-- PROJECT BADGES -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Last Commit][last_commit-shield]][last_commit-url]
-[![Website Status][website_status-shield]][website_status-url]
-[![Dependencies][dependencies-shield]][dependencies-url]
-[![License][license-shield]][license-url]
-[![Code Size][code_size-shield]][code_size-url]
-
-<!-- PROJECT BADGES -->
 <br />
 <div align="center">
 
@@ -38,9 +29,20 @@
   </ol>
 </details>
 
+<!-- PROJECT BADGES -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Last Commit][last_commit-shield]][last_commit-url]
+[![Website Status][website_status-shield]][website_status-url]
+[![Dependencies][dependencies-shield]][dependencies-url]
+[![License][license-shield]][license-url]
+[![Code Size][code_size-shield]][code_size-url]
+
 <!-- ABOUT THE PROJECT -->
 
 ## 🧭 About The Project
+
+[![Website Screenshot][screenshot]](https://gchang2004.github.io/)
 
 UI/UX web-development concept for a startup company.
 
@@ -215,6 +217,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
+
+<!-- WEBSITE SCREENSHOT -->
+
+[screenshot]: (https://github.com/gchang2004/gchang2004.github.io/blob/assets/mainPage.PNG?raw=true)
 
 <!-- MARKDOWN HEADER -->
 
