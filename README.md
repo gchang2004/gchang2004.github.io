@@ -220,7 +220,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- WEBSITE SCREENSHOT -->
 
-[screenshot]: (https://github.com/gchang2004/gchang2004.github.io/src/assets/mainPage.PNG?raw=true)
+[screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
 
 <!-- MARKDOWN HEADER -->
 
