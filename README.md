@@ -1,5 +1,13 @@
 <a name="readme-top"></a>
 
+# Nextensio | Your Cloud Extension
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <a href="https://gchang2004.github.io/">View Demo</a>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -43,28 +51,46 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 <!-- SOFTWARE PROGRAMS USED -->
 
-## Built With
+## Languagaes Used
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
+## Technology Used
+
 <!-- ACKNOWLEDGMENTS -->
+
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+![Khan Academy](https://img.shields.io/badge/KhanAcademy-%2314BF96.svg?style=for-the-badge&logo=KhanAcademy&logoColor=white)
+![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ## Acknowledgments
 
 Here are the resources that help make this website possible!
 
-- [Build and Deploy a Fully Responsive Modern UI/UX Website in React JS](https://www.youtube.com/watch?v=LMagNcngvcU)
+- [Youtube | Build and Deploy a Fully Responsive Modern UI/UX Website in React JS](https://www.youtube.com/watch?v=LMagNcngvcU)
 - [GPT-3 Figma Design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
-- [Animista - CSS Animations on Demand](https://animista.net/)
+- [Animista — CSS Animations on Demand](https://animista.net/)
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/)
 - [Google Fonts](https://fonts.google.com/)
 - [GitHub Pages](https://pages.github.com)
 - [GitHub ReadME.md - othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
 - [GitHub ReadME.md - Vishawa Gauravln](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/main/README.md)
-- [i18next | Internationalization Framework](https://www.i18next.com/)
+- [GitHub Markdown-Badges](https://github.com/Ileriayo/markdown-badges)
+- [i18next ~ Internationalization Framework](https://www.i18next.com/)
 - [NPM | https://www.npmjs.com/package/react-animated-css](https://www.npmjs.com/package/react-animated-css)
 - [NPM | react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee)
 - [NPM | react-helmet](https://www.npmjs.com/package/react-helmet)
