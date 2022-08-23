@@ -8,7 +8,7 @@
 [![Last Commit][last_commit-shield]][last_commit-url]
 [![Website Status][website_status-shield]][website_status-url]
 [![Dependencies][dependencies-shield]][dependencies-url]
-[![License][license-shield]][license_url]
+[![License][license-shield]][license-url]
 [![Code Size][code_size-shield]][code_size-url]
 
 <!-- PROJECT BADGES -->
@@ -32,7 +32,7 @@
         <li><a href="#-technology-utilized">💻 Technology Utilized</a></li>
       </ul>
     </li>
-    <li><a href="#-prerequisites">🚀 License</a></li>
+    <li><a href="#-prerequisites">🚀 Prerequisites</a></li>
     <li><a href="#-license">📜 License</a></li>
     <li><a href="#-acknowledgments">💕 Acknowledgments</a></li>
   </ol>
@@ -46,7 +46,7 @@ UI/UX web-development concept for a startup company.
 
 Features:
 
-- Responsive media queries for adaptive appearances → mobile, tablets, computesr, and widescreen mointers
+- Responsive media queries for adaptive appearances → mobile, tablets, computers, and widescreen monitors
 - Custom hyperlink redirecting users to pre-formatted email template
 - Interactive buttons and hyperlinks to enhance user experience
 - Rotating marquee displaying the partner logos
@@ -241,10 +241,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [css3-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [html5-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html5-url]: https://html.spec.whatwg.org/multipage/
-[adobe_photoshop-shield]: https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 
 <!-- MARKDOWN RESOURCES -->
 
+[adobe_photoshop-shield]: https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 [adobe_photoshop-url]: https://www.adobe.com/products/photoshop.html
 [canva-shield]: https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white
 [canva-url]: https://www.canva.com/
@@ -269,6 +269,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [stack_overflow-shield]: https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
 [stack_overflow-url]: https://stackoverflow.com/
 [visual_studio_code-shield]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
-[visual_studeio_code-url]: https://code.visualstudio.com/
+[visual_studio_code-url]: https://code.visualstudio.com/
 [windows-shield]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
 [windows-url]: https://www.microsoft.com/en-us/windows
