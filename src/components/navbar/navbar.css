@@ -231,6 +231,11 @@
     background: var(--gradient-bar);
 }
 
+/*Display settings for the second gradient bar*/
+.nextensio__navbar-menu_gradient-bar:nth-last-of-type(2){
+    display: none;
+}
+
 /*Display settings for Sign-In/Contact links (TEXT + ARROW)*/
 .nextensio__navbar-menu_container-links-contact a{
     display: flex;
@@ -298,17 +303,24 @@
     }
 }
 
-/*Mobile formatting*/
-@media screen and (max-width: 550px){
-    .nextensio__navbar {
-        padding: 1rem 2rem;
-    }
-
+/*Mobile formatting #2*/
+@media screen and (max-width: 650px){
     .nextensio__navbar-contact {
         display: none;
     }
 
     .nextensio__navbar-menu_container-links-contact {
         display: block;
+    }
+
+    .nextensio__navbar-menu_gradient-bar:nth-last-of-type(2) {
+        display: flex;
+    }
+}
+
+/*Mobile formatting*/
+@media screen and (max-width: 550px){
+    .nextensio__navbar {
+        padding: 1rem 2rem;
     }
 }

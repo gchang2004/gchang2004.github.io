@@ -132,8 +132,25 @@ const NavBar = ({toggler, themeOutput, status}) => {
               <button>{t('Explore')}</button>
               <RiArrowRightSLine size={27}/>
             </a>
+
+            {/*Gradient bar divider*/}
+            <div className="nextensio__navbar-menu_gradient-bar">
+              <div />
+            </div>
+
+            {/*Secondary menu buttons*/}
+            <a href='mailto:support@nextensio.io
+                    ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                    &body=Type%20Your%20Message%20Here'>
+              <button type="button">{t('navbar-contact')}</button>
+              <RiArrowRightSLine size={27}/>
+            </a>
+            <a href='#footer' onClick={() => setToggleMenu(false)}>
+              <button type="button">{t('navbar-business')}</button>
+              <RiArrowRightSLine size={27}/></a>
+
           </div>
-          
+
           {/*Gradient bar divider*/}
           <div className="nextensio__navbar-menu_gradient-bar">
             <div />
@@ -146,12 +163,7 @@ const NavBar = ({toggler, themeOutput, status}) => {
               <button type="button">{t('navbar-account')}</button>
             </a>
           </div>
-            <a href='mailto:support@nextensio.io
-                    ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
-                    &body=Type%20Your%20Message%20Here'>
-              <button type="button">{t('navbar-contact')}</button>
-            </a>
-            <button type="button">{t('navbar-business')}</button>
+
         </div>
       </div>)}
 

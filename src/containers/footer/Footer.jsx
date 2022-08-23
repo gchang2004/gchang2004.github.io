@@ -18,7 +18,7 @@ const Footer = () => {
   }
   
   return (
-    <div className="nextensio__footer section__padding">
+    <div className="nextensio__footer section__padding" id="footer">
         {/*Skeleton container for the footer links*/}
         <div className="nextensio__footer-links">
           {/*Logo body*/}
