@@ -52,10 +52,10 @@ Features:
 
 ## 🌎 Languages Employed
 
-[![react-shield][react.js]][react-url]
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+[![React][react-shield]][react-url]
+[![Javascript][javascript-shield]][javascript-url]
+[![CSS3][css3-shield]][css3-url]
+[![HTML5][html5-shield]][html5-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +81,6 @@ Here are the resources that help make this website possible!
 - [Google Fonts](https://fonts.google.com/)
 - [GitHub Pages](https://pages.github.com)
 - [GitHub ReadME.md - othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
-- [GitHub ReadME.md - Vishawa Gauravln](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/main/README.md)
 - [GitHub Markdown-Badges](https://github.com/Ileriayo/markdown-badges)
 - [i18next ~ Internationalization Framework](https://www.i18next.com/)
 - [NPM | https://www.npmjs.com/package/react-animated-css](https://www.npmjs.com/package/react-animated-css)
@@ -195,6 +194,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [react-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
-[javascrip-shield]: (https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[react-url]: https://reactjs.org/
+[javascript-shield]: (https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[javascript-url]: https://www.javascript.com/
 [css3-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[css3-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [html5-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[html5-url]: https://html5.org/
