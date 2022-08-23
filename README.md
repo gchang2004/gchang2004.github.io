@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Nextensio | Your Cloud Extension
+# ☁️ Nextensio | Your Cloud Extension
 
 <!-- PROJECT LOGO -->
 <br />
@@ -10,23 +10,23 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>📚 Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">🧭 About The Project</a>
       <ul>
-        <li><a href="#languages-employed">Languages Employed</a></li>
-        <li><a href="#technology-utilized">Technology Utilized</a></li>
+        <li><a href="#languages-employed">🌎 Languages Employed</a></li>
+        <li><a href="#technology-utilized">💻 Technology Utilized</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#license">📜 License</a></li>
+    <li><a href="#acknowledgments">💕 Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## 🧭 About The Project
 
 UI/UX web-development concept for a startup company.
 
@@ -38,21 +38,21 @@ Features:
 - Rotating marquee displaying the partner logos
 - Light/Dark Mode toggle features to change the overall theme of the website
 - Multi-language support for the following:
-  - English
-  - German
-  - Spanish
-  - French
-  - Italian
-  - Chinese (Simplified)
-  - Chinese (Traditional)
+  - 🇺🇸 English
+  - 🇩🇪 German
+  - 🇪🇸 Spanish
+  - 🇫🇷 French
+  - 🇮🇹 Italian
+  - 🇨🇳 Chinese (Simplified)
+  - 🇹🇼 Chinese (Traditional)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SOFTWARE PROGRAMS USED -->
 
-## Languages Employed
+## 🌎 Languages Employed
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+[![react-shield][react.js]][react-url]
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -61,7 +61,7 @@ Features:
 
 <!-- LICENSE -->
 
-## License
+## 📜 License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
 
@@ -69,7 +69,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+## 💕 Acknowledgments
 
 Here are the resources that help make this website possible!
 
@@ -94,7 +94,7 @@ Here are the resources that help make this website possible!
 
 <!-- RESOURCES USED -->
 
-## Technology Utilized
+## 💻 Technology Utilized
 
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
@@ -191,3 +191,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[react-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[javascrip-shield]: (https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[css3-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[html5-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
