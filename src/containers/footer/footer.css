@@ -70,19 +70,15 @@
     flex-direction: row;
 }
 
-/*Customization for the company support email*/
-.nextensio__footer-links_hyperlinks svg{
+/*Customizations for the social media icons*/
+.nextensio__footer-links_social-media a{
+    margin: 0.8rem 0.3rem 0rem 0.3rem;
     color: var(--color-footer-text);
 }
 
 /*Display customizations for the first icon spacing - to negate initial indent*/
 .nextensio__footer-links_social-media a:first-child{
     margin-left: unset;
-}
-
-/*Customizations for the social media icons*/
-.nextensio__footer-links_social-media a{
-    margin: 0.8rem 0.3rem 0rem 0.3rem;
 }
 
 /*Display settings for EACH footer container*/
@@ -131,6 +127,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+
+    color: var(--color-footer-text);
 }
 
 /*Customizations for the social media text*/
