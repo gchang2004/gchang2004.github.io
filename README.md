@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="250px" alt="Project Logo"></a>
 </div>
 
 <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
@@ -11,7 +11,7 @@
 <br />
 <div align="center">
 
-<a href="https://gchang2004.github.io"><img src="[view_demo-shield]: https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>
+<a href="https://gchang2004.github.io"><img src="https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>&nbsp;
 <a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use This Template"></a>
 
 </div>
@@ -31,9 +31,9 @@
 
 <div align="center">
 
-<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Contributors"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="Last Commit"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://github.com/gchang2004/gchang2004.github.io/settings/pages" alt="Website Status"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success" alt="Contributors"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activit"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F" alt="Website Status"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master" alt="Workflow"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
@@ -220,6 +220,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
+
+<!-- WEBSITE IMAGES -->
+
+[screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
 
 <!-- MARKDOWN HEADER -->
 
