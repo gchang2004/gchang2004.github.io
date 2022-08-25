@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="[website_link-url]"><img src="[logo]" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" alt="Project Logo"></a>
 </div>
 
 <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
@@ -11,8 +11,8 @@
 <br />
 <div align="center">
 
-<a href="[website_link-url]"><img src="[view_demo-shield]" alt="View Demo - GH Pages"></a> •
-<a href="[generate-template-url]"><img src="[generate_template-shield]" alt="Use This Template"></a>
+<a href="https://gchang2004.github.io"><img src="[view_demo-shield]: https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use This Template"></a>
 
 </div>
 
@@ -31,13 +31,13 @@
 
 <div align="center">
 
-<a href="[contributors-url]"><img src="[contributors-shield]" alt="Contributors"></a>
-<a href="[last_commit-url]"><img src="[last_commit-shield]" alt="Last Commit"></a>
-<a href="[website_status-url]"><img src="[website_status-shield]" alt="Website Status"></a>
-<a href="[workflow-url]"><img src="[workflow-shield]" alt="Workflow"></a>
-<a href="[dependencies-url]"><img src="[dependencies-shield]" alt="Dependencies"></a>
-<a href="[license-url]"><img src="[license-shield]" alt="License"></a>
-<a href="[code_size-url]"><img src="[code_size-shield]" alt="Code Size"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Contributors"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="Last Commit"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://github.com/gchang2004/gchang2004.github.io/settings/pages" alt="Website Status"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master" alt="Workflow"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
+<a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
 
 </div>
 
@@ -220,15 +220,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
-
-<!-- WEBSITE SCREENSHOT -->
-
-[website_link-url]: https://gchang2004.github.io
-[logo]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true
-[screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
-[view_demo-shield]: https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge
-[generate_template-shield]: https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge
-[generate-template-url]: https://github.com/gchang2004/gchang2004.github.io/generate
 
 <!-- MARKDOWN HEADER -->
 
