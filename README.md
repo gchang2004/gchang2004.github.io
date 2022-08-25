@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="450px" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="430px" alt="Project Logo"></a>
 
   <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
 </div>
@@ -38,6 +38,7 @@
 <a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
 <a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
+<br />
 
 </div>
 
