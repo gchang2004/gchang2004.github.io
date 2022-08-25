@@ -38,7 +38,6 @@
 <a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
 <a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
-<br />
 
 </div>
 
