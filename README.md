@@ -2,10 +2,10 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="400px" alt="Project Logo"></a>
-</div>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="450px" alt="Project Logo"></a>
 
-<h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
+  <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
+</div>
 
 <!-- PROJECT BADGES -->
 <br />
