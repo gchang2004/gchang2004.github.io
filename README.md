@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="4000px" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="400px" alt="Project Logo"></a>
 </div>
 
 <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
@@ -11,8 +11,8 @@
 <br />
 <div align="center">
 
-<a href="https://gchang2004.github.io"><img src="https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>&nbsp;
-<a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use This Template"></a>
+<a href="https://gchang2004.github.io/"><img src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white" alt="View Demo - Click Here"></a>&nbsp;
+<a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Generate - Use This Template"></a>
 
 </div>
 
