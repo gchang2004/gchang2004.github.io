@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="250px" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="4000px" alt="Project Logo"></a>
 </div>
 
 <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
@@ -32,7 +32,7 @@
 <div align="center">
 
 <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success" alt="Contributors"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activit"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
+<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F" alt="Website Status"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master" alt="Workflow"></a>
 <a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
@@ -224,23 +224,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- WEBSITE IMAGES -->
 
 [screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
-
-<!-- MARKDOWN HEADER -->
-
-[code_size-shield]: https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational
-[code_size-url]: https://github.com/settings/repositories
-[contributors-shield]: https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success
-[contributors-url]: https://github.com/gchang2004/gchang2004.github.io/graphs/contributors
-[dependencies-shield]: https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io
-[dependencies-url]: https://github.com/gchang2004/gchang2004.github.io/network/dependencies
-[last_commit-shield]: https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io
-[last_commit-url]: https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity
-[license-shield]: https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green
-[license-url]: https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md
-[website_status-shield]: https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F
-[website_status-url]: https://github.com/gchang2004/gchang2004.github.io/settings/pages
-[workflow-shield]: https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master
-[workflow-url]: https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment
 
 <!-- MARKDOWN LANGUAGES -->
 
