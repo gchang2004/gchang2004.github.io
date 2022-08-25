@@ -52,7 +52,8 @@ UI/UX web-development concept for a startup company.
 Features:
 
 - Responsive media queries for adaptive appearances → mobile, tablets, computers, and widescreen monitors
-- Custom hyperlink redirecting users to pre-formatted email template
+- Custom hyperlinks redirecting users to pre-formatted email template
+- Personalized icon and text displays for the browser tab
 - Interactive buttons and hyperlinks to enhance user experience
 - Rotating marquee displaying the partner logos
 - Light/Dark Mode toggle features to change the overall theme of the website
@@ -110,10 +111,11 @@ Here are the resources that help make this website possible!
 - [Freepik — Vectorjuice](https://www.freepik.com/author/vectorjuice)
 - [Google Fonts](https://fonts.google.com/)
 - [GitHub Pages](https://pages.github.com)
-- [GitHub ReadME.md - othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
+- [GitHub ReadME.md — othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
 - [GitHub Markdown-Badges](https://github.com/Ileriayo/markdown-badges)
 - [i18next ~ Internationalization Framework](https://www.i18next.com/)
-- [NPM | https://www.npmjs.com/package/react-animated-css](https://www.npmjs.com/package/react-animated-css)
+- [NPM | npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+- [NPM | react-animated-css](https://www.npmjs.com/package/react-animated-css)
 - [NPM | react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee)
 - [NPM | react-helmet](https://www.npmjs.com/package/react-helmet)
 - [NPM | react-switch](https://www.npmjs.com/package/react-switch)
