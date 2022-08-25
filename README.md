@@ -1,42 +1,45 @@
 <a name="readme-top"></a>
 
-# ☁️ Nextensio | Your Cloud Extension
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="[website_link-url]"><img src="[logo]" alt="Project Logo"></a>
+</div>
+
+<h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
 
 <!-- PROJECT BADGES -->
+<br />
 <div align="center">
 
-<a href="https://gchang2004.github.io"><img src="https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge" alt="View Demo - GH Pages"></a>
-
-<a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use This Template"></a>
+<a href="[website_link-url]"><img src="[view_demo-shield]" alt="View Demo - GH Pages"></a> •
+<a href="[generate-template-url]"><img src="[generate_template-shield]" alt="Use This Template"></a>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<!-- 📚 TABLE OF CONTENTS -->
 <br />
-<details>
-  <summary>📚 Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#-about-the-project">🧭 About The Project</a>
-      <ul>
-        <li><a href="#-languages-employed">🌎 Languages Employed</a></li>
-        <li><a href="#-technology-utilized">💻 Technology Utilized</a></li>
-      </ul>
-    </li>
-    <li><a href="#-prerequisites">🚀 Prerequisites</a></li>
-    <li><a href="#-license">📜 License</a></li>
-    <li><a href="#-acknowledgments">💕 Acknowledgments</a></li>
-  </ol>
-</details>
+<p align="center">
+  <a href="#-about-the-project">🧭 About The Project</a> •
+  <a href="#-languages-employed">🌎 Languages Employed</a> •
+  <a href="#-prerequisites">🚀 Prerequisites</a> •
+  <a href="#-license">📜 License</a> •
+  <a href="#-acknowledgments">💕 Acknowledgments</a> •
+  <a href="#-technology-utilized">💻 Technology Utilized</a>
+</p>
 
 <!-- PROJECT BADGES -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Last Commit][last_commit-shield]][last_commit-url]
-[![Website Status][website_status-shield]][website_status-url]
-[![Dependencies][dependencies-shield]][dependencies-url]
-[![License][license-shield]][license-url]
-[![Code Size][code_size-shield]][code_size-url]
+<div align="center">
+
+<a href="[contributors-url]"><img src="[contributors-shield]" alt="Contributors"></a>
+<a href="[last_commit-url]"><img src="[last_commit-shield]" alt="Last Commit"></a>
+<a href="[website_status-url]"><img src="[website_status-shield]" alt="Website Status"></a>
+<a href="[workflow-url]"><img src="[workflow-shield]" alt="Workflow"></a>
+<a href="[dependencies-url]"><img src="[dependencies-shield]" alt="Dependencies"></a>
+<a href="[license-url]"><img src="[license-shield]" alt="License"></a>
+<a href="[code_size-url]"><img src="[code_size-shield]" alt="Code Size"></a>
+
+</div>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -220,33 +223,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- WEBSITE SCREENSHOT -->
 
+[website_link-url]: https://gchang2004.github.io
+[logo]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true
 [screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
+[view_demo-shield]: https://img.shields.io/badge/View_Demo-GH_Pages-2ea44f?style=for-the-badge
+[generate_template-shield]: https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge
+[generate-template-url]: https://github.com/gchang2004/gchang2004.github.io/generate
 
 <!-- MARKDOWN HEADER -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success
-[contributors-url]: https://github.com/gchang2004/gchang2004.github.io/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green
-[license-url]: https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md
 [code_size-shield]: https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational
 [code_size-url]: https://github.com/settings/repositories
+[contributors-shield]: https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success
+[contributors-url]: https://github.com/gchang2004/gchang2004.github.io/graphs/contributors
 [dependencies-shield]: https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io
 [dependencies-url]: https://github.com/gchang2004/gchang2004.github.io/network/dependencies
 [last_commit-shield]: https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io
 [last_commit-url]: https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity
+[license-shield]: https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green
+[license-url]: https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md
 [website_status-shield]: https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F
 [website_status-url]: https://github.com/gchang2004/gchang2004.github.io/settings/pages
+[workflow-shield]: https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master
+[workflow-url]: https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment
 
 <!-- MARKDOWN LANGUAGES -->
 
-[react-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
-[react-url]: https://reactjs.org/
-[javascript-shield]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[javascript-url]: https://www.javascript.com/
 [css3-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [css3-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [html5-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [html5-url]: https://html.spec.whatwg.org/multipage/
+[javascript-shield]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[javascript-url]: https://www.javascript.com/
+[react-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[react-url]: https://reactjs.org/
 
 <!-- MARKDOWN RESOURCES -->
 
