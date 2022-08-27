@@ -119,7 +119,6 @@ Here are the resources that help make this website possible!
 - [NPM | react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee)
 - [NPM | react-helmet](https://www.npmjs.com/package/react-helmet)
 - [NPM | react-switch](https://www.npmjs.com/package/react-switch)
-- [NPM | typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
