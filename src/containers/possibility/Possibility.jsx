@@ -13,7 +13,7 @@ const Possibility = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="nextensio__possibility section__padding" id="possibility">
+    <div className="nextensio__possibility section__padding">
         {/*Container #1*/}
         <div className="nextensio__possibility_rightText">
           {/*Image*/}
@@ -69,6 +69,9 @@ const Possibility = () => {
           </div>
 
         </div>
+        
+        {/*Because of the sticky navBAR, the ID position is adjusted for optimal positioning*/}
+        <div className="placeholder" id="blog"></div>
         
     </div>
   )

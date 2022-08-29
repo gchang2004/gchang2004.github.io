@@ -12,7 +12,7 @@ const WhatNextensio = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="nextensio__whatNextensio section__padding" id='whatNextensio'>
+    <div className="nextensio__whatNextensio section__padding">
       {/*About Nextensio => primary statement*/}
       <div className="nextensio__whatNextensio-feature" >
         {/*NOTE => not using the imported FEATURE component*/}
@@ -59,8 +59,10 @@ const WhatNextensio = () => {
               <Feature title={t('main-container-title-3')} text={t('main-container-text-3')}/>
             </div>
           </div>
-        
       </div>
+
+      {/*Because of the sticky navBAR, the ID position is adjusted for optimal positioning*/}
+      <div className="placeholder" id="features"></div>
 
     </div>
   )

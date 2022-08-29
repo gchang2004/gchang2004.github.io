@@ -10,9 +10,7 @@ const Features = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="nextensio__features section__padding"
-        id="features"
-        style={{ backgroundImage: `url(${space})` }}>
+    <div className="nextensio__features section__padding" style={{ backgroundImage: `url(${space})` }}>
       {/*Maing Features Heading + Subheading */}
       <div className="nextensio__features-heading">
         <h2>🚀</h2>
@@ -20,6 +18,9 @@ const Features = () => {
       </div>
       <h3>{t('features-content')}</h3>
       <p>{t('features-link')}</p>
+
+      {/*Because of the sticky navBAR, the ID position is adjusted for optimal positioning*/}
+      <div className="placeholder" id="possibility"></div>
     </div>
   )
 }

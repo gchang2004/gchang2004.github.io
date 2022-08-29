@@ -11,7 +11,7 @@
 }
 
 /*Display setings for last container*/
-.nextensio__possibility_rightText:last-child {
+.nextensio__possibility_rightText:nth-last-child(2) {
     margin-bottom: unset;
 }
 

@@ -11,7 +11,7 @@ const Blog = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="nextensio__blog section__padding" id="blog" >
+    <div className="nextensio__blog section__padding">
         {/*Blog title*/}
         <div className="nextensio__blog-heading">
           <h1 className="gradient__text">{t('blog-heading-1')}<br />{t('blog-heading-2')}</h1>

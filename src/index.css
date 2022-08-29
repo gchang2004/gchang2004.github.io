@@ -11,7 +11,7 @@
   /*Palette Colors*/
   --color-primary: black;
   --color-secondary: rgb(129, 175, 221);
-  --color-tertiary: rgb(209, 85, 213);
+  --color-tertiary: #ae67faee;
   --color-icon: #999999;
   
   /*Header + Footer*/
@@ -23,7 +23,7 @@
   /*Palette Colors*/
   --color-primary: rgba(255, 255, 255, 0.85);
   --color-secondary: rgba(129, 175, 221, 0.90);
-  --color-tertiary: rgba(255, 150, 255, 0.85);
+  --color-tertiary: #ae67fa;
   --color-icon: #BFBFBF;
 
   /*Header + Footer*/

@@ -10,10 +10,8 @@
 <!-- PROJECT BADGES -->
 <br />
 <div align="center">
-
-<a href="https://gchang2004.github.io/"><img src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white" alt="View Demo - Click Here"></a>&nbsp;
-<a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Generate - Use This Template"></a>
-
+  <a href="https://gchang2004.github.io/"><img src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white" alt="View Demo - Click Here"></a>&nbsp;
+  <a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Generate - Use This Template"></a>
 </div>
 
 <!-- 📚 TABLE OF CONTENTS -->
@@ -30,22 +28,22 @@
 <!-- PROJECT BADGES -->
 
 <div align="center">
-
-<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success" alt="Contributors"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F" alt="Website Status"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master" alt="Workflow"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
-<a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
-<a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
-
+  <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success" alt="Contributors"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F" alt="Website Status"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://img.shields.io/github/workflow/status/gchang2004/gchang2004.github.io/pages%20build%20and%20deployment/master" alt="Workflow"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/network/dependencies"><img src="https://img.shields.io/librariesio/github/gchang2004/gchang2004.github.io" alt="Dependencies"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
+  <a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 
 ## 🧭 About The Project
 
-[![Website Screenshot][screenshot]](https://gchang2004.github.io/)
+<div align="center">
+  <a href="https://gchang2004.github.io/"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true" alt="Website Screenshot"></a>
+</div>
 
 UI/UX web-development concept for a startup company.
 
@@ -221,10 +219,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
-
-<!-- WEBSITE IMAGES -->
-
-[screenshot]: https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/mainPage.PNG?raw=true
 
 <!-- MARKDOWN LANGUAGES -->
 

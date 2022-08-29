@@ -90,8 +90,10 @@ const Brand = () => {
             </div>
           </div>
         </Marquee>
-
       </div>
+
+      {/*Because of the sticky navBAR, the ID position is adjusted for optimal positioning*/}
+      <div className="placeholder" id="whatNextensio"></div>
 
     </div>
   )
