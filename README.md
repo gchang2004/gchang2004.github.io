@@ -42,7 +42,7 @@
 ## 🧭 About The Project
 
 <div align="center">
-  <a href="https://gchang2004.github.io/"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/screenshot.png?raw=true" width="300px" alt="Website Screenshot"></a>
+  <a href="https://gchang2004.github.io/"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/screenshot.png?raw=true" alt="Website Screenshot"></a>
 </div>
 
 UI/UX web-development concept for a startup company.
