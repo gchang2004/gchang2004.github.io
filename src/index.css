@@ -19,6 +19,7 @@
   --color-footer-text: black;
 }
 
+/*DARK MODE Palette Settings*/
 #dark {
   /*Palette Colors*/
   --color-primary: rgba(255, 255, 255, 0.85);

@@ -18,5 +18,4 @@ i18n // load translation using http -> see /public/locales
     }
   });
 
-
 export default i18n;
