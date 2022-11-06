@@ -227,10 +227,17 @@
     }
 }
 
+/*Mobile formatting #2*/
+@media screen and (max-width:900px){
+    .nextensio__footer-links{
+        grid-gap: 0rem 10rem;
+    }
+}
+
 /*Mobile formatting*/
 @media screen and (max-width:750px){
     .nextensio__footer-links{
-        grid-gap: 0rem 10rem;
+        grid-gap: 0rem 6rem;
     }
     
     .nextensio__footer-links_hyperlinks{

@@ -59,10 +59,13 @@ Features:
   - 🇺🇸 English
   - 🇩🇪 German
   - 🇪🇸 Spanish
+  - 🇵🇹 Portuguese
   - 🇫🇷 French
   - 🇮🇹 Italian
   - 🇨🇳 Chinese (Simplified)
   - 🇹🇼 Chinese (Traditional)
+  - 🇰🇷 Korean
+  - 🇯🇵 Japanese
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

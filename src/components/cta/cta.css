@@ -247,7 +247,7 @@
 }
 
 /*Mobile formatting #2*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 561px) {
     .nextensio__cta {
         border-radius: 20px;
     }
@@ -257,7 +257,8 @@
         justify-content: center;
     }
 
-    .nextensio__cta-content h2 {
+    .nextensio__cta-content h2,
+    .nextensio__cta-content h2:last-child {
         font-size: 30px;
         line-height: 33px;
     }
