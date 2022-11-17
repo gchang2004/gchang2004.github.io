@@ -12,7 +12,7 @@
     "i18next": "^22.0.5",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.0.1",
-    "npm": "^9.1.1",
+    "npm": "^9.1.2",
     "react": "^18.2.0",
     "react-animated-css": "^1.2.1",
     "react-dom": "^18.2.0",
