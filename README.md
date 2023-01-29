@@ -28,10 +28,10 @@
 <!-- PROJECT BADGES -->
 
 <div align="center">
-  <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=success" alt="Contributors"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/contributors"><img src="https://img.shields.io/github/contributors/gchang2004/gchang2004.github.io?color=blueviolet" alt="Contributors"></a>
   <a href="https://github.com/gchang2004/gchang2004.github.io/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/gchang2004/gchang2004.github.io" alt="Last Commit"></a>
   <a href="https://github.com/gchang2004/gchang2004.github.io/settings/pages"><img src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fgchang2004.github.io%2F" alt="Website Status"></a>
-  <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=green" alt="License"></a>
+  <a href="https://github.com/gchang2004/gchang2004.github.io/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/gchang2004/gchang2004.github.io?color=ff69b4" alt="License"></a>
   <a href="https://github.com/settings/repositories"><img src="https://img.shields.io/github/languages/code-size/gchang2004/gchang2004.github.io?color=informational" alt="Code Size"></a>
 </div>
 
