@@ -15,7 +15,7 @@ const useCloseMenu = (handler) => {
   useEffect(() => {
     //checks if the mouse position is outside of the assigned div ==> side-menu
     const useClickOutside = (event) => {
-      if(!menuRef.current.contains(event.target) || event.keyCode === 27){
+      if(!menuRef.current || !menuRef.current.contains(event.target) || event.keyCode === 27){
         handler(); //then sets setToggleMenu(false)
       }
     }
