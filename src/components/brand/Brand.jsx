@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './brand.css';
 import { airbnb, cisco, hewlettpackard, nvidia, slack, spotify, tmobile, uber } from './imports';
 import { hewlettpackard_white, nvidia_white, slack_white, uber_white } from './imports'; //DARK Mode Images
@@ -11,8 +12,26 @@ const Brand = () => {
   //introducting variables from i18n
   const { t } = useTranslation();
 
+  //stagger motion animation
+  const containerMotion = {
+    visible: { transition: { staggerChildren: 0.1 } },
+  };
+
+  //animation parameters for TEXT
+  const textMotion = {
+    //movement = FADE-IN
+    hidden: { opacity: 0}, // INITIAL STAGE
+    visible: { opacity: 1, transition: { duration: 0.5, ease: 'easeInOut' }}, // ANIMATION STAGE
+  };
+
   return (
-    <div className="nextensio__brand section__padding" id="brand">
+    <motion.div className="nextensio__brand section__padding"
+      id="brand"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{once: false, amount: 0.2}}
+      variants={containerMotion}>
+
       {/*Gradient Bar*/}
       <div className="nextensio__gradient-bar">
         <div />
@@ -20,13 +39,13 @@ const Brand = () => {
 
       {/*Brand introduction title*/}
       <div className="nextensio__brand-title">
-        <h3 class="label">{t('brand-1')}</h3>
-        <h2 class="gradient__text">{t('brand-2')}</h2>
-        <h3 class="label">{t('brand-3')}</h3>
+        <motion.h3 class="label" variants={textMotion}>{t('brand-1')}</motion.h3>
+        <motion.h2 class="gradient__text" variants={textMotion}>{t('brand-2')}</motion.h2>
+        <motion.h3 class="label" variants={textMotion}>{t('brand-3')}</motion.h3>
       </div>
 
-      <div className="nextensio__brand-marquee">
-        <Marquee pauseOnHover="true" speed={12} gradient={false}>
+      <motion.div className="nextensio__brand-marquee" variants={textMotion}>
+        <Marquee pauseOnHover="true" speed={35} gradient={false}>
           <div className="nextensio__brand-logos">
             {/*Airbnb logo + hyperlink website*/}
             <div className="nextensio__brand-airbnb">
@@ -90,12 +109,12 @@ const Brand = () => {
             </div>
           </div>
         </Marquee>
-      </div>
+      </motion.div>
 
       {/*Because of the sticky navBAR, the ID position is adjusted for optimal positioning*/}
       <div className="placeholder" id="whatNextensio"></div>
 
-    </div>
+    </motion.div>
   )
 }
 

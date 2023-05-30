@@ -30,7 +30,6 @@ const App = () => {
       <Suspense fallback={(<div></div>)}>
         <ThemeContext.Provider value={{theme, toggleTheme}}>
           <div className="App" id={theme} >
-            {/*Website TAB Description*/}
             <Helmet>
               <meta charSet="utf-8" />
               <title>Nextensio | Your Cloud Extension </title>

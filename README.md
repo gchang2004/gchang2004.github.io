@@ -107,6 +107,7 @@ Here are the resources that help make this website possible!
 - [GPT-3 Figma Design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
 - [Animista — CSS Animations on Demand](https://animista.net/)
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Freepik — Vectorjuice](https://www.freepik.com/author/vectorjuice)
 - [Google Fonts](https://fonts.google.com/)
 - [GitHub Pages](https://pages.github.com)

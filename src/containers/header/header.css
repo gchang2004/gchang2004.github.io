@@ -85,7 +85,6 @@
 
     cursor: pointer;
 }
-
 /*Hover transform animation for button*/
 .nextensio__header-content__input button:hover {
     transform: scale(0.99);
