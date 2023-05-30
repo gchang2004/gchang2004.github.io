@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import './navbar.css';
 import { RiMenuLine, RiCloseLine, RiAccountCircleLine, RiArrowRightSLine } from 'react-icons/ri';
 import logo from '../../assets/logos/logo.PNG';
@@ -121,84 +121,94 @@ const NavBar = ({toggler, themeOutput, status}) => {
       </motion.div>
 
       {/* What the menu looks like when clicked! */}
-      {toggleMenu && (
-      <div className="nextensio__navbar-menu_container-dimmed fade-in">
-        <motion.div className='nextensio__navbar-menu_container slide-in-right' ref={menuRef} id="menubar" variants={menuMotion}>
-          {/*Menu buttons*/}
-          <motion.div className='nextensio__navbar-menu_toggler' variants={textMotion}>
-          <Toggle toggler={toggler} themeOutput={themeOutput} status={status}/>
-            <div className='nextensio__container-icons'>
-              <RiCloseLine
-                size={32}
-                onClick={() => setToggleMenu(false)}/>
-            </div>
-          </motion.div>
+      <AnimatePresence>
+        {toggleMenu && (
+        <motion.div className="nextensio__navbar-menu_container-dimmed"
+          initial={{ opacity: 0}}
+          animate={{ opacity: 1}}
+          exit={{ opacity: 0 }}>
+          <motion.div className='nextensio__navbar-menu_container slide-in-right'
+            ref={menuRef}
+            id="menubar"
+            variants={menuMotion}
+            initial="hidden"
+            animate="visible">
+            {/*Menu buttons*/}
+            <motion.div className='nextensio__navbar-menu_toggler' variants={textMotion}>
+            <Toggle toggler={toggler} themeOutput={themeOutput} status={status}/>
+              <div className='nextensio__container-icons'>
+                <RiCloseLine
+                  size={32}
+                  onClick={() => setToggleMenu(false)}/>
+              </div>
+            </motion.div>
 
-          {/*SIDE Menu-bar features*/}
-          <div className='nextensio__navbar-menu_container-links'>
-            <motion.div variants={textMotion}>
-              <a href='#whatNextensio' onClick={() => setToggleMenu(false)}>
-                <button type="button">{t('About Us')}</button>
-                <RiArrowRightSLine size={27}/>
-              </a>
-            </motion.div>
-            <motion.div variants={textMotion}>
-              <a href='#features' onClick={() => setToggleMenu(false)}>
-                <button type="button">{t('Our Mission')}</button>
-                <RiArrowRightSLine size={27}/>
-              </a>
-            </motion.div>
-            <motion.div variants={textMotion}>
-              <a href='#possibility' onClick={() => setToggleMenu(false)}>
-                <button>{t('Solutions')}</button>
-                <RiArrowRightSLine size={27}/>
-              </a>
-            </motion.div>
-            <motion.div variants={textMotion}>
-              <a href='#blog' onClick={() => setToggleMenu(false)}>
-                <button>{t('Explore')}</button>
-                <RiArrowRightSLine size={27}/>
-              </a>
-            </motion.div>
+            {/*SIDE Menu-bar features*/}
+            <div className='nextensio__navbar-menu_container-links'>
+              <motion.div variants={textMotion}>
+                <a href='#whatNextensio' onClick={() => setToggleMenu(false)}>
+                  <button type="button">{t('About Us')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+              <motion.div variants={textMotion}>
+                <a href='#features' onClick={() => setToggleMenu(false)}>
+                  <button type="button">{t('Our Mission')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+              <motion.div variants={textMotion}>
+                <a href='#possibility' onClick={() => setToggleMenu(false)}>
+                  <button>{t('Solutions')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+              <motion.div variants={textMotion}>
+                <a href='#blog' onClick={() => setToggleMenu(false)}>
+                  <button>{t('Explore')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+
+              {/*Gradient bar divider*/}
+              <motion.div className="nextensio__navbar-menu_gradient-bar" variants={textMotion}>
+                <div />
+              </motion.div>
+
+              {/*Secondary menu buttons*/}
+              <motion.div variants={textMotion}>
+                <a href='mailto:support@nextensio.io
+                        ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
+                        &body=Type%20Your%20Message%20Here'>
+                  <button type="button">{t('navbar-contact')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+              <motion.div variants={textMotion}>
+                <a href='#footer' onClick={() => setToggleMenu(false)}>
+                  <button type="button">{t('navbar-business')}</button>
+                  <RiArrowRightSLine size={27}/>
+                </a>
+              </motion.div>
+
+            </div>
 
             {/*Gradient bar divider*/}
             <motion.div className="nextensio__navbar-menu_gradient-bar" variants={textMotion}>
               <div />
             </motion.div>
 
-            {/*Secondary menu buttons*/}
-            <motion.div variants={textMotion}>
-              <a href='mailto:support@nextensio.io
-                      ?subject=Nextensio%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Quotes]%20
-                      &body=Type%20Your%20Message%20Here'>
-                <button type="button">{t('navbar-contact')}</button>
-                <RiArrowRightSLine size={27}/>
-              </a>
-            </motion.div>
-            <motion.div variants={textMotion}>
-              <a href='#footer' onClick={() => setToggleMenu(false)}>
-                <button type="button">{t('navbar-business')}</button>
-                <RiArrowRightSLine size={27}/>
+            {/*Sign-In/Contact Us buttons*/}
+            <motion.div className='nextensio__navbar-menu_container-links-contact' variants={textMotion}>
+              <a href="https://login.nextensio.net/">
+                <RiAccountCircleLine size={30}/>
+                <button type="button">{t('navbar-account')}</button>
               </a>
             </motion.div>
 
-          </div>
-
-          {/*Gradient bar divider*/}
-          <motion.div className="nextensio__navbar-menu_gradient-bar" variants={textMotion}>
-            <div />
           </motion.div>
-
-          {/*Sign-In/Contact Us buttons*/}
-          <motion.div className='nextensio__navbar-menu_container-links-contact' variants={textMotion}>
-            <a href="https://login.nextensio.net/">
-              <RiAccountCircleLine size={30}/>
-              <button type="button">{t('navbar-account')}</button>
-            </a>
-          </motion.div>
-
-        </motion.div>
-      </div>)}
+        </motion.div>)}
+      </AnimatePresence>
 
     </motion.div>
   )
