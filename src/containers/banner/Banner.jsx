@@ -18,10 +18,10 @@ function Banner (props) {
 
   /*animation parameters for banner*/
   const bannerAnimation = {
-    //movement = FADE-IN + DOWNWARDS movement
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: 'easeInOut' } },
-    exit: { opacity: 0, y: -20, transition: { duration: 0.25, ease: 'easeInOut' } }
+  //movement = FADE-IN + DOWNWARDS movement
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: 'easeInOut' } },
+  exit: { opacity: 0, y: -20, transition: { duration: 0.25, ease: 'easeInOut' } }
   };
 
   return ( //when the trigger is initialized (begin as true), the banner will appear!
