@@ -20,12 +20,12 @@
   <table>
     <tr>
       <td align="center">
-        <a href="#-about-the-project">🧭 About The Project</a> •
-        <a href="#-languages-employed">🌎 Languages Employed</a> •
-        <a href="#-prerequisites">🚀 Prerequisites</a> •
-        <a href="#-license">📜 License</a> •
-        <a href="#-acknowledgments">💕 Acknowledgments</a> •
-        <a href="#-technology-utilized">💻 Technology Utilized</a>
+        <a href="#-about-the-project">About The Project</a> •
+        <a href="#-languages-employed">Languages Employed</a> •
+        <a href="#-prerequisites">Prerequisites</a> •
+        <a href="#-license">License</a> •
+        <a href="#-acknowledgments">Acknowledgments</a> •
+        <a href="#-technology-utilized">Technology Utilized</a>
       </td>
     </tr>
   </table>
