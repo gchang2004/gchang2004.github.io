@@ -2,7 +2,12 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://gchang2004.github.io"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true" width="430px" alt="Project Logo"></a>
+  <a href="https://gchang2004.github.io">
+    <img
+      src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/logos/logo.PNG?raw=true"
+      width="430px"
+      alt="Project Logo">
+  </a>
 
   <h1 align="center">☁️ Nextensio | Your Cloud Extension </h1>
 </div>
@@ -10,8 +15,16 @@
 <!-- PROJECT BADGES -->
 <br />
 <div align="center">
-  <a href="https://gchang2004.github.io/"><img src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white" alt="View Demo - Click Here"></a>&nbsp;
-  <a href="https://github.com/gchang2004/gchang2004.github.io/generate"><img src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Generate - Use This Template"></a>
+  <a href="https://gchang2004.github.io/">
+    <img
+      src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white"
+      alt="View Demo - Click Here">
+  </a>&nbsp;
+  <a href="https://github.com/gchang2004/gchang2004.github.io/generate">
+    <img
+      src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
+      alt="Generate - Use This Template">
+  </a>
 </div>
 
 <!-- 📚 TABLE OF CONTENTS -->
@@ -41,12 +54,22 @@
 ## 🧭 About The Project
 
 <div align="center">
-  <a href="https://gchang2004.github.io/"><img src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/screenshot.png?raw=true" alt="Website Screenshot"></a>
+  <a href="https://gchang2004.github.io/">
+    <img
+      src="https://github.com/gchang2004/gchang2004.github.io/blob/main/src/assets/screenshot.png?raw=true"
+      alt="Website Screenshot">
+  </a>
 </div>
 
-UI/UX web-development concept for a startup company.
+<br/>
 
-Features:
+**Description**: UI/UX web-development concept for an internet startup company
+
+**Topic**: An internet startup building next-generation networking and edge computing platform
+
+**Objective**: Create a fully functional static landing website from scratch by acquiring proficiency in React.js and gaining exposure to front-end development. Additionally, gain fundamental knowledge of UI and UX design principles.
+
+**Features**:
 
 - Responsive media queries for adaptive appearances → mobile, tablets, computers, and widescreen monitors
 - Custom hyperlinks redirecting users to pre-formatted email template
