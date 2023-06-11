@@ -71,7 +71,6 @@ Features:
 
 ## 🌎 Languages Employed
 
-[![React][react-shield]][react-url]
 [![Javascript][javascript-shield]][javascript-url]
 [![CSS3][css3-shield]][css3-url]
 [![HTML5][html5-shield]][html5-url]
@@ -131,12 +130,14 @@ Here are the resources that help make this website possible!
 [![Figma][figma-shield]][figma-url]
 [![Git][git-shield]][git-url]
 [![Github][github-shield]][github-url]
+[![Github Pages][github_pages-shield]][github_pages-url]
 [![iOS][ios-shield]][ios-url]
 [![Khan Academy][khan_academy-shield]][khan_academy-url]
 [![MacOS][macos-shield]][macos-url]
 [![MDN Web Docs][mdn_web_docs-shield]][mdn_web_docs-url]
 [![Node.JS][nodejs-shield]][nodejs-url]
 [![NPM][npm-shield]][npm-url]
+[![React][react-shield]][react-url]
 [![Stack Overflow][stack_overflow-shield]][stack_overflow-url]
 [![Visual Studio Code][visual_studio_code-shield]][visual_studio_code-url]
 [![Windows][windows-shield]][windows-url]
@@ -245,6 +246,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [git-url]: https://git-scm.com/
 [github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/
+[github_pages-shield]: https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white
+[github_pages-url]: https://pages.github.com/
 [ios-shield]: https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white
 [ios-url]: https://www.apple.com/ios/
 [khan_academy-shield]: https://img.shields.io/badge/KhanAcademy-%2314BF96.svg?style=for-the-badge&logo=KhanAcademy&logoColor=white
