@@ -63,7 +63,7 @@
 
 <br/>
 
-**Description**: UI/UX web-development concept for an internet startup company
+**Purpose**: UI/UX web-development concept for an internet startup company
 
 **Topic**: An internet startup building next-generation networking and edge computing platform
 
