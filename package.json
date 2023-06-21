@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^14.4.3",
     "core-js": "^3.26.1",
     "framer-motion": "^10.12.16",
-    "gh-pages": "^5.0.0",
     "i18next": "^23.2.1",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.0.1",
