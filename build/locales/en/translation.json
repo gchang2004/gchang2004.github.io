@@ -1,0 +1,120 @@
+{
+"__comment-1": "BANNER.JSX + TOGGLE.JSX",
+    "banner-1": "Nextensio is an early startup.",
+    "banner-contact": "Contact Us",
+    "banner-2": "for more information.",
+    "toggle-light": "Light Mode",
+    "toggle-dark": "Dark Mode",
+
+"__comment-2": "NAVBAR.JSX",
+    "About Us": "About Us",
+    "Our Mission": "Our Mission",
+    "Solutions": "Solutions",
+    "Explore": "Explore",
+
+    "navbar-contact": "Contact Us",
+    "navbar-account": "Sign In/Create Account",
+    "navbar-business": "For Business",
+
+"__comment-3": "HEADER.JSX",
+    "title":"Cloud Infrastructure for Borderless Enterprise",
+    "subtitle":"We make your multi-cloud applications portable.",
+    "header-button-1":"Get Our White Paper",
+    "header-button-2":"Learn More",
+
+"__comment-4": "BRAND.JSX",
+    "brand-1": "Deployed in" ,
+    "brand-2": "established brand companies",
+    "brand-3": "worldwide",
+
+"__comment-5": "WHATNEXTENSIO.JSX",
+    "main-heading": "What is Nextensio",
+    "main-text": "Nextensio is a modern cloud-native infrastructure enabling multi-cloud applications delivery to the edge in minutes.",
+    
+    "whatNextensio-heading": "Reimagine the Future of Cloud Computing",
+    "whatNextensio-button": "Request Demo",
+
+    "main-container-title-1": "Networking",
+    "main-container-text-1": "Support multicloud connectivity for all clouds and deliver the future of work.",
+
+    "main-container-title-2": "Security",
+    "main-container-text-2": "Simplify end-to-end security while optimizing the application experience.",
+
+    "main-container-title-3": "Scalability",
+    "main-container-text-3": "Accelerate and optimize cloud operations for customers and industry partners.",
+
+"__comment-6": "FEATURES.JSX",
+    "features-heading": "Our Mission",
+    "features-content": "The world of technology can be fast-paced and exciting. Our goal is to provide an immersive multi-cloud application experience anytime, anywhere. We like to empower SMB enterprises in their digital transformation with one cloud spend.",
+    "features-link": "Read more about Nextensio's Sustainability & Impact report",
+
+"__comment-7": "POSSIBILITY.JSX",
+    "text-title-1": "Emergence of Cloud Adoptions",
+    "text-content-1": "Nextensio envisions that the center of an enterprise network is progressively inverting from LAN to WAN. Cloud applications of the future demand immersive user experience with secure access everywhere, transforming enterprises into borderless enterprise network.",
+    "text-link": "Learn how Nextensio solves this challenge",
+    
+    "text-title-2": "Enterprise Security is Constantly Evolving",
+    "text-content-2": "Enterprise applications access and security postures are shifting from static, network-based to portable, fine-grained and identity-based control. Nextensio combines application and networking policies to securely deliver, control and monitor distributed applications.",
+    
+    "text-title-3": "Simple. Affordable. Magic.",
+    "text-content-3": "Nextensio uses zero networking construct for simplicity and uses user-identity attributes from the source to control application access.",
+    "bulletpoint-1": "Secure and lower cost of ownership",
+    "bulletpoint-2": "Application portability with unlimted customizations",
+    "bulletpoint-3": "Manageability at scale for all operations",
+
+"__comment-8": "BLOG.JSX",
+    "blog-heading-1": "Take a look at what's new. ",
+    "blog-heading-2": "A lot is happening.",
+
+    "video-1": "Education",
+    "video-date-1": "December 2, 2019",
+    "video-title-1": "How Cloud Computing Became a Big Tech Battleground | WSJ",
+
+    "video-2": "Education",
+    "video-date-2": "July 14, 2021",
+    "video-title-2": "What is Cloud Computing? | Amazon Web Services",
+
+    "blog-1": "Cloud Apps",
+    "blog-date-1": "January 29, 2022",
+    "blog-title-1": "Deploying different versions of cloud application seamlessly",
+
+    "blog-2": "Cloud Strategy",
+    "blog-date-2": "January 22, 2022",
+    "blog-title-2": "Cloud Migration is gaining momentum across all industries alike",
+
+    "blog-3": "Feature",
+    "blog-date-3": "March 5, 2004",
+    "blog-title-3": "Nextensio expands commitment to protect users from mercenary spyware",
+
+    "blog-4": "Update",
+    "blog-date-4": "March 5, 2004",
+    "blog-title-4": "Nextensio powers ahead in new cloud migration solutions with over 100+ customers",
+
+"__comment-9": "CTA.JSX",
+    "cta-title": "Get started with",
+    "cta-text": "Many companies find that constantly maintaining their current system consumes their IT budget for new technology. By subscribing to our service, you can focus on what you do best -- running your business.",
+    "cta-input": "Your company email",
+    "cta-button": "Get Started",
+
+"__comment-10": "FOOTER.JSX",
+    "date":"Established in 2022",
+    "location": "Based in Dover, DE",
+    "Links": "Links",
+    "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
+
+    "Company": "Company",
+    "Terms & Conditions": "Terms & Conditions",
+    "Privacy Policy": "Privacy Policy",
+    "Sustainability & Impact": "Sustainability & Impact",
+    "Careers": "Careers",
+
+    "Business": "Business",
+    "Partners": "Partners",
+    "Investors": "Investors",
+    "Developer Portal": "Developer Portal",
+
+    "Get Started Today": "Get Started Today",
+    "Request Demo": "Request Demo",
+
+    "legal": "Copyright © 2022 Nextensio Inc. All rights reserved."
+}

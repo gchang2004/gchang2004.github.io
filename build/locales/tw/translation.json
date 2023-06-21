@@ -1,0 +1,120 @@
+{
+"__comment-1": "BANNER.JSX + TOGGLE.JSX",
+    "banner-1": "Nextensio是一家早期的初創公司。",
+    "banner-contact": "聯絡我們",
+    "banner-2": "獲取更多信息。",
+    "toggle-light": "光模式",
+    "toggle-dark": "深色模式",
+
+"__comment-2": "NAVBAR.JSX",
+    "About Us": "關於我們",
+    "Our Mission": "我們的使命",
+    "Solutions": "解決方案",
+    "Explore": "探索",
+
+    "navbar-contact": "聯絡我們",
+    "navbar-account": "登入/建立帳戶",
+    "navbar-business": "商業",
+
+"__comment-3": "HEADER.JSX",
+    "title":"無國界企業的雲基礎設施",
+    "subtitle":"我們使您的多雲應用程式便攜。",
+    "header-button-1":"獲取我們的白皮書",
+    "header-button-2":"瞭解更多",
+
+"__comment-4": "BRAND.JSX",
+    "brand-1": "部署於",
+    "brand-2": "全球知名品牌",
+    "brand-3": "公司",
+
+"__comment-5": "WHATNEXTENSIO.JSX",
+    "main-heading": "什麼是Nextensio",
+    "main-text": "Nextensio是一個現代化的雲原生基礎設施，可以在幾分鐘內將多雲應用程式交付到邊緣。",
+    
+    "whatNextensio-heading": "重新想象雲端計算的未來",
+    "whatNextensio-button": "請求演示",
+
+    "main-container-title-1": "網路",
+    "main-container-text-1": "支援所有雲的多雲連線，並交付未來的工作。",
+
+    "main-container-title-2": "安全",
+    "main-container-text-2": "簡化端到端安全性，同時最佳化應用程式體驗。",
+
+    "main-container-title-3": "可擴充套件性",
+    "main-container-text-3": "為客戶和行業合作伙伴加速和最佳化雲運營。",
+
+"__comment-6": "FEATURES.JSX",
+    "features-heading": "我們的使命",
+    "features-content": "技術世界可以是快節奏和令人興奮的。 我們的目標是隨時隨地提供身臨其境的多雲應用程式體驗。 我們喜歡用一次雲支出來增強中小型企業的數字化轉型能力。",
+    "features-link": "閱讀更多關於Nextensio的可持續性和影響報告",
+
+"__comment-7": "POSSIBILITY.JSX",
+    "text-title-1": "雲採用的出現",
+    "text-content-1": "Nextensio設想，企業網路的中心正在逐步從區域網反轉到廣域網。 未來的雲應用程式需要身臨其境的使用者體驗，到處都能安全訪問，將企業轉變為無國界的企業網路。",
+    "text-link": "瞭解Nextensio如何解決這一挑戰",
+    
+    "text-title-2": "企業安全在不斷髮展",
+    "text-content-2": "企業應用程式訪問和安全態勢正在從靜態、基於網路的控制轉變為行動式、細粒度和基於身份的控制。 Nextensio結合了應用程式和網路策略，以安全地交付、控制和監控分散式應用程式。",
+    
+    "text-title-3": "簡單。 負擔得起。 魔術。",
+    "text-content-3": "Nextensio使用零網路結構來簡化，並使用源的使用者身份屬性來控制應用程式訪問。",
+    "bulletpoint-1": "安全且較低的擁有成本",
+    "bulletpoint-2": "具有無限制自定義的應用程式可移植性",
+    "bulletpoint-3": "所有操作的大規模可管理性",
+
+"__comment-8": "BLOG.JSX",
+    "blog-heading-1": "看看有什麼新的東西。 ",
+    "blog-heading-2": "很多事情正在發生。",
+
+    "video-1": "教育",
+    "video-date-1": "2019年12月2日",
+    "video-title-1": "雲端計算如何成為大型科技戰場 | WSJ",
+
+    "video-2": "教育",
+    "video-date-2": "2021年7月14日",
+    "video-title-2": "什麼是雲端計算？ |亞馬遜網路服務",
+
+    "blog-1": "雲應用程式",
+    "blog-date-1": "2022年1月29日",
+    "blog-title-1": "無縫部署不同版本的雲應用程式",
+
+    "blog-2": "雲策略",
+    "blog-date-2": "2022年1月22日",
+    "blog-title-2": "雲遷移在所有行業都獲得了勢頭",
+
+    "blog-3": "特點",
+    "blog-date-3": "2004年3月5日",
+    "blog-title-3": "Nextensio擴大了保護使用者免受僱傭軍間諜軟體侵害的承諾",
+
+    "blog-4": "更新",
+    "blog-date-4": "2004年3月5日",
+    "blog-title-4": "Nextensio在擁有100多個客戶的新雲遷移解決方案中領先",
+
+"__comment-9": "CTA.JSX",
+    "cta-title": "開始使用",
+    "cta-text": "許多公司發現，不斷維護其當前系統會消耗其IT預算用於新技術。 透過訂閱我們的服務，您可以專注於您最擅長的事情——經營您的業務。",
+    "cta-input": "您的公司電子郵件",
+    "cta-button": "開始吧",
+
+"__comment-10": "FOOTER.JSX",
+    "date":"成立於2022年",
+    "location": "總部設在Dover，DE",
+    "Links": "連結",
+    "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
+
+    "Company": "公司",
+    "Terms & Conditions": "條款和條件",
+    "Privacy Policy": "隱私政策",
+    "Sustainability & Impact": "可持續性和影響力",
+    "Careers": "職業",
+
+    "Business": "商業",
+    "Partners": "合作伙伴",
+    "Investors": "投資者",
+    "Developer Portal": "開發人員門戶",
+
+    "Get Started Today": "今天就開始吧",
+    "Request Demo": "請求演示",
+
+    "legal": "版權所有©2022 Nextensio Inc. 保留所有權利。"
+}

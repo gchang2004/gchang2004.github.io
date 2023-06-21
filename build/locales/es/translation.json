@@ -1,0 +1,120 @@
+{
+"__comment-1": "BANNER.JSX + TOGGLE.JSX",
+    "banner-1": "Nextensio es una de las primeras empresas.",
+    "banner-contact": "Contáctenos",
+    "banner-2": "para más información.",
+    "toggle-light": "Modo de Luz",
+    "toggle-dark": "Modo Oscuro",
+
+"__comment-2": "NAVBAR.JSX",
+    "About Us": "Sobre Nosotros",
+    "Our Mission": "Nuestra Misión",
+    "Solutions": "Soluciones",
+    "Explore": "Explorar",
+
+    "navbar-contact": "Contáctenos",
+    "navbar-account": "Iniciar sesión/Crear cuenta",
+    "navbar-business": "Para empresas",
+
+"__comment-3": "HEADER.JSX",
+    "title":"Infraestructura en la Nube para Empresas sin Fronteras",
+    "subtitle":"Hacemos que sus aplicaciones multinube sean portátiles.",
+    "header-button-1":"Solicitar Demostración",
+    "header-button-2":"Más Información",
+
+"__comment-4": "BRAND.JSX",
+    "brand-1": "Desplegado en" ,
+    "brand-2": "empresas de marca establecidas",
+    "brand-3": "Mundial",
+
+"__comment-5": "WHATNEXTENSIO.JSX",
+    "main-heading": "Qué es Nextensio",
+    "main-text": "Nextensio es una moderna infraestructura nativa de la nube que permite la entrega de aplicaciones multinube al perímetro en cuestión de minutos.",
+    
+    "whatNextensio-heading": "Reimaginar el Futuro de la Computación en la nube",
+    "whatNextensio-button": "Solicitar Demostración",
+
+    "main-container-title-1": "Redes",
+    "main-container-text-1": "Admite la conectividad multinube para todas las nubes y ofrece el futuro del trabajo.",
+
+    "main-container-title-2": "Seguridad",
+    "main-container-text-2": "Simplifique la seguridad de extremo a extremo mientras optimiza la experiencia de la aplicación.",
+
+    "main-container-title-3": "Escalabilidad",
+    "main-container-text-3": "Acelerar y optimizar las operaciones en la nube para los clientes y socios de la industria.",
+
+"__comment-6": "FEATURES.JSX",
+    "features-heading": "Nuestra Misión",
+    "features-content": "El mundo de la tecnología puede ser rápido y emocionante. Nuestro objetivo es proporcionar una experiencia de aplicación multinube inmersiva en cualquier momento y lugar. Nos gusta empoderar a las empresas de pymes en su transformación digital con un solo gasto en la nube.",
+    "features-link": "Leer más sobre el informe de Sostenibilidad e Impacto de Nextensio",
+
+"__comment-7": "POSSIBILITY.JSX",
+    "text-title-1": "Aparición de las Adopciones en la nube",
+    "text-content-1": "Nextensio prevé que el centro de una red empresarial esté invirtiendo progresivamente de LAN a WAN. Las aplicaciones en la nube del futuro exigen una experiencia de usuario inmersiva con acceso seguro en todas partes, transformando las empresas en una red empresarial sin fronteras.",
+    "text-link": "Descubre cómo Nextensio resuelve este desafío",
+    
+    "text-title-2": "La Seguridad Empresarial está en Constante Evolución",
+    "text-content-2": "El acceso a las aplicaciones empresariales y las posturas de seguridad están pasando de un control estático, basado en la red al control portátil, detallado y basado en la identidad. Nextensio combina políticas de aplicaciones y redes para entregar, controlar y supervisar de forma segura las aplicaciones distribuidas.",
+    
+    "text-title-3": "Sencillo. Asequible. Magia.",
+    "text-content-3": "Nextensio utiliza la construcción de red cero para simplificar y utiliza atributos de identidad de usuario de la fuente para controlar el acceso a la aplicación.",
+    "bulletpoint-1": "Coste de propiedad seguro y más bajo",
+    "bulletpoint-2": "Portabilidad de la aplicación con personalizaciones sin limuscados",
+    "bulletpoint-3": "Capacidad de gestión a escala para todas las operaciones",
+
+"__comment-8": "BLOG.JSX",
+    "blog-heading-1": "Echa un vistazo a las novedades. ",
+    "blog-heading-2": "Están pasando muchas cosas.",
+
+    "video-1": "educación",
+    "video-date-1": "2 de diciembre de 2019",
+    "video-title-1": "Cómo la computación en la nube se convirtió en un gran campo de batalla tecnológico | WSJ",
+
+    "video-2": "educación",
+    "video-date-2": "14 de julio de 2021",
+    "video-title-2": "¿Qué es la computación en la nube? |Servicios web de Amazon",
+
+    "blog-1": "aplicaciones en la nube",
+    "blog-date-1": "29 de enero de 2022",
+    "blog-title-1": "Implementar diferentes versiones de la aplicación en la nube sin problemas",
+
+    "blog-2": "estrategia en la nube",
+    "blog-date-2": "22 de enero de 2022",
+    "blog-title-2": "La migración a la nube está ganando impulso en todas las industrias por igual",
+
+    "blog-3": "característica",
+    "blog-date-3": "5 de marzo de 2004",
+    "blog-title-3": "Nextensio amplía su compromiso de proteger a los usuarios del spyware mercenario",
+
+    "blog-4": "actualizar",
+    "blog-date-4": "5 de marzo de 2004",
+    "blog-title-4": "Nextensio impulsa nuevas soluciones de migración a la nube con más de 100 clientes",
+
+"__comment-9": "CTA.JSX",
+    "cta-title": "Empieza con",
+    "cta-text": "Muchas empresas descubren que mantener constantemente su sistema actual consume su presupuesto de TI para nuevas tecnologías. Al suscribirse a nuestro servicio, puede centrarse en lo que mejor sabe hacer: dirigir su negocio.",
+    "cta-input": "Correo electrónico de su empresa",
+    "cta-button": "Empezar",
+
+"__comment-10": "FOOTER.JSX",
+    "date":"Establecido en 2022",
+    "location": "Con sede en Dover, DE",
+    "Links": "Enlaces",
+    "__comment__": "SEE NAVBAR FOR WEBSITE LINKS",
+
+    "Company": "Empresa",
+    "Terms & Conditions": "Términos y Condiciones",
+    "Privacy Policy": "Política de Privacidad",
+    "Sustainability & Impact": "Sostenibilidad e Impacto",
+    "Careers": "Carreras",
+
+    "Business": "Negocios",
+    "Partners": "Socios",
+    "Investors": "Inversores",
+    "Developer Portal": "Portal de Desarrolladores",
+
+    "Get Started Today": "Empieza Hoy Misma",
+    "Request Demo": "Solicitar Demostración",
+
+    "legal": "Derechos de autor © 2022 Nextensio Inc. Todos los derechos reservados."
+}
